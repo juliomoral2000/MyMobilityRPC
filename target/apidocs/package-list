@@ -1,0 +1,15 @@
+com.enroquesw.mcs.comm.mobilityRPC
+com.enroquesw.mcs.comm.mobilityRPC.client
+com.enroquesw.mcs.comm.mobilityRPC.enums
+com.enroquesw.mcs.comm.mobilityRPC.server
+com.enroquesw.mcs.comm.mobilityRPC.services
+com.enroquesw.mcs.comm.mobilityRPC.services.callable
+com.enroquesw.mcs.comm.mobilityRPC.services.exception
+com.enroquesw.mcs.comm.mobilityRPC.services.factory
+com.enroquesw.mcs.comm.mobilityRPC.services.factory.util
+com.enroquesw.mcs.comm.mobilityRPC.services.impl.caller
+com.enroquesw.mcs.comm.mobilityRPC.services.impl.processor
+com.enroquesw.mcs.comm.mobilityRPC.services.impl.result
+com.enroquesw.mcs.comm.mobilityRPC.services.parameter
+com.enroquesw.mcs.comm.mobilityRPC.services.processor
+com.enroquesw.mcs.comm.mobilityRPC.services.result

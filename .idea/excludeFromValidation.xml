@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExcludeFromValidation">
+    <file url="file://$PROJECT_DIR$/src/main/java/com/consisint/acsele/util/mobilityRPC/client/MyMovilityRPCClient.java" />
+    <file url="file://$PROJECT_DIR$/src/test/java/com/consisint/acsele/util/mobilityRPC/client/MyMovilityRPCClientTest.java" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/consisint/acsele/util/mobilityRPC/MyMovilityRPCComm.java" />
+  </component>
+</project>

@@ -1,0 +1,2408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="jar://$PROJECT_DIR$/../../JavaFrameWorksSources/RMI-RPC/mobility-rpc 1.1.0/mobility-rpc-1.1.0-sources.jar!/com/googlecode/mobilityrpc/session/impl/MobilitySessionImpl.java" description="Aqui es donde esta defino el timeout de las peticiones" line="39" />
+  </component>
+  <component name="ChangeListManager">
+    <list id="691eea3a-eace-45b6-b9ed-d3d3c8907164" name="Default" comment="" />
+    <list default="true" id="695dc323-f770-42cf-abce-47959d52a506" name="Inicial MobilityRPC_Test" comment="Cambios a la documentacion, agregue el plugin de generar jar de fuentes y document. Captura y manejo de excepciones.&#10;falta:&#10;* Probar la llamada asincrona. &#10;&#10;" />
+    <list id="baf0742f-9d1f-48a8-95e8-d6a8a373e7bd" name="otroProyecto" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="../.gitignore" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <ignored path="lib/mobility-rpc-1.1.0-all" />
+    <ignored path="../MobilityRPC_Users/" />
+    <ignored path="../MobilityRPC_Users/.idea/" />
+    <ignored path="../MobilityRPC_Users/.idea/workspace.xml" />
+    <ignored path="../MobilityRPC_Users/.idea/misc.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/MobilityRPC$MyMovilityRPCClientTest_testMain.coverage" NAME="MyMovilityRPCClientTest.testMain Coverage Results" MODIFIED="1453222150613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="MobilityRPC" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+              <folding>
+                <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Util.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/factory/util/Util.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;class#Util#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProcessorRegister.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/factory/ProcessorRegister.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.33292383">
+              <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
+              <folding>
+                <element signature="method#toString#0;class#ProcessorRegister#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServicesFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/factory/ServicesFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="69" column="33" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CallerRegister.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/factory/CallerRegister.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="57" column="36" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageDigest.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files (x86)/Java/jdk1.6.0_20/src.zip!/java/security/MessageDigest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="125" column="32" selection-start-line="125" selection-start-column="32" selection-end-line="125" selection-end-column="32" />
+              <folding>
+                <element signature="method#getInstance#0;class#MessageDigest#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/jcmsoftware/mcs/comm/mobilityRPC/services/parameter/ProcessParameter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jcmsoftware/mcs/comm/mobilityRPC/services/parameter/VoidParameter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jcmsoftware/mcs/comm/mobilityRPC/services/processor/CallProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jcmsoftware/mcs/comm/mobilityRPC/services/result/CollectionResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jcmsoftware/mcs/comm/mobilityRPC/services/result/ObjectResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jcmsoftware/mcs/comm/mobilityRPC/services/result/ProcessResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jcmsoftware/mcs/comm/mobilityRPC/services/factory/ProcessorRegister.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jcmsoftware/mcs/comm/mobilityRPC/services/factory/CallerRegister.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jcmsoftware/mcs/comm/mobilityRPC/server/MyMovilityRPCCommRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jcmsoftware/mcs/comm/mobilityRPC/server/MyMovilityRPCServer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jcmsoftware/mcs/comm/mobilityRPC/services/ServerServicesLogic.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jcmsoftware/mcs/comm/mobilityRPC/services/callable/BenchmarkTask.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jcmsoftware/mcs/comm/mobilityRPC/client/staticClass/BenchmarkMultithreaded.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jcmsoftware/mcs/comm/mobilityRPC/client/staticClass/MobilityBenchmark.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jcmsoftware/mcs/comm/mobilityRPC/client/staticClass/TestExecuteRunnable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jcmsoftware/mcs/comm/mobilityRPC/services/impl/caller/ServicesFactoryCallers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jcmsoftware/mcs/comm/mobilityRPC/services/impl/processor/ServicesFactoryProccesor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jcmsoftware/mcs/comm/mobilityRPC/services/impl/processor/ServicesFactory_Proccesor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jcmsoftware/mcs/comm/mobilityRPC/services/impl/processor/ServicesFactory_Proccesors.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jcmsoftware/mcs/comm/mobilityRPC/MyMovilityRPCComm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jcmsoftware/mcs/comm/mobilityRPC/services/ServicesBaseExecutor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jcmsoftware/mcs/comm/mobilityRPC/services/factory/ServicesFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jcmsoftware/mcs/comm/mobilityRPC/client/MyMovilityRPCClientTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jcmsoftware/mcs/comm/mobilityRPC/services/callable/CallerOfProcess.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jcmsoftware/mcs/comm/mobilityRPC/services/impl/caller/ServicesFactory_Callers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/enums/CallType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/result/ErrorResponse.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/client/MyMovilityRPCClientTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/server/MyMovilityRPCServerRunnerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/MyMovilityRPCCommTest.java" />
+        <option value="$PROJECT_DIR$/../MobilityRPC_Users/.idea/.name" />
+        <option value="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/server/MyMovilityRPCCommRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/impl/result/ErrorResponseImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/result/ProcessResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/ServicesFactory_Callers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/exception/ServiceBaseException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/processor/CallProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/impl/processor/ServicesFactory_Proccesors.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/enums/SystemName.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/client/MyMovilityRPCClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/server/MyMovilityRPCServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/MyMovilityRPCComm.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/factory/ServicesFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/callable/CallerOfProcess.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/util/TimerHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/client/staticClass/TestExecuteRunnable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/ServicesBaseExecutor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/factory/util/Util.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/factory/ProcessorRegister.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/factory/CallerRegister.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Apache/maven-3.2.3" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1942" />
+    <option name="height" value="1046" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MobilityRPC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MobilityRPC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MobilityRPC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MobilityRPC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MobilityRPC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MobilityRPC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MobilityRPC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MobilityRPC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MobilityRPC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="FullScreen" value="false" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/com/consisint/acsele/util/mobilityRPC" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="132" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="161" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="162" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="837" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="155" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="153" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="155" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="829" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.consisint.acsele.util.mobilityRPC.server" />
+      <recent name="com.consisint.acsele.util.mobilityRPC" />
+      <recent name="com.consisint.acsele.util.mobilityRPC.client" />
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.consisint.acsele.util.mobilityRPC.services.parameter" />
+      <recent name="com.consisint.acsele.util.mobilityRPC.services.factory" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.consisint.acsele.util.mobilityRPC.services" />
+      <recent name="com.consisint.acsele.util.mobilityRPC.client" />
+      <recent name="com.consisint.acsele.util.mobilityRPC.server" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MyMovilityRPCClientTest.testMain">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="JAR_PATH" value="$PROJECT_DIR$/lib/mobility-rpc-1.1.0-all.jar" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="false" name="MyMovilityRPCServerTest.testInit" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="MobilityRPC" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="com.enroquesw.mcs.comm.mobilityRPC.server" />
+      <option name="MAIN_CLASS_NAME" value="com.enroquesw.mcs.comm.mobilityRPC.server.MyMovilityRPCServerTest" />
+      <option name="METHOD_NAME" value="testInit" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="MyMovilityRPCClientTest.testMain" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.consisint.acsele.util.mobilityRPC.client.*" />
+          <option name="ENABLED" value="false" />
+        </pattern>
+      </extension>
+      <module name="MobilityRPC" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="com.enroquesw.mcs.comm.mobilityRPC.client" />
+      <option name="MAIN_CLASS_NAME" value="com.enroquesw.mcs.comm.mobilityRPC.client.MyMovilityRPCClientTest" />
+      <option name="METHOD_NAME" value="testMain" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="MyMovilityRPCCommTest.testMain" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.consisint.acsele.util.mobilityRPC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="MobilityRPC" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="com.enroquesw.mcs.comm.mobilityRPC" />
+      <option name="MAIN_CLASS_NAME" value="com.enroquesw.mcs.comm.mobilityRPC.MyMovilityRPCCommTest" />
+      <option name="METHOD_NAME" value="testMain" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.MyMovilityRPCServerTest.testInit" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MyMovilityRPCClientTest.testMain" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MyMovilityRPCCommTest.testMain" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="691eea3a-eace-45b6-b9ed-d3d3c8907164" name="Default" comment="" />
+      <changelist id="695dc323-f770-42cf-abce-47959d52a506" name="Inicial MobilityRPC_Test" comment="Mi proyecto base para crear el cliente" />
+      <changelist id="baf0742f-9d1f-48a8-95e8-d6a8a373e7bd" name="otroProyecto" comment="" />
+      <created>1452099741565</created>
+      <option name="number" value="Default" />
+      <updated>1452099741565</updated>
+      <workItem from="1452099756806" duration="2307000" />
+      <workItem from="1452102274250" duration="2561000" />
+      <workItem from="1452104900012" duration="2179000" />
+      <workItem from="1452124970806" duration="921000" />
+      <workItem from="1452280217373" duration="936000" />
+      <workItem from="1452355289217" duration="1642000" />
+      <workItem from="1452527046742" duration="12918000" />
+      <workItem from="1452565952031" duration="6272000" />
+      <workItem from="1452608436102" duration="22941000" />
+      <workItem from="1452646020779" duration="311000" />
+      <workItem from="1452648446002" duration="1174000" />
+      <workItem from="1452703676340" duration="2928000" />
+      <workItem from="1452715654535" duration="12505000" />
+      <workItem from="1452789704139" duration="18070000" />
+      <workItem from="1452823768251" duration="2833000" />
+      <workItem from="1452901245641" duration="7286000" />
+      <workItem from="1452913705356" duration="691000" />
+      <workItem from="1452920331814" duration="262000" />
+      <workItem from="1453003041655" duration="1811000" />
+      <workItem from="1453127819598" duration="20791000" />
+      <workItem from="1453168726221" duration="16291000" />
+      <workItem from="1453214208804" duration="31243000" />
+      <workItem from="1453258391039" duration="3530000" />
+      <workItem from="1453266788161" duration="1128000" />
+      <workItem from="1453268009330" duration="2308000" />
+      <workItem from="1453270351604" duration="1492000" />
+      <workItem from="1453273321083" duration="276000" />
+      <workItem from="1453303844152" duration="25053000" />
+      <workItem from="1453343197695" duration="17474000" />
+      <workItem from="1453392327616" duration="26823000" />
+      <workItem from="1453477077319" duration="26947000" />
+      <workItem from="1453666072740" duration="16355000" />
+      <workItem from="1453685154988" duration="759000" />
+      <workItem from="1453686031402" duration="2530000" />
+      <workItem from="1453689911594" duration="6954000" />
+      <workItem from="1453732118801" duration="21438000" />
+      <workItem from="1453766530421" duration="3483000" />
+      <workItem from="1453775565948" duration="4169000" />
+      <workItem from="1453838232919" duration="4425000" />
+      <workItem from="1453844097161" duration="2208000" />
+      <workItem from="1453848972969" duration="6916000" />
+      <workItem from="1453859220095" duration="4302000" />
+      <workItem from="1453915902167" duration="15435000" />
+      <workItem from="1454026647992" duration="1351000" />
+      <workItem from="1454035709390" duration="92000" />
+    </task>
+    <task id="LOCAL-00001" summary="Mi proyecto base para crear el cliente">
+      <created>1452821480992</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1452821480992</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Mi proyecto base para crear el cliente">
+      <created>1452821672192</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1452821672192</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Varios cambios, las clases que se utilicen como base para invocar al remote si posee campos deben ser declarados transient para que no sean serializadas.">
+      <created>1453173837872</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1453173837872</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Idea_Files">
+      <created>1453173899800</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1453173899800</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Aqui con las pruebas del Ping, por lo que parece el Pong no retorna al cliente sino hasta que se vuelva a enviar una peticion (algo en la libreria esta mal), lo importante es que se envia y se recibe por la misma conexion saliente.">
+      <created>1453216543871</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1453216543871</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Hasta Aqui ya se puede establer conexiones salientes (utilizando el metodo checkEndPoint del MyMovilityRPCClient/MyMovilityRPCComm). Con esto ya tengo mi API para manejar/administrar las conexiones y establecer la sesion a utilizar (que sera unica para las invocaciones salientes - ver documentacion sobre las sesiones - SessionClassLoader). Agregue otro prueba a ver">
+      <created>1453242794699</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1453242794699</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Cambios Sin terminar del Patron Boomerang en un sistema Caller / Processor">
+      <created>1453341741662</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1453341741662</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Cambios Sin terminar del Patron Boomerang en un sistema Caller / Processor">
+      <created>1453366608137</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1453366608137</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Cambios Sin terminar Ya registra los caller y los processor del nucleo , falta:&#10;Probar que envie y reciba. Y luego acoplarlo con el contexto externo">
+      <created>1453426707327</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1453426707327</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Cambios Sin terminar Ya registra los caller y los processor del nucleo , falta:&#10;Probar que envie y reciba. Y luego acoplarlo con el contexto externo">
+      <created>1453428431773</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1453428431773</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Cambios Sin terminar Ya registra los caller y los processor del nucleo , falta:&#10;Probar que envie y reciba. Y luego acoplarlo con el contexto externo, Sincronizar con version 129.&#10;Es deseable cargar las definiciones de callers y processors desde un archivo externo XML o desde una Lista de registros(la cual el cliente lo cargaria de otra fuente por ejemplo DB).">
+      <created>1453478127416</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1453478127416</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Se modifico el nombre de los paquetes, se le agrego el copyright y Licencia.  Cambios Sin terminar Ya registra los caller y los processor del nucleo , falta:&#10;Probar que envie y reciba. Y luego acoplarlo con el contexto externo, Sincronizar con version 129.&#10;Es deseable cargar las definiciones de callers y processors desde un archivo externo XML o desde una Lista de registros(la cual el cliente lo cargaria de otra fuente por ejemplo DB).">
+      <created>1453481108937</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1453481108937</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Se modifico el nombre de los paquetes, se le agrego el copyright y Licencia.  Cambios Sin terminar Ya registra los caller y los processor del nucleo , falta:&#10;Probar que envie y reciba. Y luego acoplarlo con el contexto externo, Sincronizar con version 129.&#10;Es deseable cargar las definiciones de callers y processors desde un archivo externo XML o desde una Lista de registros(la cual el cliente lo cargaria de otra fuente por ejemplo DB).">
+      <created>1453483186244</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1453483186244</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Se modifico el nombre de los paquetes, se agrego el Tipo de llamada si es sincrona o asincrona.  Ya registra los caller y los processor del nucleo , envie y reciba .&#10;falta:&#10;* Probar la llamada asincrona. &#10;* Acoplar el contexto externo.&#10;* Es deseable cargar las definiciones de callers y processors desde un archivo externo XML o desde una Lista de registros (la cual el cliente lo cargaria de otra fuente por ejemplo DB).&#10;* Agregar un Tipo de Respuesta Error.&#10;* Crear el jar.">
+      <created>1453678568056</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1453678568056</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Ya cree el jar, elimine los paquetes propios de los usuarios y los movi a un nuevo proyecto.&#10;falta:&#10;* Probar la llamada asincrona. &#10;* Acoplar el contexto externo.&#10;* Es deseable cargar las definiciones de callers y processors desde un archivo externo XML o desde una Lista de registros (la cual el cliente lo cargaria de otra fuente por ejemplo DB).&#10;* Agregar un Tipo de Respuesta Error.&#10;">
+      <created>1453684893848</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1453684893848</updated>
+    </task>
+    <task id="LOCAL-00016" summary="El otro proyecto">
+      <created>1453686590212</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1453686590212</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Comentarios.&#10;falta:&#10;* Probar la llamada asincrona. &#10;* Acoplar el contexto externo.&#10;* Es deseable cargar las definiciones de callers y processors desde un archivo externo XML o desde una Lista de registros (la cual el cliente lo cargaria de otra fuente por ejemplo DB).&#10;* Agregar un Tipo de Respuesta Error.&#10;">
+      <created>1453692609298</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1453692609298</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Cambios a la documentacion, agregue el plugin de generar jar de fuentes y document. Captura y manejo de excepciones.&#10;falta:&#10;* Probar la llamada asincrona. &#10;&#10;">
+      <created>1453928564314</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1453928564314</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="364321000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-11" y="-11" width="1942" height="1046" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2473525" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3208191" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.78156996" sideWeight="0.49409238" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36949515" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30612245" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="true" internal_type="SLIDING" type="FLOATING" visible="false" weight="0.32975295" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" x="67" y="46" width="760" height="558" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43441227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4764151" sideWeight="0.4969743" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5825472" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3168654" sideWeight="0.49394855" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3993174" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="92" y="92" width="1182" height="544" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270869" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7063679" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33282906" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.48122868" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5870307" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34568834" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3993174" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+    <MESSAGE value="Mi proyecto base para crear el cliente" />
+    <MESSAGE value="Varios cambios, las clases que se utilicen como base para invocar al remote si posee campos deben ser declarados transient para que no sean serializadas." />
+    <MESSAGE value="Idea_Files" />
+    <MESSAGE value="Aqui con las pruebas del Ping, por lo que parece el Pong no retorna al cliente sino hasta que se vuelva a enviar una peticion (algo en la libreria esta mal), lo importante es que se envia y se recibe por la misma conexion saliente." />
+    <MESSAGE value="Hasta Aqui ya se puede establer conexiones salientes (utilizando el metodo checkEndPoint del MyMovilityRPCClient/MyMovilityRPCComm). Con esto ya tengo mi API para manejar/administrar las conexiones y establecer la sesion a utilizar (que sera unica para las invocaciones salientes - ver documentacion sobre las sesiones - SessionClassLoader)." />
+    <MESSAGE value="Hasta Aqui ya se puede establer conexiones salientes (utilizando el metodo checkEndPoint del MyMovilityRPCClient/MyMovilityRPCComm). Con esto ya tengo mi API para manejar/administrar las conexiones y establecer la sesion a utilizar (que sera unica para las invocaciones salientes - ver documentacion sobre las sesiones - SessionClassLoader). Agregue otro prueba a ver" />
+    <MESSAGE value="Cambios Sin terminar del Patron Boomerang en un sistema Caller / Processor" />
+    <MESSAGE value="Cambios Sin terminar Ya registra los caller y los processor del nucleo , falta:&#10;Probar que envie y reciba. Y luego acoplarlo con el contexto externo" />
+    <MESSAGE value="Cambios Sin terminar Ya registra los caller y los processor del nucleo , falta:&#10;Probar que envie y reciba. Y luego acoplarlo con el contexto externo, Sincronizar con version 129.&#10;Es deseable cargar las definiciones de callers y processors desde un archivo externo XML o desde una Lista de registros(la cual el cliente lo cargaria de otra fuente por ejemplo DB)." />
+    <MESSAGE value="Se modifico el nombre de los paquetes, se le agrego el copyright y Licencia.  Cambios Sin terminar Ya registra los caller y los processor del nucleo , falta:&#10;Probar que envie y reciba. Y luego acoplarlo con el contexto externo, Sincronizar con version 129.&#10;Es deseable cargar las definiciones de callers y processors desde un archivo externo XML o desde una Lista de registros(la cual el cliente lo cargaria de otra fuente por ejemplo DB)." />
+    <MESSAGE value="Se modifico el nombre de los paquetes, se agrego el Tipo de llamada si es sincrona o asincrona.  Ya registra los caller y los processor del nucleo , envie y reciba .&#10;falta:&#10;* Probar la llamada asincrona. &#10;* Acoplar el contexto externo.&#10;* Es deseable cargar las definiciones de callers y processors desde un archivo externo XML o desde una Lista de registros (la cual el cliente lo cargaria de otra fuente por ejemplo DB).&#10;* Agregar un Tipo de Respuesta Error.&#10;* Crear el jar." />
+    <MESSAGE value="Ya cree el jar, elimine los paquetes propios de los usuarios y los movi a un nuevo proyecto.&#10;falta:&#10;* Probar la llamada asincrona. &#10;* Acoplar el contexto externo.&#10;* Es deseable cargar las definiciones de callers y processors desde un archivo externo XML o desde una Lista de registros (la cual el cliente lo cargaria de otra fuente por ejemplo DB).&#10;* Agregar un Tipo de Respuesta Error.&#10;" />
+    <MESSAGE value="El otro proyecto" />
+    <MESSAGE value="Comentarios.&#10;falta:&#10;* Probar la llamada asincrona. &#10;* Acoplar el contexto externo.&#10;* Es deseable cargar las definiciones de callers y processors desde un archivo externo XML o desde una Lista de registros (la cual el cliente lo cargaria de otra fuente por ejemplo DB).&#10;* Agregar un Tipo de Respuesta Error.&#10;" />
+    <MESSAGE value="Cambios a la documentacion, agregue el plugin de generar jar de fuentes y document. Captura y manejo de excepciones.&#10;falta:&#10;* Probar la llamada asincrona. &#10;&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambios a la documentacion, agregue el plugin de generar jar de fuentes y document. Captura y manejo de excepciones.&#10;falta:&#10;* Probar la llamada asincrona. &#10;&#10;" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.2.0-SNAPSHOT/mobility-rpc-1.2.0-20151111.004332-2-sources.jar!/com/googlecode/mobilityrpc/quickstart/EmbeddedMobilityServer.java</url>
+          <line>67</line>
+          <properties />
+        </line-breakpoint>
+        <line-breakpoint suspend="NONE" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.2.0-SNAPSHOT/mobility-rpc-1.2.0-20151111.004332-2-sources.jar!/com/googlecode/mobilityrpc/network/impl/ConnectionManagerImpl.java</url>
+          <line>86</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.2.0-SNAPSHOT/mobility-rpc-1.2.0-20151111.004332-2-sources.jar!/com/googlecode/mobilityrpc/network/impl/ConnectionManagerImpl.java</url>
+          <line>59</line>
+          <log-expression expression="&quot;Creating and cache new connection...createOutgoingConnection para &quot;+identifier" language="JAVA" custom="" />
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint suspend="NONE" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/net/Socket.java</url>
+          <line>486</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint suspend="NONE" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/net/Socket.java</url>
+          <line>527</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint suspend="NONE" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/net/Socket.java</url>
+          <line>548</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint suspend="NONE" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/net/Socket.java</url>
+          <line>578</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint suspend="NONE" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/net/PlainSocketImpl.java</url>
+          <line>171</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint suspend="NONE" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/net/AbstractPlainSocketImpl.java</url>
+          <line>171</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint suspend="NONE" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/net/AbstractPlainSocketImpl.java</url>
+          <line>199</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint suspend="NONE" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/net/AbstractPlainSocketImpl.java</url>
+          <line>338</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/net/DualStackPlainSocketImpl.java</url>
+          <line>78</line>
+          <log-expression expression="&quot;Llamado al metodo nativo de conexion del socket&quot;" language="JAVA" custom="" />
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/net/DualStackPlainSocketImpl.java</url>
+          <line>96</line>
+          <log-expression expression="&quot;Aqui se define el local port en los sockes de windows este metodo en nativo&quot;" language="JAVA" custom="" />
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.2.0-SNAPSHOT/mobility-rpc-1.2.0-20151111.004332-2-sources.jar!/com/googlecode/mobilityrpc/network/impl/tcp/TCPConnection.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint suspend="NONE" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.2.0-SNAPSHOT/mobility-rpc-1.2.0-20151111.004332-2-sources.jar!/com/googlecode/mobilityrpc/network/impl/tcp/IncomingByteStreamReader.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.2.0-SNAPSHOT/mobility-rpc-1.2.0-20151111.004332-2-sources.jar!/com/googlecode/mobilityrpc/network/impl/tcp/IncomingByteStreamReader.java</url>
+          <line>67</line>
+          <log-expression expression="&quot;IncomingByteStreamReader started for&quot;" language="JAVA" custom="" />
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint suspend="NONE" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.2.0-SNAPSHOT/mobility-rpc-1.2.0-20151111.004332-2-sources.jar!/com/googlecode/mobilityrpc/controller/impl/MobilityControllerImpl.java</url>
+          <line>66</line>
+          <log-expression expression="&quot;Crea a un MessageProcessorTask(connectionId, message) - Que es el procesa el mensaje enviado desde la entrada o maquina remoto&quot;" language="JAVA" custom="" />
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.2.0-SNAPSHOT/mobility-rpc-1.2.0-20151111.004332-2-sources.jar!/com/googlecode/mobilityrpc/controller/impl/MobilityControllerImpl.java</url>
+          <line>112</line>
+          <log-expression expression="&quot;Processing incoming message: &quot; + messageData.length + &quot; bytes from &quot; + connectionId" language="JAVA" custom="" />
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.2.0-SNAPSHOT/mobility-rpc-1.2.0-20151111.004332-2-sources.jar!/com/googlecode/mobilityrpc/network/impl/tcp/IncomingByteStreamReader.java</url>
+          <line>77</line>
+          <log-expression expression="&quot;Aqui es donde se invoca al incomingMessaheHandler.receiveIncomingMessage - connectionId, messageBytes &quot;" language="JAVA" custom="" />
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.2.0-SNAPSHOT/mobility-rpc-1.2.0-20151111.004332-2-sources.jar!/com/googlecode/mobilityrpc/network/impl/tcp/TCPConnection.java</url>
+          <line>78</line>
+          <log-expression expression="&quot;Aqui se define el IncomingByteStreamReader OJOJOJOJOJOJOJOJ&quot;" language="JAVA" custom="" />
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.2.0-SNAPSHOT/mobility-rpc-1.2.0-20151111.004332-2-sources.jar!/com/googlecode/mobilityrpc/network/impl/tcp/TCPConnection.java</url>
+          <line>114</line>
+          <log-expression expression="&quot;Aqui se define el OutgoingByteStreamWriter OJOJOJOJOJOJOJOJ&quot;" language="JAVA" custom="" />
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint suspend="NONE" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.2.0-SNAPSHOT/mobility-rpc-1.2.0-20151111.004332-2-sources.jar!/com/googlecode/mobilityrpc/network/impl/tcp/OutgoingByteStreamWriter.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.2.0-SNAPSHOT/mobility-rpc-1.2.0-20151111.004332-2-sources.jar!/com/googlecode/mobilityrpc/network/impl/tcp/TCPConnection.java</url>
+          <line>121</line>
+          <log-expression expression="&quot;Saca de la cola de Mesajes de Salida&quot;" language="JAVA" custom="" />
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.2.0-SNAPSHOT/mobility-rpc-1.2.0-20151111.004332-2-sources.jar!/com/googlecode/mobilityrpc/network/impl/tcp/TCPConnection.java</url>
+          <line>131</line>
+          <log-expression expression="&quot;Error enviando el mensaje de salida&quot;" language="JAVA" custom="" />
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.2.0-SNAPSHOT/mobility-rpc-1.2.0-20151111.004332-2-sources.jar!/com/googlecode/mobilityrpc/network/impl/tcp/OutgoingByteStreamWriter.java</url>
+          <line>57</line>
+          <log-expression expression="&quot;run() OutgoingByteStreamWriter started for &quot;+connectionId" language="JAVA" custom="" />
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.2.0-SNAPSHOT/mobility-rpc-1.2.0-20151111.004332-2-sources.jar!/com/googlecode/mobilityrpc/network/impl/tcp/OutgoingByteStreamWriter.java</url>
+          <line>69</line>
+          <log-expression expression="&quot;Aqui hace el flush del outputStream : outputStream.flush()&quot;" language="JAVA" custom="" />
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.2.0-SNAPSHOT/mobility-rpc-1.2.0-20151111.004332-2-sources.jar!/com/googlecode/mobilityrpc/network/impl/tcp/TCPConnection.java</url>
+          <line>142</line>
+          <log-expression expression="&quot;Initialized TCP connection for: &quot;+ connectionId" language="JAVA" custom="" />
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.2.0-SNAPSHOT/mobility-rpc-1.2.0-20151111.004332-2-sources.jar!/com/googlecode/mobilityrpc/network/impl/ConnectionManagerImpl.java</url>
+          <line>98</line>
+          <log-expression expression="&quot;Inicia la conexion ..... connection.init()&quot;" language="JAVA" custom="" />
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.2.0-SNAPSHOT/mobility-rpc-1.2.0-20151111.004332-2-sources.jar!/com/googlecode/mobilityrpc/network/impl/ConnectionManagerImpl.java</url>
+          <line>108</line>
+          <log-expression expression="&quot;Llena lista de conexiones &quot;" language="JAVA" custom="" />
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.2.0-SNAPSHOT/mobility-rpc-1.2.0-20151111.004332-2-sources.jar!/com/googlecode/mobilityrpc/network/impl/tcp/IncomingByteStreamReader.java</url>
+          <line>70</line>
+          <log-expression expression="&quot;Waiting for incoming messages for &quot;+connectionId" language="JAVA" custom="" />
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.2.0-SNAPSHOT/mobility-rpc-1.2.0-20151111.004332-2-sources.jar!/com/googlecode/mobilityrpc/network/impl/tcp/OutgoingByteStreamWriter.java</url>
+          <line>60</line>
+          <log-expression expression="&quot;Waiting for outgoing messages for &quot;+connectionId" language="JAVA" custom="" />
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.2.0-SNAPSHOT/mobility-rpc-1.2.0-20151111.004332-2-sources.jar!/com/googlecode/mobilityrpc/network/impl/tcp/OutgoingByteStreamWriter.java</url>
+          <line>63</line>
+          <log-expression expression="&quot;Sending outgoing message: &quot; + nextMessageSize + &quot; bytes to &quot; + connectionId" language="JAVA" custom="" />
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.2.0-SNAPSHOT/mobility-rpc-1.2.0-20151111.004332-2-sources.jar!/com/googlecode/mobilityrpc/network/impl/tcp/OutgoingByteStreamWriter.java</url>
+          <line>84</line>
+          <log-expression expression="&quot;OutgoingByteStreamWriter stopped for &quot;+ connectionId" language="JAVA" custom="" />
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint suspend="NONE" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.2.0-SNAPSHOT/mobility-rpc-1.2.0-20151111.004332-2-sources.jar!/com/googlecode/mobilityrpc/network/impl/ConnectionManagerImpl.java</url>
+          <line>135</line>
+          <properties />
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.2.0-SNAPSHOT/mobility-rpc-1.2.0-20151111.004332-2-sources.jar!/com/googlecode/mobilityrpc/network/impl/tcp/TCPConnectionListener.java</url>
+          <line>145</line>
+          <log-expression expression="&quot;Connection listener started for local endpoint: &quot;+localEndpointIdentifier" language="JAVA" custom="" />
+          <properties />
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.2.0-SNAPSHOT/mobility-rpc-1.2.0-20151111.004332-2-sources.jar!/com/googlecode/mobilityrpc/network/impl/tcp/TCPConnectionListener.java</url>
+          <line>152</line>
+          <log-expression expression="&quot;Waiting for connections to local endpoint: &quot;+localEndpointIdentifier" language="JAVA" custom="" />
+          <properties />
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.2.0-SNAPSHOT/mobility-rpc-1.2.0-20151111.004332-2-sources.jar!/com/googlecode/mobilityrpc/network/impl/tcp/TCPConnectionListener.java</url>
+          <line>174</line>
+          <log-expression expression="&quot;Received connection on local endpoint &quot; + localEndpointIdentifier + &quot; from &quot; + connection.getConnectionId()" language="JAVA" custom="" />
+          <properties />
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.2.0-SNAPSHOT/mobility-rpc-1.2.0-20151111.004332-2-sources.jar!/com/googlecode/mobilityrpc/network/impl/tcp/TCPConnectionListener.java</url>
+          <line>112</line>
+          <log-expression expression="&quot;Initialized connection listener for local endpoint: &quot;+localEndpointIdentifier" language="JAVA" custom="" />
+          <properties />
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.2.0-SNAPSHOT/mobility-rpc-1.2.0-20151111.004332-2-sources.jar!/com/googlecode/mobilityrpc/network/impl/ConnectionManagerImpl.java</url>
+          <line>141</line>
+          <log-expression expression="&quot;newListener.init()&quot;" language="JAVA" custom="" />
+          <properties />
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.2.0-SNAPSHOT/mobility-rpc-1.2.0-20151111.004332-2-sources.jar!/com/googlecode/mobilityrpc/network/impl/ConnectionManagerImpl.java</url>
+          <line>147</line>
+          <log-expression expression="&quot;Created connection listener for local endpoint: &quot; + localEndpointIdentifier" language="JAVA" custom="" />
+          <properties />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint log-message="true" suspend="NONE" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.2.0-SNAPSHOT/mobility-rpc-1.2.0-20151111.004332-2-sources.jar!/com/googlecode/mobilityrpc/controller/impl/MobilityControllerImpl.java</url>
+          <line>90</line>
+          <properties />
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/client/MyMovilityRPCClientTest.java</url>
+          <line>70</line>
+          <properties />
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.2.0-SNAPSHOT/mobility-rpc-1.2.0-20151111.004332-2-sources.jar!/com/googlecode/mobilityrpc/session/impl/MobilitySessionImpl.java</url>
+          <line>90</line>
+          <properties />
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.2.0-SNAPSHOT/mobility-rpc-1.2.0-20151111.004332-2-sources.jar!/com/googlecode/mobilityrpc/session/impl/MobilitySessionImpl.java</url>
+          <line>519</line>
+          <properties />
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.2.0-SNAPSHOT/mobility-rpc-1.2.0-20151111.004332-2-sources.jar!/com/googlecode/mobilityrpc/serialization/impl/KryoSerializer.java</url>
+          <line>76</line>
+          <log-expression expression="&quot;{BUSCAR_0} serialize (&quot;+object.getClass().getName()+&quot;)&quot;" language="JAVA" custom="" />
+          <properties />
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint suspend="NONE" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/esotericsoftware/kryo/3.0.3/kryo-3.0.3-sources.jar!/com/esotericsoftware/kryo/Kryo.java</url>
+          <line>614</line>
+          <log-expression disabled="true" expression="&quot;writeClassAndObject &quot;+object.getClass().getName()+&quot; - &quot;+object.toString()" language="JAVA" custom="" />
+          <properties />
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint log-message="true" suspend="NONE" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/esotericsoftware/kryo/3.0.3/kryo-3.0.3-sources.jar!/com/esotericsoftware/kryo/Kryo.java</url>
+          <line>359</line>
+          <properties />
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint suspend="NONE" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/esotericsoftware/kryo/3.0.3/kryo-3.0.3-sources.jar!/com/esotericsoftware/kryo/Kryo.java</url>
+          <line>504</line>
+          <properties />
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint suspend="NONE" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/esotericsoftware/kryo/3.0.3/kryo-3.0.3-sources.jar!/com/esotericsoftware/kryo/Kryo.java</url>
+          <line>587</line>
+          <properties />
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="NONE" type="java-line">
+          <condition disabled="true" expression="((CachedField) fields[i]).field.getName().equalsIgnoreCase(&quot;java.security.AccessControlContext&quot;)" language="JAVA" custom="" />
+          <url>jar://$MAVEN_REPOSITORY$/com/esotericsoftware/kryo/3.0.3/kryo-3.0.3-sources.jar!/com/esotericsoftware/kryo/serializers/FieldSerializer.java</url>
+          <line>517</line>
+          <log-expression expression="&quot;i=&quot;+i+&quot; fieldName: &quot;+((CachedField) fields[i]).field.getName()" language="JAVA" custom="com.esotericsoftware.kryo.serializers.UnsafeCacheFields" />
+          <properties />
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/esotericsoftware/kryo/3.0.3/kryo-3.0.3-sources.jar!/com/esotericsoftware/kryo/serializers/FieldSerializer.java</url>
+          <line>515</line>
+          <log-expression expression="&quot;this.fields&quot;" language="JAVA" custom="" />
+          <properties />
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="NONE" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/esotericsoftware/kryo/3.0.3/kryo-3.0.3-sources.jar!/com/esotericsoftware/kryo/serializers/FieldSerializer.java</url>
+          <line>503</line>
+          <log-expression expression="&quot;{BUSCAR} FieldSerializer.write fields of class: &quot; + object.getClass().getName()" language="JAVA" custom="" />
+          <properties />
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="NONE" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/esotericsoftware/kryo/3.0.3/kryo-3.0.3-sources.jar!/com/esotericsoftware/kryo/serializers/FieldSerializer.java</url>
+          <line>527</line>
+          <properties />
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint suspend="NONE" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/esotericsoftware/kryo/3.0.3/kryo-3.0.3-sources.jar!/com/esotericsoftware/kryo/serializers/FieldSerializer.java</url>
+          <line>529</line>
+          <properties />
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="NONE" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.2.0-SNAPSHOT/mobility-rpc-1.2.0-20151111.004332-2-sources.jar!/com/googlecode/mobilityrpc/session/impl/MobilitySessionImpl.java</url>
+          <line>94</line>
+          <log-expression expression="&quot;Crea el ExecutionRequest&quot;" language="JAVA" custom="" />
+          <properties />
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.2.0-SNAPSHOT/mobility-rpc-1.2.0-20151111.004332-2-sources.jar!/com/googlecode/mobilityrpc/session/impl/MobilitySessionImpl.java</url>
+          <line>106</line>
+          <log-expression expression="&quot;mobilityController.sendOutgoingMessage&quot;" language="JAVA" custom="" />
+          <properties />
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.2.0-SNAPSHOT/mobility-rpc-1.2.0-20151111.004332-2-sources.jar!/com/googlecode/mobilityrpc/session/impl/MobilitySessionImpl.java</url>
+          <line>120</line>
+          <log-expression expression="&quot;new FutureExecutionResponse(requestIdentifier) &quot;+requestIdentifier" language="JAVA" custom="" />
+          <properties />
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.2.0-SNAPSHOT/mobility-rpc-1.2.0-20151111.004332-2-sources.jar!/com/googlecode/mobilityrpc/session/impl/MobilitySessionImpl.java</url>
+          <line>110</line>
+          <properties />
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.2.0-SNAPSHOT/mobility-rpc-1.2.0-20151111.004332-2-sources.jar!/com/googlecode/mobilityrpc/session/impl/MobilitySessionImpl.java</url>
+          <line>130</line>
+          <properties />
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.2.0-SNAPSHOT/mobility-rpc-1.2.0-20151111.004332-2-sources.jar!/com/googlecode/mobilityrpc/session/impl/MobilitySessionImpl.java</url>
+          <line>139</line>
+          <log-expression expression="connectionId.toString()" language="JAVA" custom="" />
+          <properties />
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint suspend="NONE" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.2.0-SNAPSHOT/mobility-rpc-1.2.0-20151111.004332-2-sources.jar!/com/googlecode/mobilityrpc/session/impl/MobilitySessionImpl.java</url>
+          <line>144</line>
+          <properties />
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="NONE" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.2.0-SNAPSHOT/mobility-rpc-1.2.0-20151111.004332-2-sources.jar!/com/googlecode/mobilityrpc/session/impl/MobilitySessionImpl.java</url>
+          <line>148</line>
+          <properties />
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.2.0-SNAPSHOT/mobility-rpc-1.2.0-20151111.004332-2-sources.jar!/com/googlecode/mobilityrpc/session/impl/MobilitySessionImpl.java</url>
+          <line>156</line>
+          <properties />
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.2.0-SNAPSHOT/mobility-rpc-1.2.0-20151111.004332-2-sources.jar!/com/googlecode/mobilityrpc/session/impl/MobilitySessionImpl.java</url>
+          <line>158</line>
+          <properties />
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.2.0-SNAPSHOT/mobility-rpc-1.2.0-20151111.004332-2-sources.jar!/com/googlecode/mobilityrpc/session/impl/MobilitySessionImpl.java</url>
+          <line>167</line>
+          <properties />
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/MyMovilityRPCCommTest.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/server/MyMovilityRPCCommRunner.java</url>
+          <line>88</line>
+          <properties />
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint suspend="NONE" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/MyMovilityRPCComm.java</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint suspend="NONE" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/server/MyMovilityRPCServer.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/MyMovilityRPCCommTest.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/client/MyMovilityRPCClientTest.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint suspend="NONE" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/client/MyMovilityRPCClient.java</url>
+          <line>111</line>
+          <properties />
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>file://$PROJECT_DIR$/../../JavaFrameWorksSources/RMI-RPC/mobility-rpc 1.2.0/mobility-rpc-1.2.0-sources/com/googlecode/mobilityrpc/quickstart/QuickTask.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>file://$PROJECT_DIR$/../../JavaFrameWorksSources/RMI-RPC/mobility-rpc 1.2.0/mobility-rpc-1.2.0-sources/com/googlecode/mobilityrpc/session/impl/MobilitySessionImpl.java</url>
+          <line>141</line>
+          <log-expression expression="&quot;executionOutcome &quot;+executionOutcome.toString()" language="JAVA" custom="" />
+          <properties />
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="NONE" type="java-line">
+          <url>file://$PROJECT_DIR$/../../JavaFrameWorksSources/RMI-RPC/mobility-rpc 1.2.0/mobility-rpc-1.2.0-sources/com/googlecode/mobilityrpc/network/impl/ConnectionManagerImpl.java</url>
+          <line>136</line>
+          <log-expression expression="&quot;[BUSCAR] Agregado un nuevo newListener en &quot;+localEndpointIdentifier" language="JAVA" custom="" />
+          <properties />
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>file://$PROJECT_DIR$/../../JavaFrameWorksSources/RMI-RPC/mobility-rpc 1.2.0/mobility-rpc-1.2.0-sources/com/googlecode/mobilityrpc/protocol/processors/impl/PongMessageProcessor.java</url>
+          <line>35</line>
+          <log-expression expression="&quot;Received Pong message from connection '&quot; + connectionId + &quot;': &quot; + pong" language="JAVA" custom="" />
+          <properties />
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>file://$PROJECT_DIR$/../../JavaFrameWorksSources/RMI-RPC/mobility-rpc 1.2.0/mobility-rpc-1.2.0-sources/com/googlecode/mobilityrpc/controller/impl/MobilityControllerImpl.java</url>
+          <line>118</line>
+          <log-expression expression="&quot;envelope.getMessageType() &quot;+envelope.getMessageType()" language="JAVA" custom="" />
+          <properties />
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>file://$PROJECT_DIR$/../../JavaFrameWorksSources/RMI-RPC/mobility-rpc 1.2.0/mobility-rpc-1.2.0-sources/com/googlecode/mobilityrpc/session/impl/MobilitySessionImpl.java</url>
+          <line>90</line>
+          <properties />
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../JavaFrameWorksSources/RMI-RPC/mobility-rpc 1.2.0/mobility-rpc-1.2.0-sources/com/googlecode/mobilityrpc/network/impl/ConnectionManagerImpl.java</url>
+          <line>89</line>
+          <properties />
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="NONE" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/client/MyMovilityRPCClient.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="NONE" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/client/MyMovilityRPCClient.java</url>
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/client/staticClass/BenchmarkMultithreaded.java</url>
+          <properties />
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/services/ServerServicesLogic.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/client/staticClass/BenchmarkMultithreaded.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/client/staticClass/MobilityBenchmark.java</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint suspend="NONE" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/client/staticClass/MobilityBenchmark.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/client/staticClass/MobilityBenchmark.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/client/staticClass/BenchmarkMultithreaded.java</url>
+          <line>25</line>
+          <log-expression expression="&quot;UYYYYYYYYYYYYYYYYYYYYYYYYYYYY &quot;" language="JAVA" custom="" />
+          <properties />
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/client/staticClass/MobilityBenchmark.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/client/staticClass/BenchmarkMultithreaded.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>file://$PROJECT_DIR$/../../JavaFrameWorksSources/RMI-RPC/mobility-rpc 1.2.0/mobility-rpc-1.2.0-sources/com/googlecode/mobilityrpc/session/impl/MobilitySessionImpl.java</url>
+          <line>194</line>
+          <log-expression expression="&quot;serialize &quot;+callable.getClass().getName()" language="JAVA" custom="" />
+          <properties />
+          <option name="timeStamp" value="181" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>file://$PROJECT_DIR$/../../JavaFrameWorksSources/RMI-RPC/mobility-rpc 1.2.0/mobility-rpc-1.2.0-sources/com/googlecode/mobilityrpc/session/impl/MobilitySessionImpl.java</url>
+          <line>519</line>
+          <log-expression expression="&quot;{BUSCAR} serialize Object &quot;+object.getClass().getName()" language="JAVA" custom="" />
+          <properties />
+          <option name="timeStamp" value="182" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="NONE" type="java-line">
+          <url>file://$PROJECT_DIR$/../../JavaFrameWorksSources/RMI-RPC/mobility-rpc 1.2.0/mobility-rpc-1.2.0-sources/com/googlecode/mobilityrpc/session/impl/MobilitySessionImpl.java</url>
+          <line>197</line>
+          <properties />
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/client/staticClass/TestExecuteRunnable.java</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>file://$PROJECT_DIR$/../../JavaFrameWorksSources/RMI-RPC/mobility-rpc 1.2.0/mobility-rpc-1.2.0-sources/com/googlecode/mobilityrpc/controller/impl/MobilityControllerImpl.java</url>
+          <line>124</line>
+          <log-expression expression="&quot;Received message and submitting for processing, &quot; + messageData.length + &quot; bytes from '&quot; + connectionId + &quot;': &quot; + message" language="JAVA" custom="" />
+          <properties />
+          <option name="timeStamp" value="186" />
+        </line-breakpoint>
+        <line-breakpoint suspend="NONE" type="java-line">
+          <url>file://$PROJECT_DIR$/../../JavaFrameWorksSources/RMI-RPC/mobility-rpc 1.2.0/mobility-rpc-1.2.0-sources/com/googlecode/mobilityrpc/controller/impl/MobilityControllerImpl.java</url>
+          <line>127</line>
+          <properties />
+          <option name="timeStamp" value="187" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="NONE" type="java-line">
+          <url>file://$PROJECT_DIR$/../../JavaFrameWorksSources/RMI-RPC/mobility-rpc 1.2.0/mobility-rpc-1.2.0-sources/com/googlecode/mobilityrpc/protocol/processors/impl/ResourceRequestMessageProcessor.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="188" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/client/MyMovilityRPCClientTest.java</url>
+          <line>82</line>
+          <properties />
+          <option name="timeStamp" value="189" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/callable/CallerOfProcess.java</url>
+          <line>85</line>
+          <properties />
+          <option name="timeStamp" value="191" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/factory/ServicesFactory.java</url>
+          <line>162</line>
+          <properties />
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/MyMovilityRPCComm.java</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="197" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/impl/processor/ServicesFactory_Proccesors.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/impl/processor/ServicesFactory_Proccesors.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint suspend="NONE" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/factory/ServicesFactory.java</url>
+          <line>173</line>
+          <properties />
+          <option name="timeStamp" value="201" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/client/MyMovilityRPCClientTest.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="205" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/server/MyMovilityRPCServer.java</url>
+          <line>99</line>
+          <properties />
+          <option name="timeStamp" value="206" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/callable/CallerOfProcess.java</url>
+          <line>93</line>
+          <properties />
+          <option name="timeStamp" value="211" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/ServicesFactory_Callers.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="213" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/callable/CallerOfProcess.java</url>
+          <line>101</line>
+          <properties />
+          <option name="timeStamp" value="218" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/callable/CallerOfProcess.java</url>
+          <line>103</line>
+          <properties />
+          <option name="timeStamp" value="219" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/callable/CallerOfProcess.java</url>
+          <line>105</line>
+          <properties />
+          <option name="timeStamp" value="220" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/client/MyMovilityRPCClientTest.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="222" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/client/MyMovilityRPCClientTest.java</url>
+          <line>75</line>
+          <properties />
+          <option name="timeStamp" value="223" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/MyMovilityRPCComm.java</url>
+          <line>193</line>
+          <properties />
+          <option name="timeStamp" value="225" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/factory/CallerRegister.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="227" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/factory/ProcessorRegister.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="228" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog>
+          <selected-grouping-rules>
+            <grouping-rule id="XBreakpointGroupingByClassRule" />
+          </selected-grouping-rules>
+        </breakpoints-dialog>
+      </breakpoints-dialog>
+      <option name="time" value="229" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.6.0_20/src.zip!/java/security/MessageDigest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="125" column="32" selection-start-line="125" selection-start-column="32" selection-end-line="125" selection-end-column="32" />
+          <folding>
+            <element signature="method#getInstance#0;class#MessageDigest#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.6.0_20/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08381503">
+          <caret line="915" column="7" selection-start-line="915" selection-start-column="7" selection-end-line="915" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../JavaFrameWorksSources/RMI-RPC/mobility-rpc 1.1.0/mobility-rpc-1.1.0-sources.jar!/com/googlecode/mobilityrpc/protocol/pojo/ExecutionMode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="59" column="4" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/result/ErrorResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.6.0_20/src.zip!/java/net/PlainSocketImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33271718">
+          <caret line="364" column="0" selection-start-line="364" selection-start-column="0" selection-end-line="364" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/mobility-rpc-1.1.0-all.jar!/com/googlecode/mobilityrpc/network/impl/ConnectionManagerImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.11.jar!/org/junit/Test.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.8333335">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/server/MyMovilityRPCServerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/client/MyMovilityRPCClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="64" column="7" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#setUp#0;class#MyMovilityRPCClientTest#0" expanded="false" />
+            <element signature="method#tearDown#0;class#MyMovilityRPCClientTest#0" expanded="false" />
+            <element signature="method#testMain#0;class#MyMovilityRPCClientTest#0" expanded="false" />
+            <element signature="e#2951#3032#0" expanded="false" />
+            <element signature="method#test_ServicesFactoryProccesor#0;class#MyMovilityRPCClientTest#0" expanded="false" />
+            <element signature="method#test_BoomerangPattern#0;class#MyMovilityRPCClientTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/server/MyMovilityRPCServerRunnerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/MyMovilityRPCCommTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="158" selection-start-line="40" selection-start-column="158" selection-end-line="40" selection-end-column="158" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#setUp#0;class#MyMovilityRPCCommTest#0" expanded="false" />
+            <element signature="method#getMapClients#0;class#MyMovilityRPCCommTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/parameter/ProcessParameter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/result/ObjectResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/result/ProcessResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/enums/CallType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/server/MyMovilityRPCCommRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16953316">
+          <caret line="34" column="24" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="24" />
+          <folding>
+            <element signature="e#1827#1846#0" expanded="false" />
+            <element signature="e#1906#1922#0" expanded="false" />
+            <element signature="method#startMyMovilityRPCCommRunner#0;class#MyMovilityRPCCommRunner#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/ServicesFactory_Callers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="65" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="65" />
+          <folding>
+            <element signature="docComment;class#ServicesFactory_Callers#0" expanded="false" />
+            <element signature="docComment;method#fetchProcessorRegistersFromServer#0;class#ServicesFactory_Callers#0" expanded="false" />
+            <element signature="method#fetchProcessorRegistersFromServer#0;class#ServicesFactory_Callers#0" expanded="false" />
+            <element signature="method#FetchProcessorRegistersFromCaller#0;class#FetchProcessorRegistersFromCaller#0;class#ServicesFactory_Callers#0" expanded="false" />
+            <element signature="method#FetchCallerRegistersFromServer#0;class#FetchCallerRegistersFromServer#0;class#ServicesFactory_Callers#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/mobility-rpc-1.1.0-all.jar!/com/googlecode/mobilityrpc/session/MobilitySession.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.333333">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.6.0_20/src.zip!/java/lang/Throwable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="216" column="11" selection-start-line="216" selection-start-column="11" selection-end-line="216" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.6.0_20/src.zip!/java/lang/Exception.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="58" column="10" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+          <folding>
+            <element signature="e#1973#1974#0" expanded="false" />
+            <element signature="e#2010#2011#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.6.0_20/src.zip!/java/lang/RuntimeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="60" column="10" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.6.0_20/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09115282">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/exception/ServiceBaseException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/impl/result/ErrorResponseImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3030303">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.6.0_20/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1928" column="58" selection-start-line="1928" selection-start-column="58" selection-end-line="1928" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/impl/processor/ServicesFactory_Proccesors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42424244">
+          <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="39" />
+          <folding>
+            <element signature="method#fetchProcessorRegistersFromServer#0;class#ServicesFactory_Proccesors#0" expanded="false" />
+            <element signature="method#fetchCallerRegistersFromServer#0;class#ServicesFactory_Proccesors#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/processor/CallProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6060606">
+          <caret line="33" column="129" selection-start-line="33" selection-start-column="129" selection-end-line="33" selection-end-column="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/mobility-rpc-1.1.0-all.jar!/com/googlecode/mobilityrpc/network/ConnectionId.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.148148">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/enums/SystemName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45454547">
+          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+          <folding>
+            <element signature="docComment;class#SystemName#0" expanded="false" />
+            <element signature="docComment;method#getSystemId#0;class#SystemName#0" expanded="false" />
+            <element signature="e#1655#1656#0" expanded="false" />
+            <element signature="e#1686#1687#0" expanded="false" />
+            <element signature="docComment;method#getSystemName#0;class#SystemName#0" expanded="false" />
+            <element signature="e#1791#1792#0" expanded="false" />
+            <element signature="e#1824#1825#0" expanded="false" />
+            <element signature="docComment;method#getByName#0;class#SystemName#0" expanded="false" />
+            <element signature="method#getByName#0;class#SystemName#0" expanded="false" />
+            <element signature="docComment;method#getById#0;class#SystemName#0" expanded="false" />
+            <element signature="method#getById#0;class#SystemName#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/client/MyMovilityRPCClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.030303">
+          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#MyMovilityRPCClient#0" expanded="false" />
+            <element signature="docComment;field#controller#0;class#MyMovilityRPCClient#0" expanded="false" />
+            <element signature="docComment;field#remoteMap#0;class#MyMovilityRPCClient#0" expanded="false" />
+            <element signature="docComment;field#session#0;class#MyMovilityRPCClient#0" expanded="false" />
+            <element signature="docComment;method#init#0;class#MyMovilityRPCClient#0" expanded="false" />
+            <element signature="method#init#0;class#MyMovilityRPCClient#0" expanded="false" />
+            <element signature="docComment;method#checkEndpoints#0;class#MyMovilityRPCClient#0" expanded="false" />
+            <element signature="method#checkEndpoints#0;class#MyMovilityRPCClient#0" expanded="false" />
+            <element signature="docComment;method#checkEndpoint#0;class#MyMovilityRPCClient#0" expanded="false" />
+            <element signature="method#checkEndpoint#0;class#MyMovilityRPCClient#0" expanded="false" />
+            <element signature="docComment;method#getEndPointByRemoteName#0;class#MyMovilityRPCClient#0" expanded="false" />
+            <element signature="method#getEndPointByRemoteName#0;class#MyMovilityRPCClient#0" expanded="false" />
+            <element signature="docComment;method#getSession#0;class#MyMovilityRPCClient#0" expanded="false" />
+            <element signature="e#6436#6437#0" expanded="false" />
+            <element signature="e#6466#6467#0" expanded="false" />
+            <element signature="docComment;method#getLocalPort#0;class#MyMovilityRPCClient#0" expanded="false" />
+            <element signature="method#getLocalPort#0;class#MyMovilityRPCClient#0" expanded="false" />
+            <element signature="docComment;method#destroy#0;class#MyMovilityRPCClient#0" expanded="false" />
+            <element signature="method#destroy#0;class#MyMovilityRPCClient#0" expanded="false" />
+            <element signature="docComment;class#SessionReleasingRunnable#0;class#MyMovilityRPCClient#0" expanded="false" />
+            <element signature="class#SessionReleasingRunnable#0;class#MyMovilityRPCClient#0" expanded="false" />
+            <element signature="method#SessionReleasingRunnable#0;class#SessionReleasingRunnable#0;class#MyMovilityRPCClient#0" expanded="false" />
+            <element signature="method#run#0;class#SessionReleasingRunnable#0;class#MyMovilityRPCClient#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/server/MyMovilityRPCServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.90909094">
+          <caret line="158" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#MyMovilityRPCServer#0" expanded="true" />
+            <element signature="e#1937#1945#0" expanded="true" />
+            <element signature="docComment;method#init#0;class#MyMovilityRPCServer#0" expanded="true" />
+            <element signature="method#init#0;class#MyMovilityRPCServer#0" expanded="true" />
+            <element signature="method#getBindAddressesByHost#0;class#MyMovilityRPCServer#0" expanded="true" />
+            <element signature="e#3682#3690#0" expanded="true" />
+            <element signature="method#createController#0;class#MyMovilityRPCServer#0" expanded="true" />
+            <element signature="e#5132#5175#0" expanded="true" />
+            <element signature="method#createShutdownHook#0;class#MyMovilityRPCServer#0" expanded="true" />
+            <element signature="e#5441#5789#0" expanded="true" />
+            <element signature="e#5788#5789#0" expanded="true" />
+            <element signature="docComment;method#getController#0;class#MyMovilityRPCServer#0" expanded="true" />
+            <element signature="e#6063#6064#0" expanded="true" />
+            <element signature="e#6096#6097#0" expanded="true" />
+            <element signature="docComment;method#getBindAddresses#0;class#MyMovilityRPCServer#0" expanded="true" />
+            <element signature="e#6302#6303#0" expanded="true" />
+            <element signature="e#6338#6339#0" expanded="true" />
+            <element signature="docComment;method#destroy#0;class#MyMovilityRPCServer#0" expanded="true" />
+            <element signature="method#destroy#0;class#MyMovilityRPCServer#0" expanded="true" />
+            <element signature="docComment;method#isRunning#0;class#MyMovilityRPCServer#0" expanded="true" />
+            <element signature="method#isRunning#0;class#MyMovilityRPCServer#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/MyMovilityRPCComm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.7272725">
+          <caret line="192" column="25" selection-start-line="192" selection-start-column="25" selection-end-line="192" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#MyMovilityRPCComm#0" expanded="true" />
+            <element signature="docComment;method#init#0;class#MyMovilityRPCComm#0" expanded="true" />
+            <element signature="method#init#0;class#MyMovilityRPCComm#0" expanded="true" />
+            <element signature="docComment;method#init#1;class#MyMovilityRPCComm#0" expanded="true" />
+            <element signature="method#init#1;class#MyMovilityRPCComm#0" expanded="true" />
+            <element signature="docComment;method#isServerRunning#0;class#MyMovilityRPCComm#0" expanded="true" />
+            <element signature="docComment;method#getConnListener#0;class#MyMovilityRPCComm#0" expanded="true" />
+            <element signature="docComment;method#sleep#0;class#MyMovilityRPCComm#0" expanded="true" />
+            <element signature="docComment;method#checkEndpoint#0;class#MyMovilityRPCComm#0" expanded="true" />
+            <element signature="docComment;method#getServerSystemName#0;class#MyMovilityRPCComm#0" expanded="true" />
+            <element signature="docComment;method#getClients#0;class#MyMovilityRPCComm#0" expanded="true" />
+            <element signature="method#getClients#0;class#MyMovilityRPCComm#0" expanded="true" />
+            <element signature="docComment;method#getProccesors#0;class#MyMovilityRPCComm#0" expanded="true" />
+            <element signature="method#getProccesors#0;class#MyMovilityRPCComm#0" expanded="true" />
+            <element signature="docComment;method#getCallers#0;class#MyMovilityRPCComm#0" expanded="true" />
+            <element signature="method#getCallers#0;class#MyMovilityRPCComm#0" expanded="true" />
+            <element signature="docComment;method#destroy#0;class#MyMovilityRPCComm#0" expanded="true" />
+            <element signature="method#destroy#0;class#MyMovilityRPCComm#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/mobility-rpc-1.1.0-all.jar!/com/googlecode/mobilityrpc/session/impl/MobilitySessionImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.0277777">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.6.0_20/src.zip!/java/lang/NoSuchMethodException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.6.0_20/src.zip!/java/lang/reflect/InvocationTargetException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.6.0_20/src.zip!/java/lang/IllegalAccessException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/minlog/1.2/minlog-1.2-sources.jar!/com/esotericsoftware/minlog/Log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../JavaFrameWorksSources/RMI-RPC/mobility-rpc 1.1.0/mobility-rpc-1.1.0-sources.jar!/com/googlecode/mobilityrpc/session/impl/MobilitySessionImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="73" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#MobilitySessionImpl#0" expanded="false" />
+            <element signature="docComment;field#EXECUTION_RESPONSE_TIMEOUT_MILLIS#0;class#MobilitySessionImpl#0" expanded="false" />
+            <element signature="e#2048#2092#0" expanded="false" />
+            <element signature="method#MobilitySessionImpl#0;class#MobilitySessionImpl#0" expanded="false" />
+            <element signature="e#2756#2757#0" expanded="false" />
+            <element signature="e#2788#2789#0" expanded="false" />
+            <element signature="method#execute#0;class#MobilitySessionImpl#0" expanded="false" />
+            <element signature="method#execute#1;class#MobilitySessionImpl#0" expanded="false" />
+            <element signature="e#3882#3923#0" expanded="false" />
+            <element signature="e#4740#4843#0" expanded="false" />
+            <element signature="e#5889#5966#0" expanded="false" />
+            <element signature="e#6155#6245#0" expanded="false" />
+            <element signature="e#6675#6728#0" expanded="false" />
+            <element signature="e#8068#8122#0" expanded="false" />
+            <element signature="method#execute#3;class#MobilitySessionImpl#0" expanded="false" />
+            <element signature="method#execute#4;class#MobilitySessionImpl#0" expanded="false" />
+            <element signature="e#9540#9581#0" expanded="false" />
+            <element signature="e#10404#10507#0" expanded="false" />
+            <element signature="e#11553#11630#0" expanded="false" />
+            <element signature="e#11819#11909#0" expanded="false" />
+            <element signature="e#12344#12397#0" expanded="false" />
+            <element signature="e#13269#13353#0" expanded="false" />
+            <element signature="e#13947#14001#0" expanded="false" />
+            <element signature="method#receiveIncomingExecutionRequest#0;class#MobilitySessionImpl#0" expanded="false" />
+            <element signature="e#14422#14522#0" expanded="false" />
+            <element signature="e#14703#14753#0" expanded="false" />
+            <element signature="e#14919#14968#0" expanded="false" />
+            <element signature="e#15082#15148#0" expanded="false" />
+            <element signature="e#20412#20508#0" expanded="false" />
+            <element signature="e#21494#21580#0" expanded="false" />
+            <element signature="method#receiveExecutionResponse#0;class#MobilitySessionImpl#0" expanded="false" />
+            <element signature="docComment;class#FutureExecutionResponse#0;class#MobilitySessionImpl#0" expanded="false" />
+            <element signature="class#FutureExecutionResponse#0;class#MobilitySessionImpl#0" expanded="false" />
+            <element signature="e#24178#24197#0" expanded="false" />
+            <element signature="e#24272#24273#0" expanded="false" />
+            <element signature="e#24338#24339#0" expanded="false" />
+            <element signature="method#getResponse#0;class#FutureExecutionResponse#0;class#MobilitySessionImpl#0" expanded="false" />
+            <element signature="e#25272#25273#0" expanded="false" />
+            <element signature="e#25339#25340#0" expanded="false" />
+            <element signature="e#25416#25417#0" expanded="false" />
+            <element signature="e#25457#25458#0" expanded="false" />
+            <element signature="e#25528#25529#0" expanded="false" />
+            <element signature="e#25574#25575#0" expanded="false" />
+            <element signature="method#release#0;class#MobilitySessionImpl#0" expanded="false" />
+            <element signature="e#25690#25768#0" expanded="false" />
+            <element signature="e#26073#26136#0" expanded="false" />
+            <element signature="e#26446#26498#0" expanded="false" />
+            <element signature="e#26681#26682#0" expanded="false" />
+            <element signature="e#26746#26747#0" expanded="false" />
+            <element signature="method#deserialize#0;class#MobilitySessionImpl#0" expanded="false" />
+            <element signature="e#26952#27006#0" expanded="false" />
+            <element signature="method#serialize#0;class#MobilitySessionImpl#0" expanded="false" />
+            <element signature="method#toString#0;class#MobilitySessionImpl#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/client/staticClass/BenchmarkMultithreaded.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/client/staticClass/MobilityBenchmark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3226382">
+          <caret line="46" column="9" selection-start-line="7" selection-start-column="8" selection-end-line="46" selection-end-column="9" />
+          <folding>
+            <element signature="docComment;class#MobilityBenchmark#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/util/TimerHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/services/callable/BoomerangObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.68">
+          <caret line="27" column="1" selection-start-line="9" selection-start-column="0" selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/client/staticClass/TestExecuteRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="85" column="8" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
+          <folding>
+            <element signature="method#submitCallable_BoomerangPattern#0;class#TestExecuteRunnable#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/callable/CallerOfProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.272">
+          <caret line="85" column="27" selection-start-line="85" selection-start-column="27" selection-end-line="85" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/ServicesBaseExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8613333">
+          <caret line="110" column="173" selection-start-line="110" selection-start-column="173" selection-end-line="110" selection-end-column="173" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding>
+            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.6.0_20/src.zip!/java/security/MessageDigest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="125" column="32" selection-start-line="125" selection-start-column="32" selection-end-line="125" selection-end-column="32" />
+          <folding>
+            <element signature="method#getInstance#0;class#MessageDigest#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/factory/util/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#Util#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/factory/ServicesFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="69" column="33" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/factory/CallerRegister.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="57" column="36" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/factory/ProcessorRegister.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33292383">
+          <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
+          <folding>
+            <element signature="method#toString#0;class#ProcessorRegister#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>MobilityRPC</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.googlecode:kryo:1.04</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
