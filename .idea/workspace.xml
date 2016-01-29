@@ -5,20 +5,145 @@
   </component>
   <component name="ChangeListManager">
     <list id="691eea3a-eace-45b6-b9ed-d3d3c8907164" name="Default" comment="" />
-    <list default="true" id="695dc323-f770-42cf-abce-47959d52a506" name="Inicial MobilityRPC_Test" comment="Cambios a la documentacion, agregue el plugin de generar jar de fuentes y document. Captura y manejo de excepciones.&#10;falta:&#10;* Probar la llamada asincrona. &#10;&#10;" />
-    <list id="baf0742f-9d1f-48a8-95e8-d6a8a373e7bd" name="Idea" comment="Archivos del Idea">
+    <list default="true" id="695dc323-f770-42cf-abce-47959d52a506" name="Inicial MobilityRPC_Test" comment="Cambios a la documentacion, agregue el plugin de generar jar de fuentes y document. Captura y manejo de excepciones.&#10;falta:&#10;* Probar la llamada asincrona. &#10;&#10;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MyMobilityRPC-1.0-javadoc.jar" afterPath="$PROJECT_DIR$/target/MyMobilityRPC-1.0-javadoc.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MyMobilityRPC-1.0-sources.jar" afterPath="$PROJECT_DIR$/target/MyMobilityRPC-1.0-sources.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MyMobilityRPC-1.0.jar" afterPath="$PROJECT_DIR$/target/MyMobilityRPC-1.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/processor/CallProcessor.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/processor/CallProcessor.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/processor/class-use/CallProcessor.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/processor/class-use/CallProcessor.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/enums/CallType.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/enums/CallType.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/enums/class-use/CallType.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/enums/class-use/CallType.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/callable/CallerOfProcess.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/callable/CallerOfProcess.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/callable/class-use/CallerOfProcess.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/callable/class-use/CallerOfProcess.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/CallerRegister.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/CallerRegister.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/class-use/CallerRegister.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/class-use/CallerRegister.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/CollectionResponse.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/CollectionResponse.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/class-use/CollectionResponse.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/class-use/CollectionResponse.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/ErrorResponse.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/ErrorResponse.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/class-use/ErrorResponse.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/class-use/ErrorResponse.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/result/ErrorResponseImpl.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/result/ErrorResponseImpl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/result/class-use/ErrorResponseImpl.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/result/class-use/ErrorResponseImpl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/client/MyMovilityRPCClient.SessionReleasingRunnable.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/client/MyMovilityRPCClient.SessionReleasingRunnable.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/client/class-use/MyMovilityRPCClient.SessionReleasingRunnable.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/client/class-use/MyMovilityRPCClient.SessionReleasingRunnable.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/client/MyMovilityRPCClient.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/client/MyMovilityRPCClient.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/client/class-use/MyMovilityRPCClient.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/client/class-use/MyMovilityRPCClient.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/MyMovilityRPCComm.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/MyMovilityRPCComm.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/class-use/MyMovilityRPCComm.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/class-use/MyMovilityRPCComm.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/server/MyMovilityRPCCommRunner.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/server/MyMovilityRPCCommRunner.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/server/class-use/MyMovilityRPCCommRunner.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/server/class-use/MyMovilityRPCCommRunner.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/server/MyMovilityRPCServer.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/server/MyMovilityRPCServer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/server/class-use/MyMovilityRPCServer.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/server/class-use/MyMovilityRPCServer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/ObjectResponse.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/ObjectResponse.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/class-use/ObjectResponse.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/class-use/ObjectResponse.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/parameter/ProcessParameter.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/parameter/ProcessParameter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/parameter/class-use/ProcessParameter.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/parameter/class-use/ProcessParameter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/ProcessResponse.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/ProcessResponse.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/class-use/ProcessResponse.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/class-use/ProcessResponse.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/ProcessorRegister.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/ProcessorRegister.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/class-use/ProcessorRegister.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/class-use/ProcessorRegister.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/exception/ServiceBaseException.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/exception/ServiceBaseException.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/exception/class-use/ServiceBaseException.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/exception/class-use/ServiceBaseException.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/ServicesBaseExecutor.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/ServicesBaseExecutor.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/class-use/ServicesBaseExecutor.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/class-use/ServicesBaseExecutor.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/ServicesFactory.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/ServicesFactory.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/class-use/ServicesFactory.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/class-use/ServicesFactory.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/ServicesFactory_Callers.FetchCallerRegistersFromServer.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/ServicesFactory_Callers.FetchCallerRegistersFromServer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/class-use/ServicesFactory_Callers.FetchCallerRegistersFromServer.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/class-use/ServicesFactory_Callers.FetchCallerRegistersFromServer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/ServicesFactory_Callers.FetchProcessorRegistersFromCaller.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/ServicesFactory_Callers.FetchProcessorRegistersFromCaller.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/class-use/ServicesFactory_Callers.FetchProcessorRegistersFromCaller.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/class-use/ServicesFactory_Callers.FetchProcessorRegistersFromCaller.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/ServicesFactory_Callers.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/ServicesFactory_Callers.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/class-use/ServicesFactory_Callers.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/class-use/ServicesFactory_Callers.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/processor/ServicesFactory_Proccesors.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/processor/ServicesFactory_Proccesors.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/processor/class-use/ServicesFactory_Proccesors.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/processor/class-use/ServicesFactory_Proccesors.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/enums/SystemName.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/enums/SystemName.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/enums/class-use/SystemName.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/enums/class-use/SystemName.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.enroquesw.mcs.comm.mobilityRPC.server.MyMovilityRPCServerTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.enroquesw.mcs.comm.mobilityRPC.server.MyMovilityRPCServerTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/util/Util.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/util/Util.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/util/class-use/Util.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/util/class-use/Util.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/parameter/VoidParameter.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/parameter/VoidParameter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/parameter/class-use/VoidParameter.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/parameter/class-use/VoidParameter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/allclasses-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/allclasses-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/allclasses-noframe.html" afterPath="$PROJECT_DIR$/target/apidocs/allclasses-noframe.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/constant-values.html" afterPath="$PROJECT_DIR$/target/apidocs/constant-values.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/deprecated-list.html" afterPath="$PROJECT_DIR$/target/apidocs/deprecated-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/help-doc.html" afterPath="$PROJECT_DIR$/target/apidocs/help-doc.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/index-all.html" afterPath="$PROJECT_DIR$/target/apidocs/index-all.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/index.html" afterPath="$PROJECT_DIR$/target/apidocs/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/overview-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/overview-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/overview-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/overview-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/overview-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/overview-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/client/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/client/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/enums/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/enums/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/server/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/server/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/callable/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/callable/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/exception/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/exception/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/util/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/util/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/processor/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/processor/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/result/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/result/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/parameter/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/parameter/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/processor/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/processor/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/client/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/client/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/enums/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/enums/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/server/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/server/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/callable/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/callable/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/exception/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/exception/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/util/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/util/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/processor/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/processor/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/result/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/result/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/parameter/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/parameter/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/processor/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/processor/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/client/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/client/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/enums/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/enums/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/server/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/server/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/callable/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/callable/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/exception/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/exception/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/util/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/util/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/processor/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/processor/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/result/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/result/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/parameter/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/parameter/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/processor/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/processor/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/client/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/client/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/enums/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/enums/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/server/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/server/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/callable/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/callable/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/exception/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/exception/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/util/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/util/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/processor/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/processor/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/result/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/result/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/parameter/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/parameter/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/processor/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/processor/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/serialized-form.html" afterPath="$PROJECT_DIR$/target/apidocs/serialized-form.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="out/" />
+    <ignored path="target/" />
     <ignored path="../.gitignore" />
     <ignored path=".idea/dataSources.local.xml" />
     <ignored path="lib/mobility-rpc-1.1.0-all" />
     <ignored path="../MobilityRPC_Users/" />
     <ignored path="../MobilityRPC_Users/.idea/" />
-    <ignored path="../MobilityRPC_Users/.idea/workspace.xml" />
-    <ignored path="../MobilityRPC_Users/.idea/misc.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -287,7 +412,7 @@
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="FullScreen" value="false" />
     <property name="project.structure.last.edited" value="Project" />
@@ -699,7 +824,7 @@
     <task active="true" id="Default" summary="Default task">
       <changelist id="691eea3a-eace-45b6-b9ed-d3d3c8907164" name="Default" comment="" />
       <changelist id="695dc323-f770-42cf-abce-47959d52a506" name="Inicial MobilityRPC_Test" comment="Mi proyecto base para crear el cliente" />
-      <changelist id="baf0742f-9d1f-48a8-95e8-d6a8a373e7bd" name="otroProyecto" comment="" />
+      <changelist id="" name="otroProyecto" comment="" />
       <created>1452099741565</created>
       <option name="number" value="Default" />
       <updated>1452099741565</updated>
@@ -749,7 +874,7 @@
       <workItem from="1454026647992" duration="1351000" />
       <workItem from="1454035709390" duration="92000" />
       <workItem from="1454035948915" duration="652000" />
-      <workItem from="1454037654114" duration="6000" />
+      <workItem from="1454037654114" duration="176000" />
     </task>
     <task id="LOCAL-00001" summary="Mi proyecto base para crear el cliente">
       <created>1452821480992</created>
@@ -859,11 +984,17 @@
       <option name="project" value="LOCAL" />
       <updated>1453928564314</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Archivos del Idea">
+      <created>1454037688042</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1454037688042</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="364979000" />
+    <option name="totallyTimeSpent" value="365149000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1046" extended-state="6" />
@@ -879,6 +1010,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3208191" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.7806604" sideWeight="0.49409238" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5825472" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36949515" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -889,7 +1021,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43441227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4764151" sideWeight="0.4969743" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5825472" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -954,7 +1085,8 @@
     <MESSAGE value="El otro proyecto" />
     <MESSAGE value="Comentarios.&#10;falta:&#10;* Probar la llamada asincrona. &#10;* Acoplar el contexto externo.&#10;* Es deseable cargar las definiciones de callers y processors desde un archivo externo XML o desde una Lista de registros (la cual el cliente lo cargaria de otra fuente por ejemplo DB).&#10;* Agregar un Tipo de Respuesta Error.&#10;" />
     <MESSAGE value="Cambios a la documentacion, agregue el plugin de generar jar de fuentes y document. Captura y manejo de excepciones.&#10;falta:&#10;* Probar la llamada asincrona. &#10;&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cambios a la documentacion, agregue el plugin de generar jar de fuentes y document. Captura y manejo de excepciones.&#10;falta:&#10;* Probar la llamada asincrona. &#10;&#10;" />
+    <MESSAGE value="Archivos del Idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="Archivos del Idea" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
