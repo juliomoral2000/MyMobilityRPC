@@ -6,135 +6,7 @@
   <component name="ChangeListManager">
     <list id="691eea3a-eace-45b6-b9ed-d3d3c8907164" name="Default" comment="" />
     <list default="true" id="695dc323-f770-42cf-abce-47959d52a506" name="Inicial MobilityRPC_Test" comment="Cambios a la documentacion, agregue el plugin de generar jar de fuentes y document. Captura y manejo de excepciones.&#10;falta:&#10;* Probar la llamada asincrona. &#10;&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MyMobilityRPC-1.0-javadoc.jar" afterPath="$PROJECT_DIR$/target/MyMobilityRPC-1.0-javadoc.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MyMobilityRPC-1.0-sources.jar" afterPath="$PROJECT_DIR$/target/MyMobilityRPC-1.0-sources.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MyMobilityRPC-1.0.jar" afterPath="$PROJECT_DIR$/target/MyMobilityRPC-1.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/processor/CallProcessor.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/processor/CallProcessor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/processor/class-use/CallProcessor.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/processor/class-use/CallProcessor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/enums/CallType.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/enums/CallType.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/enums/class-use/CallType.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/enums/class-use/CallType.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/callable/CallerOfProcess.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/callable/CallerOfProcess.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/callable/class-use/CallerOfProcess.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/callable/class-use/CallerOfProcess.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/CallerRegister.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/CallerRegister.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/class-use/CallerRegister.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/class-use/CallerRegister.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/CollectionResponse.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/CollectionResponse.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/class-use/CollectionResponse.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/class-use/CollectionResponse.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/ErrorResponse.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/ErrorResponse.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/class-use/ErrorResponse.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/class-use/ErrorResponse.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/result/ErrorResponseImpl.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/result/ErrorResponseImpl.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/result/class-use/ErrorResponseImpl.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/result/class-use/ErrorResponseImpl.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/client/MyMovilityRPCClient.SessionReleasingRunnable.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/client/MyMovilityRPCClient.SessionReleasingRunnable.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/client/class-use/MyMovilityRPCClient.SessionReleasingRunnable.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/client/class-use/MyMovilityRPCClient.SessionReleasingRunnable.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/client/MyMovilityRPCClient.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/client/MyMovilityRPCClient.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/client/class-use/MyMovilityRPCClient.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/client/class-use/MyMovilityRPCClient.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/MyMovilityRPCComm.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/MyMovilityRPCComm.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/class-use/MyMovilityRPCComm.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/class-use/MyMovilityRPCComm.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/server/MyMovilityRPCCommRunner.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/server/MyMovilityRPCCommRunner.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/server/class-use/MyMovilityRPCCommRunner.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/server/class-use/MyMovilityRPCCommRunner.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/server/MyMovilityRPCServer.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/server/MyMovilityRPCServer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/server/class-use/MyMovilityRPCServer.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/server/class-use/MyMovilityRPCServer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/ObjectResponse.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/ObjectResponse.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/class-use/ObjectResponse.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/class-use/ObjectResponse.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/parameter/ProcessParameter.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/parameter/ProcessParameter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/parameter/class-use/ProcessParameter.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/parameter/class-use/ProcessParameter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/ProcessResponse.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/ProcessResponse.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/class-use/ProcessResponse.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/class-use/ProcessResponse.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/ProcessorRegister.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/ProcessorRegister.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/class-use/ProcessorRegister.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/class-use/ProcessorRegister.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/exception/ServiceBaseException.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/exception/ServiceBaseException.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/exception/class-use/ServiceBaseException.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/exception/class-use/ServiceBaseException.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/ServicesBaseExecutor.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/ServicesBaseExecutor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/class-use/ServicesBaseExecutor.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/class-use/ServicesBaseExecutor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/ServicesFactory.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/ServicesFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/class-use/ServicesFactory.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/class-use/ServicesFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/ServicesFactory_Callers.FetchCallerRegistersFromServer.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/ServicesFactory_Callers.FetchCallerRegistersFromServer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/class-use/ServicesFactory_Callers.FetchCallerRegistersFromServer.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/class-use/ServicesFactory_Callers.FetchCallerRegistersFromServer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/ServicesFactory_Callers.FetchProcessorRegistersFromCaller.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/ServicesFactory_Callers.FetchProcessorRegistersFromCaller.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/class-use/ServicesFactory_Callers.FetchProcessorRegistersFromCaller.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/class-use/ServicesFactory_Callers.FetchProcessorRegistersFromCaller.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/ServicesFactory_Callers.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/ServicesFactory_Callers.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/class-use/ServicesFactory_Callers.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/class-use/ServicesFactory_Callers.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/processor/ServicesFactory_Proccesors.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/processor/ServicesFactory_Proccesors.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/processor/class-use/ServicesFactory_Proccesors.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/processor/class-use/ServicesFactory_Proccesors.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/enums/SystemName.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/enums/SystemName.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/enums/class-use/SystemName.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/enums/class-use/SystemName.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.enroquesw.mcs.comm.mobilityRPC.server.MyMovilityRPCServerTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.enroquesw.mcs.comm.mobilityRPC.server.MyMovilityRPCServerTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/util/Util.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/util/Util.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/util/class-use/Util.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/util/class-use/Util.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/parameter/VoidParameter.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/parameter/VoidParameter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/parameter/class-use/VoidParameter.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/parameter/class-use/VoidParameter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/allclasses-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/allclasses-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/allclasses-noframe.html" afterPath="$PROJECT_DIR$/target/apidocs/allclasses-noframe.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/constant-values.html" afterPath="$PROJECT_DIR$/target/apidocs/constant-values.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/deprecated-list.html" afterPath="$PROJECT_DIR$/target/apidocs/deprecated-list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/help-doc.html" afterPath="$PROJECT_DIR$/target/apidocs/help-doc.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/index-all.html" afterPath="$PROJECT_DIR$/target/apidocs/index-all.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/index.html" afterPath="$PROJECT_DIR$/target/apidocs/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/overview-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/overview-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/overview-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/overview-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/overview-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/overview-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/client/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/client/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/enums/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/enums/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/server/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/server/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/callable/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/callable/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/exception/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/exception/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/util/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/util/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/processor/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/processor/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/result/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/result/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/parameter/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/parameter/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/processor/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/processor/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/package-frame.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/client/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/client/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/enums/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/enums/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/server/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/server/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/callable/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/callable/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/exception/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/exception/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/util/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/util/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/processor/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/processor/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/result/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/result/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/parameter/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/parameter/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/processor/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/processor/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/package-summary.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/client/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/client/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/enums/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/enums/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/server/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/server/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/callable/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/callable/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/exception/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/exception/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/util/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/util/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/processor/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/processor/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/result/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/result/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/parameter/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/parameter/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/processor/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/processor/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/package-tree.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/package-use.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/client/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/client/package-use.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/enums/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/enums/package-use.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/server/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/server/package-use.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/package-use.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/callable/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/callable/package-use.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/exception/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/exception/package-use.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/package-use.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/util/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/factory/util/package-use.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/package-use.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/processor/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/processor/package-use.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/result/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/impl/result/package-use.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/parameter/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/parameter/package-use.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/processor/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/processor/package-use.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/package-use.html" afterPath="$PROJECT_DIR$/target/apidocs/com/enroquesw/mcs/comm/mobilityRPC/services/result/package-use.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/apidocs/serialized-form.html" afterPath="$PROJECT_DIR$/target/apidocs/serialized-form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/client/MyMovilityRPCClientTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/client/MyMovilityRPCClientTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="out/" />
@@ -144,6 +16,7 @@
     <ignored path="lib/mobility-rpc-1.1.0-all" />
     <ignored path="../MobilityRPC_Users/" />
     <ignored path="../MobilityRPC_Users/.idea/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -168,26 +41,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="MyMovilityRPCCommTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/MyMovilityRPCCommTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.3355263">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="40" column="158" selection-start-line="40" selection-start-column="158" selection-end-line="40" selection-end-column="158" />
               <folding>
-                <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
+                <element signature="method#setUp#0;class#MyMovilityRPCCommTest#0" expanded="true" />
+                <element signature="method#getMapClients#0;class#MyMovilityRPCCommTest#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Util.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/factory/util/Util.java">
+      <file leaf-file-name="MyMovilityRPCClientTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/client/MyMovilityRPCClientTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+            <state vertical-scroll-proportion="2.0512195">
+              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="docComment;class#Util#0" expanded="true" />
+                <element signature="method#testMain#0;class#MyMovilityRPCClientTest#0" expanded="true" />
+                <element signature="method#test_ServicesFactoryProccesor#0;class#MyMovilityRPCClientTest#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -197,20 +71,10 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/factory/ProcessorRegister.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
+              <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
               <folding>
                 <element signature="method#toString#0;class#ProcessorRegister#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServicesFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/factory/ServicesFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="69" column="33" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="33" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -219,20 +83,8 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/factory/CallerRegister.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="57" column="36" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
+              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessageDigest.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files (x86)/Java/jdk1.6.0_20/src.zip!/java/security/MessageDigest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="125" column="32" selection-start-line="125" selection-start-column="32" selection-end-line="125" selection-end-column="32" />
-              <folding>
-                <element signature="method#getInstance#0;class#MessageDigest#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -287,7 +139,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jcmsoftware/mcs/comm/mobilityRPC/services/impl/caller/ServicesFactory_Callers.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/enums/CallType.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/result/ErrorResponse.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/client/MyMovilityRPCClientTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/server/MyMovilityRPCServerRunnerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/MyMovilityRPCCommTest.java" />
         <option value="$PROJECT_DIR$/../MobilityRPC_Users/.idea/.name" />
@@ -311,6 +162,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/factory/util/Util.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/factory/ProcessorRegister.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/factory/CallerRegister.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/client/MyMovilityRPCClientTest.java" />
       </list>
     </option>
   </component>
@@ -396,7 +248,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -407,7 +259,31 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MobilityRPC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MobilityRPC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MobilityRPC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
@@ -824,7 +700,6 @@
     <task active="true" id="Default" summary="Default task">
       <changelist id="691eea3a-eace-45b6-b9ed-d3d3c8907164" name="Default" comment="" />
       <changelist id="695dc323-f770-42cf-abce-47959d52a506" name="Inicial MobilityRPC_Test" comment="Mi proyecto base para crear el cliente" />
-      <changelist id="" name="otroProyecto" comment="" />
       <created>1452099741565</created>
       <option name="number" value="Default" />
       <updated>1452099741565</updated>
@@ -875,6 +750,7 @@
       <workItem from="1454035709390" duration="92000" />
       <workItem from="1454035948915" duration="652000" />
       <workItem from="1454037654114" duration="176000" />
+      <workItem from="1454038542835" duration="1004000" />
     </task>
     <task id="LOCAL-00001" summary="Mi proyecto base para crear el cliente">
       <created>1452821480992</created>
@@ -994,7 +870,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="365149000" />
+    <option name="totallyTimeSpent" value="366153000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1046" extended-state="6" />
@@ -1007,39 +883,39 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2473525" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4764151" sideWeight="0.4969743" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3208191" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.7806604" sideWeight="0.49409238" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5943396" sideWeight="0.49409238" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5825472" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36949515" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30612245" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30612245" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31603774" sideWeight="0.49394855" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="true" internal_type="SLIDING" type="FLOATING" visible="false" weight="0.32975295" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" x="67" y="46" width="760" height="558" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43441227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4764151" sideWeight="0.4969743" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3993174" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31603774" sideWeight="0.49394855" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="92" y="92" width="1182" height="544" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="92" y="92" width="1182" height="544" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270869" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7063679" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33282906" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1884,13 +1760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/mobility-rpc-1.1.0-all.jar!/com/googlecode/mobilityrpc/network/impl/ConnectionManagerImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.11.jar!/org/junit/Test.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.8333335">
@@ -1905,38 +1774,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/client/MyMovilityRPCClientTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="64" column="7" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#setUp#0;class#MyMovilityRPCClientTest#0" expanded="false" />
-            <element signature="method#tearDown#0;class#MyMovilityRPCClientTest#0" expanded="false" />
-            <element signature="method#testMain#0;class#MyMovilityRPCClientTest#0" expanded="false" />
-            <element signature="e#2951#3032#0" expanded="false" />
-            <element signature="method#test_ServicesFactoryProccesor#0;class#MyMovilityRPCClientTest#0" expanded="false" />
-            <element signature="method#test_BoomerangPattern#0;class#MyMovilityRPCClientTest#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/server/MyMovilityRPCServerRunnerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/MyMovilityRPCCommTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="158" selection-start-line="40" selection-start-column="158" selection-end-line="40" selection-end-column="158" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#setUp#0;class#MyMovilityRPCCommTest#0" expanded="false" />
-            <element signature="method#getMapClients#0;class#MyMovilityRPCCommTest#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2348,9 +2189,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.6.0_20/src.zip!/java/security/MessageDigest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6412777">
+          <caret line="125" column="32" selection-start-line="125" selection-start-column="32" selection-end-line="125" selection-end-column="32" />
+          <folding>
+            <element signature="method#getInstance#0;class#MessageDigest#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/factory/ServicesFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14250614">
+          <caret line="69" column="33" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/factory/util/Util.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.4987715">
           <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -2359,48 +2218,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24938574">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding>
+            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/MyMovilityRPCCommTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="158" selection-start-line="40" selection-start-column="158" selection-end-line="40" selection-end-column="158" />
+          <folding>
+            <element signature="method#setUp#0;class#MyMovilityRPCCommTest#0" expanded="true" />
+            <element signature="method#getMapClients#0;class#MyMovilityRPCCommTest#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/factory/ProcessorRegister.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
+          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
           <folding>
             <element signature="method#toString#0;class#ProcessorRegister#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/factory/ServicesFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="69" column="33" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/factory/CallerRegister.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="57" column="36" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.6.0_20/src.zip!/java/security/MessageDigest.java">
+    <entry file="jar://$PROJECT_DIR$/lib/mobility-rpc-1.1.0-all.jar!/com/googlecode/mobilityrpc/network/impl/ConnectionManagerImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="125" column="32" selection-start-line="125" selection-start-column="32" selection-end-line="125" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
           <folding>
-            <element signature="method#getInstance#0;class#MessageDigest#0" expanded="true" />
+            <element signature="method#createOutgoingConnection#0;class#ConnectionManagerImpl#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/client/MyMovilityRPCClientTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3355263">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        <state vertical-scroll-proportion="2.0512195">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding>
-            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
+            <element signature="method#testMain#0;class#MyMovilityRPCClientTest#0" expanded="true" />
+            <element signature="method#test_ServicesFactoryProccesor#0;class#MyMovilityRPCClientTest#0" expanded="true" />
           </folding>
         </state>
       </provider>
