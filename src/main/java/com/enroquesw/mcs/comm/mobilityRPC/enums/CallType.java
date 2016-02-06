@@ -18,10 +18,10 @@ package com.enroquesw.mcs.comm.mobilityRPC.enums;
 import com.googlecode.mobilityrpc.protocol.pojo.ExecutionMode;
 
 /**
- * El enumerador CallType indica el tipo de llamado a realizar al Servidor.<p>
+ * El enumerador <code>CallType</code> indica el tipo de llamado a realizar al Servidor.<p>
  * <lu>
- *     <li>RETURN_RESPONSE : Es una llamada sincrona, en la cliente espera por una respuesta del servidor (este es el valor por defecto) </li>
- *     <li>FIRE_AND_FORGET: Es una llamada asincrona, en la cliente no espera por respuesta del servidor</li>
+ *     <li>RETURN_RESPONSE : Es una llamada sincrona, en la cual el cliente espera por una respuesta del servidor (este es el valor por defecto) </li>
+ *     <li>FIRE_AND_FORGET: Es una llamada asincrona, en la cual el cliente no espera por respuesta del servidor</li>
  * </lu>
  * </p>
  *

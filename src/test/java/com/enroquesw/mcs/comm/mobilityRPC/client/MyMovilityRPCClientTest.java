@@ -38,7 +38,7 @@ public class MyMovilityRPCClientTest {
     private transient boolean isDebugEnabled;
     private SystemName serverSystemName;
 
-    @Before
+    //@Before
     public void setUp() throws Exception {
         mapClients = MyMovilityRPCCommTest.getMapClients();
         hostIp = "127.0.0.1";   // LocalIp
@@ -56,13 +56,13 @@ public class MyMovilityRPCClientTest {
         /****************************************************/
     }
 
-    @After
+    //@After
     public void tearDown() throws Exception {
         if(MyMovilityRPCComm.isServerRunning()) MyMovilityRPCComm.destroy();
 
     }
 
-    @Test
+    //@Test
     public void testMain() throws Exception {
         //TestExecuteRunnable.submitCallable_BoomerangPattern(session, remoteEndpointId);
         //test_BoomerangPattern();

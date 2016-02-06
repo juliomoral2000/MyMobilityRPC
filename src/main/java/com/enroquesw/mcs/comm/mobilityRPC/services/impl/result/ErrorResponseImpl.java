@@ -3,7 +3,7 @@ package com.enroquesw.mcs.comm.mobilityRPC.services.impl.result;
 import com.enroquesw.mcs.comm.mobilityRPC.services.result.ErrorResponse;
 
 /**
- * la clase ErrorResponseImpl implementa la interfaz ErrorResponse
+ * la clase <code>ErrorResponseImpl</code> implementa la interfaz ErrorResponse
  */
 public class ErrorResponseImpl implements ErrorResponse{
 

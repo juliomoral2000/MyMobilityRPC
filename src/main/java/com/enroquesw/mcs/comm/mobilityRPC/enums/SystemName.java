@@ -19,11 +19,11 @@ import com.enroquesw.mcs.comm.mobilityRPC.services.parameter.ProcessParameter;
 
 /**
  * El enumerador SystemName Representan los Sistemas permitidos o registrados
- * a utilizar por :<p>
+ * a ser utilizados por :<p>
  *     <lu>
  *         <li>{@link com.enroquesw.mcs.comm.mobilityRPC.MyMovilityRPCComm}</li>
  *         <li>el registro {@link com.enroquesw.mcs.comm.mobilityRPC.services.factory.CallerRegister}</li>
- *         <li>el registro {@link com.enroquesw.mcs.comm.mobilityRPC.services.factory.ProcessorRegister}}</li>
+ *         <li>el registro {@link com.enroquesw.mcs.comm.mobilityRPC.services.factory.ProcessorRegister}</li>
  *     </lu>
  *
  * @author Julio Morales
