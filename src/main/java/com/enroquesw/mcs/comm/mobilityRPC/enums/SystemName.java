@@ -40,7 +40,7 @@ public enum SystemName implements ProcessParameter {
 
     /**
      * Retorna el Identificador del Sistema
-     * @return
+     * @return int
      */
     public int getSystemId() {
         return systemId;
@@ -48,7 +48,7 @@ public enum SystemName implements ProcessParameter {
 
     /**
      * Retorna el Nombre del Sistema
-     * @return
+     * @return String
      */
     public String getSystemName() {
         return systemName;
@@ -57,7 +57,7 @@ public enum SystemName implements ProcessParameter {
     /**
      * Retorna el SystemName dado el nombre
      * @param name
-     * @return
+     * @return SystemName
      */
     public static SystemName getByName(String name){
         for (SystemName systemName : values()) {
@@ -69,7 +69,7 @@ public enum SystemName implements ProcessParameter {
     /**
      * Retorna el SystemName dado el id
      * @param systemId
-     * @return
+     * @return SystemName
      */
     public static SystemName getById(int systemId){
         for (SystemName systemName : values()) {

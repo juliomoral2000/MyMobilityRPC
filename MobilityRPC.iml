@@ -22,15 +22,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
-      <library name="Maven: com.googlecode.mobilityrpc:mobility-rpc-all:1.1.0">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/mobility-rpc-1.1.0-all.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
+    <orderEntry type="library" name="Maven: com.googlecode.mobilityrpc:mobility-rpc-all:1.1.0" level="project" />
     <orderEntry type="library" name="Maven: com.googlecode.mobilityrpc:mobility-rpc:sources:1.1.0" level="project" />
     <orderEntry type="library" name="Maven: com.googlecode:kryo:1.04" level="project" />
     <orderEntry type="library" name="Maven: asm:asm:3.2" level="project" />

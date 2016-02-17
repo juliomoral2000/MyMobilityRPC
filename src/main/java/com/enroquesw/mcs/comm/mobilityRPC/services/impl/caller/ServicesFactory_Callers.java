@@ -15,13 +15,13 @@
  */
 package com.enroquesw.mcs.comm.mobilityRPC.services.impl.caller;
 
-import com.enroquesw.mcs.comm.mobilityRPC.services.ServicesBaseExecutor;
-import com.enroquesw.mcs.comm.mobilityRPC.services.parameter.ProcessParameter;
 import com.enroquesw.mcs.comm.mobilityRPC.MyMovilityRPCComm;
 import com.enroquesw.mcs.comm.mobilityRPC.enums.SystemName;
+import com.enroquesw.mcs.comm.mobilityRPC.services.ServicesBaseExecutor;
 import com.enroquesw.mcs.comm.mobilityRPC.services.callable.CallerOfProcess;
 import com.enroquesw.mcs.comm.mobilityRPC.services.factory.CallerRegister;
 import com.enroquesw.mcs.comm.mobilityRPC.services.factory.ProcessorRegister;
+import com.enroquesw.mcs.comm.mobilityRPC.services.parameter.ProcessParameter;
 
 import java.util.List;
 
@@ -37,21 +37,21 @@ public class ServicesFactory_Callers <P extends ProcessParameter>{
     /**
      *
      * @param remoteSystemName
-     * @return
+     * @return List<ProcessorRegister>
      * @throws Exception
      */
     public static List<ProcessorRegister> fetchProcessorRegistersFromServer(SystemName remoteSystemName) throws Exception {
-        return ServicesBaseExecutor.executeCalling(FetchProcessorRegistersFromCaller.class, MyMovilityRPCComm.getServerSystemName(), remoteSystemName);
+        return ServicesBaseExecutor.executeCalling(FetchProcessorRegistersFromCaller.class, MyMovilityRPCComm.getServerSystemName(), remoteSystemName, true);
     }
 
     /**
      *
      * @param remoteSystemName
-     * @return
+     * @return List<CallerRegister>
      * @throws Exception
      */
     public static List<CallerRegister> fetchCallerRegistersFromServer(SystemName remoteSystemName) throws Exception {
-        return ServicesBaseExecutor.executeCalling(FetchCallerRegistersFromServer.class, MyMovilityRPCComm.getServerSystemName(), remoteSystemName);
+        return ServicesBaseExecutor.executeCalling(FetchCallerRegistersFromServer.class, MyMovilityRPCComm.getServerSystemName(), remoteSystemName, true);
     }
 
     /**

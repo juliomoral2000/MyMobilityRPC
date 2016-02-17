@@ -18,7 +18,6 @@ package com.enroquesw.mcs.comm.mobilityRPC.services.callable;
 import com.enroquesw.mcs.comm.mobilityRPC.client.MyMovilityRPCClient;
 import com.enroquesw.mcs.comm.mobilityRPC.enums.CallType;
 import com.enroquesw.mcs.comm.mobilityRPC.enums.SystemName;
-import com.enroquesw.mcs.comm.mobilityRPC.services.ServicesBaseExecutor;
 import com.enroquesw.mcs.comm.mobilityRPC.services.exception.ServiceBaseException;
 import com.enroquesw.mcs.comm.mobilityRPC.services.factory.CallerRegister;
 import com.enroquesw.mcs.comm.mobilityRPC.services.parameter.ProcessParameter;
@@ -32,7 +31,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.util.concurrent.Callable;
 
 import static com.enroquesw.mcs.comm.mobilityRPC.services.ServicesBaseExecutor.executeProcessor;
-import static com.enroquesw.mcs.comm.mobilityRPC.services.factory.ServicesFactory.*;
+import static com.enroquesw.mcs.comm.mobilityRPC.services.factory.ServicesFactory.getCallerRegister;
 /**
  * La clase abstracta <code>CallerOfProcess</code> define el creador de llamadas:
  * <p>
@@ -108,22 +107,25 @@ public abstract class CallerOfProcess<V extends CallerOfProcess, Y extends Proce
         return null;
     }
 
-    public static <V extends CallerOfProcess, Y extends ProcessParameter, T extends Object> T executeCalling(Class<V> callerClass, Y parameter, SystemName remoteSystemName) throws ServiceBaseException {
-        return (T) executeCalling(callerClass, parameter, remoteSystemName, null);
+    public static <V extends CallerOfProcess, Y extends ProcessParameter, T extends Object> T executeCalling(Class<V> callerClass, Y parameter, SystemName remoteSystemName, boolean isBase) throws ServiceBaseException {
+        return (T) executeCalling(callerClass, parameter, remoteSystemName, null, isBase);
     }
 
-    public static <V extends CallerOfProcess, Y extends ProcessParameter, T extends Object> T executeCalling(Class<V> callerClass, Y parameter, SystemName remoteSystemName, CallType callType) throws ServiceBaseException {
+    public static <V extends CallerOfProcess, Y extends ProcessParameter, T extends Object> T executeCalling(Class<V> callerClass, Y parameter, SystemName remoteSystemName, CallType callType, boolean isBase) throws ServiceBaseException {
+        if(remoteSystemName == null) throw new ServiceBaseException("RPC-500", "El Sistema Remoto no puede ser nulo para invocar a ".concat(callerClass.getSimpleName()));
         V callerInstance = (V) getInstance(callerClass, parameter);
         ConnectionId connectionId = null;
         try {
-            if (remoteSystemName != null && !SystemName.ALL.equals(remoteSystemName))
+            if (!isBase && !SystemName.ALL.equals(remoteSystemName)){
                 callerInstance.setRemote(remoteSystemName);
-            else remoteSystemName = getCallerRegister(callerInstance.codUniqOfService).getRemoteLister();
+            }else if(isBase){
+                callerInstance.setRemote(SystemName.ALL);
+            }
         }catch (Exception e){
-            throw new ServiceBaseException("RPC-500", "Error al obtener el registro del Sistema Remoto : ".concat(e.getMessage()));
+            throw new ServiceBaseException("RPC-501", "Error al obtener el registro del Sistema Remoto : ".concat(e.getMessage()));
         }
         try {
-            connectionId = SystemName.ALL.equals(remoteSystemName)? MyMovilityRPCClient.getEndPointByRemoteName(SystemName.ACSELE.getSystemName()) : MyMovilityRPCClient.getEndPointByRemoteName(remoteSystemName.getSystemName());
+            connectionId = MyMovilityRPCClient.getEndPointByRemoteName(remoteSystemName.getSystemName());
             ExecutionMode rr = callType != null? callType.getCallType() : ExecutionMode.RETURN_RESPONSE;
             V execute = (V) MyMovilityRPCClient.getSession().execute(connectionId, rr, callerInstance);
             if(rr.equals(ExecutionMode.FIRE_AND_FORGET)) return null;
@@ -134,9 +136,9 @@ public abstract class CallerOfProcess<V extends CallerOfProcess, Y extends Proce
             throw e;
         } catch (IllegalStateException e) {
             if(e.getCause() != null &&e.getCause().getCause() != null && e.getCause().getCause().getMessage().equals("Connection refused: connect")){
-                throw new ServiceBaseException("RPC-501", "Conexión rechazada a ".concat(connectionId.toString()));
+                throw new ServiceBaseException("RPC-502", "Conexión rechazada a ".concat(connectionId.toString()));
             }
-            throw new ServiceBaseException("RPC-502","Error desconocido :".concat(e.getMessage()));
+            throw new ServiceBaseException("RPC-503","Error desconocido :".concat(e.getMessage()));
         } catch (Exception ex){
             throw new ServiceBaseException("RPC-503","Error desconocido :".concat(ex.getMessage()));
         }

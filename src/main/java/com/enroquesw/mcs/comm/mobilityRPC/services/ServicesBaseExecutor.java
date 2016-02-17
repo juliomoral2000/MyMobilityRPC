@@ -27,7 +27,6 @@ import com.enroquesw.mcs.comm.mobilityRPC.services.parameter.ProcessParameter;
 import com.enroquesw.mcs.comm.mobilityRPC.services.parameter.VoidParameter;
 
 import java.lang.reflect.Method;
-import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
@@ -83,7 +82,22 @@ public class ServicesBaseExecutor<V extends CallerOfProcess, Y extends ProcessPa
      * @throws Exception a alguna excepcion no capturada
      */
     public static <V extends CallerOfProcess, Y extends ProcessParameter, T extends Object> T executeCalling(Class<V> callerClass, Y parameter, SystemName remote) throws ServiceBaseException {
-        return (T) CallerOfProcess.executeCalling(callerClass, parameter, remote);
+        return (T) executeCalling(callerClass, parameter, remote, false);
+    }
+    /**
+     * Este metodo crea y invoca al CallerOfProcess indicado
+     * @param callerClass clase CallerOfProcess a utilizar
+     * @param parameter parametro a utilizar
+     * @param remote    SystemName remoto a llamar
+     * @param isBase    Indica que es un Caller que es base para todos los sistemas
+     * @param <V>   clase que implementa a CallerOfProcess
+     * @param <Y>   clase que implementa a ProcessParameter
+     * @param <T>   clase que implementa a Object
+     * @return  la respuesta del Servidor que es la clase que implementa a Object
+     * @throws Exception a alguna excepcion no capturada
+     */
+    public static <V extends CallerOfProcess, Y extends ProcessParameter, T extends Object> T executeCalling(Class<V> callerClass, Y parameter, SystemName remote, boolean isBase) throws ServiceBaseException {
+        return (T) CallerOfProcess.executeCalling(callerClass, parameter, remote, isBase);
     }
 
     /**
@@ -99,7 +113,7 @@ public class ServicesBaseExecutor<V extends CallerOfProcess, Y extends ProcessPa
      * @throws ServiceBaseException
      */
     public static <V extends CallerOfProcess, Y extends ProcessParameter, T> T executeCalling(Class<V> callerClass, Y parameter, SystemName remote, CallType callType) throws ServiceBaseException {
-        return (T) CallerOfProcess.executeCalling(callerClass, parameter, remote, callType);
+        return (T) CallerOfProcess.executeCalling(callerClass, parameter, remote, callType, false);
     }
 
     private static void callXXXProcess(Class processorClass, /*Object[] arrayParam,*/ String methodName) {

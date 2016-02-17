@@ -28,8 +28,10 @@
             <groupId>com.googlecode.mobilityrpc</groupId>
             <artifactId>mobility-rpc-all</artifactId>
             <version>1.1.0</version>
-            <scope>system</scope>
+            <!--<scope>system</scope>
             <systemPath>${basedir}/lib/mobility-rpc-1.1.0-all.jar</systemPath>
+            mvn install:install-file -Dfile=D:\mobility-rpc-1.1.0-all.jar -DgroupId=com.googlecode.mobilityrpc -DartifactId=mobility-rpc-all -Dversion=1.1.0 -Dpackaging=jar
+            -->
         </dependency>
         <dependency>
             <groupId>com.googlecode.mobilityrpc</groupId>

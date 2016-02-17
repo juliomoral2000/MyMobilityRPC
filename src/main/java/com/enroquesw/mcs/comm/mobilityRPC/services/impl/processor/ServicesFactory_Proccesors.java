@@ -19,13 +19,12 @@ import com.enroquesw.mcs.comm.mobilityRPC.enums.SystemName;
 import com.enroquesw.mcs.comm.mobilityRPC.services.factory.CallerRegister;
 import com.enroquesw.mcs.comm.mobilityRPC.services.factory.ProcessorRegister;
 import com.enroquesw.mcs.comm.mobilityRPC.services.factory.ServicesFactory;
-import com.enroquesw.mcs.comm.mobilityRPC.services.parameter.ProcessParameter;
 import com.enroquesw.mcs.comm.mobilityRPC.services.processor.CallProcessor;
 
 import java.util.List;
 
 /**
- * la clase ServicesFactory_Proccesors representa la implementacion del processor
+ * La clase <code>ServicesFactory_Proccesors</code> representa la implementacion del CallProcessor
  * de las llamadas realizada por los callers remotos
  * al servicio comun para todos los clientes
  * referente a los registros de los callers y los processors

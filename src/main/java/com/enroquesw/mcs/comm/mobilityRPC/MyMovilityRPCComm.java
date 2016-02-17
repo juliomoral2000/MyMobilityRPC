@@ -148,7 +148,7 @@ public class MyMovilityRPCComm {
 
     /**
      * Verifica la conexion con la conexion indicada
-     * @param remoteEndpointId El {@ConnectionId} de la conexion a verificar
+     * @param remoteEndpointId El {@link ConnectionId} de la conexion a verificar
      * @return <code>true</code>: exitoso la conexion or <code>false</code>: fallo la conexion
      */
     public static boolean checkEndpoint(ConnectionId remoteEndpointId) {
