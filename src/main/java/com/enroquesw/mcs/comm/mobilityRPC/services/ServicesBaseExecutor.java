@@ -25,6 +25,7 @@ import com.enroquesw.mcs.comm.mobilityRPC.services.factory.ServicesFactory;
 import com.enroquesw.mcs.comm.mobilityRPC.services.impl.result.ErrorResponseImpl;
 import com.enroquesw.mcs.comm.mobilityRPC.services.parameter.ProcessParameter;
 import com.enroquesw.mcs.comm.mobilityRPC.services.parameter.VoidParameter;
+import com.sun.istack.internal.Nullable;
 
 import java.lang.reflect.Method;
 import java.util.logging.Logger;
@@ -96,7 +97,7 @@ public class ServicesBaseExecutor<V extends CallerOfProcess, Y extends ProcessPa
      * @return  la respuesta del Servidor que es la clase que implementa a Object
      * @throws Exception a alguna excepcion no capturada
      */
-    public static <V extends CallerOfProcess, Y extends ProcessParameter, T extends Object> T executeCalling(Class<V> callerClass, Y parameter, SystemName remote, boolean isBase) throws ServiceBaseException {
+    public static <V extends CallerOfProcess, Y extends ProcessParameter, T extends Object> T executeCalling(Class<V> callerClass, Y parameter, @Nullable SystemName remote, boolean isBase) throws ServiceBaseException {
         return (T) CallerOfProcess.executeCalling(callerClass, parameter, remote, isBase);
     }
 

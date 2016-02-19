@@ -24,6 +24,8 @@ import com.googlecode.mobilityrpc.lib.com.esotericsoftware.minlog.Log;
 import com.googlecode.mobilityrpc.network.ConnectionId;
 import com.googlecode.mobilityrpc.quickstart.EmbeddedMobilityServer;
 import com.googlecode.mobilityrpc.quickstart.util.NetworkUtil;
+import com.sun.istack.internal.NotNull;
+import com.sun.istack.internal.Nullable;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -60,7 +62,7 @@ public class MyMovilityRPCServer {
      * @return Una nueva instancia de {@link MobilityController}
      * @throws Exception
      */
-    public static MobilityController init(String host, Integer port, SystemName ssn) throws Exception {
+    public static MobilityController init(@Nullable String host, @Nullable Integer port, @NotNull SystemName ssn) throws Exception {
         if (controller == null) {
             serverSystemName = ssn;
             createController(host, port);
@@ -70,7 +72,7 @@ public class MyMovilityRPCServer {
         }
     }
 
-    private static List<String> getBindAddressesByHost(String hostIp) throws Exception {
+    private static List<String> getBindAddressesByHost(@Nullable String hostIp) throws Exception {
         List<String> list = NetworkUtil.getAllNetworkInterfaceAddresses();
         if (hostIp == null || hostIp.length() == 0) return list;
         if (!list.contains(hostIp))
@@ -80,7 +82,7 @@ public class MyMovilityRPCServer {
         return returno;
     }
 
-    private static MobilityController createController(String hostIp, Integer port) throws Exception {
+    private static MobilityController createController(@Nullable String hostIp, @Nullable Integer port) throws Exception {
         if (controller != null) throw new IllegalStateException("Server is already running");
         MobilityController mobilityController = MobilityRPC.newController(); // Create a new MobilityController...
         int innerport = port == null || port == 0 ? EmbeddedMobilityServer.DEFAULT_PORT : port;
@@ -103,7 +105,7 @@ public class MyMovilityRPCServer {
         return controller;
     }
 
-    private static void createShutdownHook(final MobilityController controller) {
+    private static void createShutdownHook(@NotNull final MobilityController controller) {
         Log.debug("creating ShutdownHook");
         if (myShutdownHook == null) {
             myShutdownHook = new Thread() {

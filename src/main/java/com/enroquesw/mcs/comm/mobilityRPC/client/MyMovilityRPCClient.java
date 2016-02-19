@@ -15,6 +15,7 @@
  */
 package com.enroquesw.mcs.comm.mobilityRPC.client;
 
+import com.enroquesw.mcs.comm.mobilityRPC.server.MyMovilityRPCServer;
 import com.googlecode.mobilityrpc.controller.MobilityController;
 import com.googlecode.mobilityrpc.lib.com.esotericsoftware.minlog.Log;
 import com.googlecode.mobilityrpc.network.Connection;
@@ -23,7 +24,8 @@ import com.googlecode.mobilityrpc.network.ConnectionManager;
 import com.googlecode.mobilityrpc.network.impl.tcp.TCPConnection;
 import com.googlecode.mobilityrpc.session.MobilityContext;
 import com.googlecode.mobilityrpc.session.MobilitySession;
-import com.enroquesw.mcs.comm.mobilityRPC.server.MyMovilityRPCServer;
+import com.sun.istack.internal.NotNull;
+import com.sun.istack.internal.Nullable;
 
 import java.lang.reflect.Field;
 import java.net.Socket;
@@ -56,7 +58,7 @@ public class MyMovilityRPCClient {
      * @param endPointsToCall  Mapa por "Nombre personalizado de conexion" de Identificadores de EndPoints a utilizar (ver {@link ConnectionId})
      * @throws Exception
      */
-    public static synchronized void init(MobilityController controllerServer, Map<String, ConnectionId> endPointsToCall)  throws Exception {
+    public static synchronized void init(@NotNull MobilityController controllerServer, @NotNull Map<String, ConnectionId> endPointsToCall)  throws Exception {
         controller = controllerServer;
         remoteMap = endPointsToCall;
         checkEndpoints(remoteMap);
@@ -67,7 +69,7 @@ public class MyMovilityRPCClient {
      * Verifica la conexion con las conexiones indicadas
      * @param remoteMap <code>Map<String, ConnectionId></code>, mapa de conexiones remotas por nombre de Sistema Remoto
      */
-    public static void checkEndpoints(Map<String, ConnectionId> remoteMap) {
+    public static void checkEndpoints(@NotNull Map<String, ConnectionId> remoteMap) {
         StringBuilder msg = new StringBuilder();
         for (Map.Entry<String, ConnectionId> entry : remoteMap.entrySet()) {
             Connection outConn = checkEndpoint(entry.getValue(), msg);
@@ -88,7 +90,7 @@ public class MyMovilityRPCClient {
      * @param msg contendra el mensaje de error si no se pudo establecer la conexion
      * @return <code>Connection</code> or <code>null</code>
      */
-    public static Connection checkEndpoint(ConnectionId endPoint, StringBuilder msg) {
+    public static Connection checkEndpoint(@NotNull ConnectionId endPoint, @NotNull StringBuilder msg) {
         try {
             ConnectionManager connM = controller.getConnectionManager();              // El administrador de Conexiones
             Connection outConn = connM.getConnection(endPoint);
@@ -108,7 +110,7 @@ public class MyMovilityRPCClient {
      *
      * @see com.enroquesw.mcs.comm.mobilityRPC.enums.SystemName
      */
-    public static ConnectionId getEndPointByRemoteName(String remoteName){
+    public static ConnectionId getEndPointByRemoteName(@Nullable String remoteName){
         if(remoteMap == null || !remoteMap.containsKey(remoteName)) return null;
         return remoteMap.get(remoteName);
     }
@@ -126,7 +128,7 @@ public class MyMovilityRPCClient {
      * @param connOut <code>Connection</code> la conexion saliente
      * @return el numero de puerto local asociado
      */
-    public static int getLocalPort(/*TCPConnection*/Connection connOut)  {
+    public static int getLocalPort(@NotNull Connection connOut)  {
         try {
             TCPConnection connInner = (TCPConnection) connOut;
             Field socket = connInner.getClass().getDeclaredField("socket");
@@ -134,7 +136,7 @@ public class MyMovilityRPCClient {
             Socket o = (Socket) socket.get(connInner);
             return o.getLocalPort();
         } catch (Exception e) {
-            e.printStackTrace();
+            Log.error(e.getMessage());
         }
         return 0;
     }

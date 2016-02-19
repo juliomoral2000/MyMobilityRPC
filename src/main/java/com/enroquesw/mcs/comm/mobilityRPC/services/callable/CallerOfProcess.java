@@ -25,6 +25,7 @@ import com.enroquesw.mcs.comm.mobilityRPC.services.result.ErrorResponse;
 import com.enroquesw.mcs.comm.mobilityRPC.services.result.ProcessResponse;
 import com.googlecode.mobilityrpc.network.ConnectionId;
 import com.googlecode.mobilityrpc.protocol.pojo.ExecutionMode;
+import com.sun.istack.internal.Nullable;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
@@ -107,11 +108,11 @@ public abstract class CallerOfProcess<V extends CallerOfProcess, Y extends Proce
         return null;
     }
 
-    public static <V extends CallerOfProcess, Y extends ProcessParameter, T extends Object> T executeCalling(Class<V> callerClass, Y parameter, SystemName remoteSystemName, boolean isBase) throws ServiceBaseException {
+    public static <V extends CallerOfProcess, Y extends ProcessParameter, T extends Object> T executeCalling(Class<V> callerClass, Y parameter, @Nullable SystemName remoteSystemName, boolean isBase) throws ServiceBaseException {
         return (T) executeCalling(callerClass, parameter, remoteSystemName, null, isBase);
     }
 
-    public static <V extends CallerOfProcess, Y extends ProcessParameter, T extends Object> T executeCalling(Class<V> callerClass, Y parameter, SystemName remoteSystemName, CallType callType, boolean isBase) throws ServiceBaseException {
+    public static <V extends CallerOfProcess, Y extends ProcessParameter, T extends Object> T executeCalling(Class<V> callerClass, Y parameter, @Nullable SystemName remoteSystemName, CallType callType, boolean isBase) throws ServiceBaseException {
         if(remoteSystemName == null) throw new ServiceBaseException("RPC-500", "El Sistema Remoto no puede ser nulo para invocar a ".concat(callerClass.getSimpleName()));
         V callerInstance = (V) getInstance(callerClass, parameter);
         ConnectionId connectionId = null;

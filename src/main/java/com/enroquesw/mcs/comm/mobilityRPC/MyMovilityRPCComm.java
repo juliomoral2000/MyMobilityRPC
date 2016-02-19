@@ -28,6 +28,8 @@ import com.googlecode.mobilityrpc.network.impl.ConnectionListenerInternal;
 import com.googlecode.mobilityrpc.network.impl.ConnectionManagerImpl;
 import com.googlecode.mobilityrpc.network.impl.tcp.TCPConnectionListener;
 import com.googlecode.mobilityrpc.quickstart.EmbeddedMobilityServer;
+import com.sun.istack.internal.NotNull;
+import com.sun.istack.internal.Nullable;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;
@@ -73,7 +75,7 @@ public class MyMovilityRPCComm {
      * @param myStartThreadIn {@link Thread} que inicio a este contexto de comunicacion
      * @throws Exception
      */
-    public static void init(String hostIp, Integer port, Map<String, ConnectionId> clientsToCall, SystemName serverSystemName, List<ProcessorRegister> proccesorsX, List<CallerRegister> callersX, Thread myStartThreadIn) throws Exception{
+    public static void init(@Nullable String hostIp, @Nullable Integer port, @Nullable Map<String, ConnectionId> clientsToCall, @NotNull SystemName serverSystemName, @NotNull List<ProcessorRegister> proccesorsX, @NotNull List<CallerRegister> callersX, @Nullable Thread myStartThreadIn) throws Exception{
         try {
             proccesors = proccesorsX;
             callers = callersX;
@@ -98,7 +100,7 @@ public class MyMovilityRPCComm {
      * @param myStartThread {@link Thread} que inicio a este contexto de comunicacion
      * @throws Exception
      */
-    public static void init(String hostIp, Integer port, Map<String, ConnectionId> clientsToCall, SystemName serverSystemName, Thread myStartThread) throws Exception{
+    public static void init(@Nullable String hostIp, @Nullable Integer port, Map<String, ConnectionId> clientsToCall, @NotNull SystemName serverSystemName, @Nullable Thread myStartThread) throws Exception{
         init(hostIp, port, clientsToCall, serverSystemName, new ArrayList<ProcessorRegister>(), new ArrayList<CallerRegister>(), myStartThread);
     }
     /******************************************************************************************************************/
@@ -118,7 +120,7 @@ public class MyMovilityRPCComm {
      * @param endPoint Conexion
      * @return <code>TCPConnectionListener</code> o listener de conexion asociado
      */
-    public static TCPConnectionListener getConnListener(MobilityController controller, ConnectionId endPoint) { //Estos se registran en el servidor (escuchan)
+    public static TCPConnectionListener getConnListener(@NotNull MobilityController controller, @NotNull ConnectionId endPoint) { //Estos se registran en el servidor (escuchan)
         try {
             ConnectionManagerImpl connectionManager = (ConnectionManagerImpl) controller.getConnectionManager();
             Field map = connectionManager.getClass().getDeclaredField("incomingConnectionListeners");
@@ -151,10 +153,9 @@ public class MyMovilityRPCComm {
      * @param remoteEndpointId El {@link ConnectionId} de la conexion a verificar
      * @return <code>true</code>: exitoso la conexion or <code>false</code>: fallo la conexion
      */
-    public static boolean checkEndpoint(ConnectionId remoteEndpointId) {
+    public static boolean checkEndpoint(@NotNull ConnectionId remoteEndpointId) {
         Connection outConn = MyMovilityRPCClient.checkEndpoint(remoteEndpointId, new StringBuilder());
         boolean isOk = outConn != null;
-        //if(outConn != null) ((TCPConnection) outConn).destroy();
         return isOk;
     }
 

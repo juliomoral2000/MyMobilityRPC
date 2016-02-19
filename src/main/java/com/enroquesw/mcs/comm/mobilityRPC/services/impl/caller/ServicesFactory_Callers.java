@@ -22,6 +22,7 @@ import com.enroquesw.mcs.comm.mobilityRPC.services.callable.CallerOfProcess;
 import com.enroquesw.mcs.comm.mobilityRPC.services.factory.CallerRegister;
 import com.enroquesw.mcs.comm.mobilityRPC.services.factory.ProcessorRegister;
 import com.enroquesw.mcs.comm.mobilityRPC.services.parameter.ProcessParameter;
+import com.sun.istack.internal.Nullable;
 
 import java.util.List;
 
@@ -40,7 +41,7 @@ public class ServicesFactory_Callers <P extends ProcessParameter>{
      * @return List<ProcessorRegister>
      * @throws Exception
      */
-    public static List<ProcessorRegister> fetchProcessorRegistersFromServer(SystemName remoteSystemName) throws Exception {
+    public static List<ProcessorRegister> fetchProcessorRegistersFromServer(@Nullable SystemName remoteSystemName) throws Exception {
         return ServicesBaseExecutor.executeCalling(FetchProcessorRegistersFromCaller.class, MyMovilityRPCComm.getServerSystemName(), remoteSystemName, true);
     }
 
@@ -50,7 +51,7 @@ public class ServicesFactory_Callers <P extends ProcessParameter>{
      * @return List<CallerRegister>
      * @throws Exception
      */
-    public static List<CallerRegister> fetchCallerRegistersFromServer(SystemName remoteSystemName) throws Exception {
+    public static List<CallerRegister> fetchCallerRegistersFromServer(@Nullable SystemName remoteSystemName) throws Exception {
         return ServicesBaseExecutor.executeCalling(FetchCallerRegistersFromServer.class, MyMovilityRPCComm.getServerSystemName(), remoteSystemName, true);
     }
 
