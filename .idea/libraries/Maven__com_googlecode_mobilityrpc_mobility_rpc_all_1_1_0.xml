@@ -1,13 +1,13 @@
 <component name="libraryTable">
-  <library name="Maven: com.googlecode.mobilityrpc:mobility-rpc-all:1.1.0">
+  <library name="Maven: com.googlecode.mobilityrpc:mobility-rpc:all:1.1.0">
     <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc-all/1.1.0/mobility-rpc-all-1.1.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.1.0/mobility-rpc-1.1.0-all.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc-all/1.1.0/mobility-rpc-all-1.1.0-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.1.0/mobility-rpc-1.1.0-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc-all/1.1.0/mobility-rpc-all-1.1.0-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.1.0/mobility-rpc-1.1.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

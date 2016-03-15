@@ -22,9 +22,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="Maven: com.googlecode.mobilityrpc:mobility-rpc-all:1.1.0" level="project" />
-    <orderEntry type="library" name="Maven: com.sun.istack:annotation:1.6" level="project" />
-    <orderEntry type="library" name="Maven: com.googlecode.mobilityrpc:mobility-rpc:sources:1.1.0" level="project" />
+    <orderEntry type="library" name="Maven: com.googlecode.mobilityrpc:mobility-rpc:all:1.1.0" level="project" />
     <orderEntry type="library" name="Maven: com.googlecode:kryo:1.04" level="project" />
     <orderEntry type="library" name="Maven: asm:asm:3.2" level="project" />
     <orderEntry type="library" name="Maven: com.googlecode:reflectasm:1.01" level="project" />
@@ -32,6 +30,8 @@
     <orderEntry type="library" name="Maven: de.javakaffee:kryo-serializers:0.9" level="project" />
     <orderEntry type="library" name="Maven: org.objenesis:objenesis:1.2" level="project" />
     <orderEntry type="library" name="Maven: com.google.protobuf:protobuf-java:2.4.1" level="project" />
+    <orderEntry type="library" name="Maven: com.googlecode.mobilityrpc:mobility-rpc:sources:1.1.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.sun.istack:annotation:1.6" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.1" level="project" />
   </component>
 </module>

@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list id="691eea3a-eace-45b6-b9ed-d3d3c8907164" name="Default" comment="" />
-    <list default="true" id="695dc323-f770-42cf-abce-47959d52a506" name="Inicial MobilityRPC_Test" comment="Cambios a la documentacion, falta probar:&#10;* Probar la llamada asincrona. &#10;Se modifico :&#10;El CallerOfProcess para poder invocar desde cualquier sistema los servicios bases (Los definidos en ServicesFactory_Proccesors y ServicesFactory_Callers).&#10;En el POM ahora la dependencia del all.jar viene desde el repositorio central (lo installe en mi repositorio local traves de linea de comando)&#10;&#10;&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/callable/CallerOfProcess.java" afterPath="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/callable/CallerOfProcess.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/client/MyMovilityRPCClient.java" afterPath="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/client/MyMovilityRPCClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/MyMovilityRPCComm.java" afterPath="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/MyMovilityRPCComm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/server/MyMovilityRPCServer.java" afterPath="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/server/MyMovilityRPCServer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/ServicesBaseExecutor.java" afterPath="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/ServicesBaseExecutor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/ServicesFactory_Callers.java" afterPath="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/ServicesFactory_Callers.java" />
+    <list default="true" id="695dc323-f770-42cf-abce-47959d52a506" name="Inicial MobilityRPC_Test" comment="Cambios a la documentacion, falta probar:&#10;* Probar la llamada asincrona. &#10;Se modifico :&#10;El CallerOfProcess para poder invocar desde cualquier sistema los servicios bases (Los definidos en ServicesFactory_Proccesors y ServicesFactory_Callers).&#10;En el POM ahora la dependencia del all.jar viene desde el repositorio central (lo installe en mi repositorio local traves de linea de comando). Agregue anotaciones de null y not null un roolo lo de la dependencia&#10;&#10;&#10;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_mobilityrpc_mobility_rpc_all_1_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_mobilityrpc_mobility_rpc_all_1_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MobilityRPC.iml" afterPath="$PROJECT_DIR$/MobilityRPC.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -50,27 +46,11 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16368286">
-              <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+            <state vertical-scroll-proportion="2.3517787">
+              <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
               <folding>
-                <element signature="n#properties#0;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#repositories#0;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#repository#0;n#repositories#0;n#project#0;n#!!top" expanded="true" />
                 <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#build#0;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#plugin#0;n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#configuration#0;n#plugin#0;n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#plugin#1;n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#executions#0;n#plugin#1;n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#execution#0;n#executions#0;n#plugin#1;n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#goals#0;n#execution#0;n#executions#0;n#plugin#1;n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#plugin#2;n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#executions#0;n#plugin#2;n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#execution#0;n#executions#0;n#plugin#2;n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="true" />
-                <element signature="n#goals#0;n#execution#0;n#executions#0;n#plugin#2;n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="true" />
+                <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,16 +62,33 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
               <folding>
-                <element signature="e#2303#2322#0" expanded="true" />
-                <element signature="initializer##0;class#MyMovilityRPCComm#0" expanded="true" />
-                <element signature="method#init#0;class#MyMovilityRPCComm#0" expanded="true" />
-                <element signature="method#init#1;class#MyMovilityRPCComm#0" expanded="true" />
-                <element signature="method#getConnListener#0;class#MyMovilityRPCComm#0" expanded="true" />
-                <element signature="docComment;method#checkEndpoint#0;class#MyMovilityRPCComm#0" expanded="true" />
-                <element signature="method#checkEndpoint#0;class#MyMovilityRPCComm#0" expanded="true" />
-                <element signature="method#getClients#0;class#MyMovilityRPCComm#0" expanded="true" />
-                <element signature="method#getProccesors#0;class#MyMovilityRPCComm#0" expanded="true" />
-                <element signature="method#destroy#0;class#MyMovilityRPCComm#0" expanded="true" />
+                <element signature="n#!!doc" expanded="false" />
+                <element signature="docComment;class#MyMovilityRPCComm#0" expanded="false" />
+                <element signature="initializer##0;class#MyMovilityRPCComm#0" expanded="false" />
+                <element signature="docComment;method#init#0;class#MyMovilityRPCComm#0" expanded="false" />
+                <element signature="method#init#0;class#MyMovilityRPCComm#0" expanded="false" />
+                <element signature="docComment;method#init#1;class#MyMovilityRPCComm#0" expanded="false" />
+                <element signature="method#init#1;class#MyMovilityRPCComm#0" expanded="false" />
+                <element signature="docComment;method#isServerRunning#0;class#MyMovilityRPCComm#0" expanded="false" />
+                <element signature="e#5786#5787#0" expanded="false" />
+                <element signature="e#5870#5871#0" expanded="false" />
+                <element signature="docComment;method#getConnListener#0;class#MyMovilityRPCComm#0" expanded="false" />
+                <element signature="method#getConnListener#0;class#MyMovilityRPCComm#0" expanded="false" />
+                <element signature="docComment;method#sleep#0;class#MyMovilityRPCComm#0" expanded="false" />
+                <element signature="method#sleep#0;class#MyMovilityRPCComm#0" expanded="false" />
+                <element signature="docComment;method#checkEndpoint#0;class#MyMovilityRPCComm#0" expanded="false" />
+                <element signature="method#checkEndpoint#0;class#MyMovilityRPCComm#0" expanded="false" />
+                <element signature="docComment;method#getServerSystemName#0;class#MyMovilityRPCComm#0" expanded="false" />
+                <element signature="e#8198#8199#0" expanded="false" />
+                <element signature="e#8257#8258#0" expanded="false" />
+                <element signature="docComment;method#getClients#0;class#MyMovilityRPCComm#0" expanded="false" />
+                <element signature="method#getClients#0;class#MyMovilityRPCComm#0" expanded="false" />
+                <element signature="docComment;method#getProccesors#0;class#MyMovilityRPCComm#0" expanded="false" />
+                <element signature="method#getProccesors#0;class#MyMovilityRPCComm#0" expanded="false" />
+                <element signature="docComment;method#getCallers#0;class#MyMovilityRPCComm#0" expanded="false" />
+                <element signature="method#getCallers#0;class#MyMovilityRPCComm#0" expanded="false" />
+                <element signature="docComment;method#destroy#0;class#MyMovilityRPCComm#0" expanded="false" />
+                <element signature="method#destroy#0;class#MyMovilityRPCComm#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -103,11 +100,27 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="108" column="43" selection-start-line="108" selection-start-column="43" selection-end-line="108" selection-end-column="43" />
               <folding>
-                <element signature="method#init#0;class#MyMovilityRPCServer#0" expanded="true" />
-                <element signature="method#getBindAddressesByHost#0;class#MyMovilityRPCServer#0" expanded="true" />
-                <element signature="method#createController#0;class#MyMovilityRPCServer#0" expanded="true" />
-                <element signature="e#5590#5938#0" expanded="true" />
-                <element signature="e#5937#5938#0" expanded="true" />
+                <element signature="n#!!doc" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="docComment;class#MyMovilityRPCServer#0" expanded="false" />
+                <element signature="e#2018#2026#0" expanded="false" />
+                <element signature="docComment;method#init#0;class#MyMovilityRPCServer#0" expanded="false" />
+                <element signature="method#init#0;class#MyMovilityRPCServer#0" expanded="false" />
+                <element signature="method#getBindAddressesByHost#0;class#MyMovilityRPCServer#0" expanded="false" />
+                <element signature="e#3802#3810#0" expanded="false" />
+                <element signature="method#createController#0;class#MyMovilityRPCServer#0" expanded="false" />
+                <element signature="e#5590#5938#0" expanded="false" />
+                <element signature="e#5937#5938#0" expanded="false" />
+                <element signature="docComment;method#getController#0;class#MyMovilityRPCServer#0" expanded="false" />
+                <element signature="e#6212#6213#0" expanded="false" />
+                <element signature="e#6245#6246#0" expanded="false" />
+                <element signature="docComment;method#getBindAddresses#0;class#MyMovilityRPCServer#0" expanded="false" />
+                <element signature="e#6451#6452#0" expanded="false" />
+                <element signature="e#6487#6488#0" expanded="false" />
+                <element signature="docComment;method#destroy#0;class#MyMovilityRPCServer#0" expanded="false" />
+                <element signature="method#destroy#0;class#MyMovilityRPCServer#0" expanded="false" />
+                <element signature="docComment;method#isRunning#0;class#MyMovilityRPCServer#0" expanded="false" />
+                <element signature="method#isRunning#0;class#MyMovilityRPCServer#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -117,14 +130,33 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/client/MyMovilityRPCClient.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="161" column="12" selection-start-line="161" selection-start-column="12" selection-end-line="161" selection-end-column="12" />
+              <caret line="92" column="29" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
               <folding>
-                <element signature="method#init#0;class#MyMovilityRPCClient#0" expanded="true" />
-                <element signature="method#checkEndpoints#0;class#MyMovilityRPCClient#0" expanded="true" />
-                <element signature="method#checkEndpoint#0;class#MyMovilityRPCClient#0" expanded="true" />
-                <element signature="method#getEndPointByRemoteName#0;class#MyMovilityRPCClient#0" expanded="true" />
-                <element signature="method#getLocalPort#0;class#MyMovilityRPCClient#0" expanded="true" />
-                <element signature="method#destroy#0;class#MyMovilityRPCClient#0" expanded="true" />
+                <element signature="n#!!doc" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="docComment;class#MyMovilityRPCClient#0" expanded="false" />
+                <element signature="docComment;field#controller#0;class#MyMovilityRPCClient#0" expanded="false" />
+                <element signature="docComment;field#remoteMap#0;class#MyMovilityRPCClient#0" expanded="false" />
+                <element signature="docComment;field#session#0;class#MyMovilityRPCClient#0" expanded="false" />
+                <element signature="docComment;method#init#0;class#MyMovilityRPCClient#0" expanded="false" />
+                <element signature="method#init#0;class#MyMovilityRPCClient#0" expanded="false" />
+                <element signature="docComment;method#checkEndpoints#0;class#MyMovilityRPCClient#0" expanded="false" />
+                <element signature="method#checkEndpoints#0;class#MyMovilityRPCClient#0" expanded="false" />
+                <element signature="docComment;method#checkEndpoint#0;class#MyMovilityRPCClient#0" expanded="false" />
+                <element signature="method#checkEndpoint#0;class#MyMovilityRPCClient#0" expanded="false" />
+                <element signature="docComment;method#getEndPointByRemoteName#0;class#MyMovilityRPCClient#0" expanded="false" />
+                <element signature="method#getEndPointByRemoteName#0;class#MyMovilityRPCClient#0" expanded="false" />
+                <element signature="docComment;method#getSession#0;class#MyMovilityRPCClient#0" expanded="false" />
+                <element signature="e#6572#6573#0" expanded="false" />
+                <element signature="e#6602#6603#0" expanded="false" />
+                <element signature="docComment;method#getLocalPort#0;class#MyMovilityRPCClient#0" expanded="false" />
+                <element signature="method#getLocalPort#0;class#MyMovilityRPCClient#0" expanded="false" />
+                <element signature="docComment;method#destroy#0;class#MyMovilityRPCClient#0" expanded="false" />
+                <element signature="method#destroy#0;class#MyMovilityRPCClient#0" expanded="false" />
+                <element signature="docComment;class#SessionReleasingRunnable#0;class#MyMovilityRPCClient#0" expanded="false" />
+                <element signature="class#SessionReleasingRunnable#0;class#MyMovilityRPCClient#0" expanded="false" />
+                <element signature="method#SessionReleasingRunnable#0;class#SessionReleasingRunnable#0;class#MyMovilityRPCClient#0" expanded="false" />
+                <element signature="method#run#0;class#SessionReleasingRunnable#0;class#MyMovilityRPCClient#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -134,7 +166,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/callable/CallerOfProcess.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
+              <caret line="136" column="20" selection-start-line="136" selection-start-column="20" selection-end-line="136" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#CallerOfProcess#0;class#CallerOfProcess#0" expanded="true" />
@@ -143,7 +175,6 @@
                 <element signature="method#call#0;class#CallerOfProcess#0" expanded="true" />
                 <element signature="method#getInstance#0;class#CallerOfProcess#0" expanded="true" />
                 <element signature="method#executeCalling#0;class#CallerOfProcess#0" expanded="true" />
-                <element signature="method#executeCalling#1;class#CallerOfProcess#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -155,7 +186,16 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
               <folding>
-                <element signature="docComment;method#startMyMovilityRPCCommRunner#0;class#MyMovilityRPCCommRunner#0" expanded="true" />
+                <element signature="n#!!doc" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="docComment;class#MyMovilityRPCCommRunner#0" expanded="false" />
+                <element signature="e#1827#1846#0" expanded="false" />
+                <element signature="e#1906#1922#0" expanded="false" />
+                <element signature="docComment;method#startMyMovilityRPCCommRunner#0;class#MyMovilityRPCCommRunner#0" expanded="false" />
+                <element signature="method#startMyMovilityRPCCommRunner#0;class#MyMovilityRPCCommRunner#0" expanded="false" />
+                <element signature="method#startMyMovilityRPCCommRunner#1;class#MyMovilityRPCCommRunner#0" expanded="false" />
+                <element signature="method#MyMovilityRPCCommRunner#0;class#MyMovilityRPCCommRunner#0" expanded="false" />
+                <element signature="method#run#0;class#MyMovilityRPCCommRunner#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -167,16 +207,19 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="docComment;class#ServicesFactory_Callers#0" expanded="true" />
-                <element signature="docComment;method#fetchProcessorRegistersFromServer#0;class#ServicesFactory_Callers#0" expanded="true" />
-                <element signature="method#fetchProcessorRegistersFromServer#0;class#ServicesFactory_Callers#0" expanded="true" />
-                <element signature="e#1968#1972#0" expanded="true" />
-                <element signature="docComment;method#fetchCallerRegistersFromServer#0;class#ServicesFactory_Callers#0" expanded="true" />
-                <element signature="method#fetchCallerRegistersFromServer#0;class#ServicesFactory_Callers#0" expanded="true" />
-                <element signature="e#2373#2377#0" expanded="true" />
-                <element signature="class#FetchProcessorRegistersFromCaller#0;class#ServicesFactory_Callers#0" expanded="true" />
-                <element signature="method#FetchProcessorRegistersFromCaller#0;class#FetchProcessorRegistersFromCaller#0;class#ServicesFactory_Callers#0" expanded="true" />
+                <element signature="n#!!doc" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="docComment;class#ServicesFactory_Callers#0" expanded="false" />
+                <element signature="docComment;method#fetchProcessorRegistersFromServer#0;class#ServicesFactory_Callers#0" expanded="false" />
+                <element signature="method#fetchProcessorRegistersFromServer#0;class#ServicesFactory_Callers#0" expanded="false" />
+                <element signature="docComment;method#fetchCallerRegistersFromServer#0;class#ServicesFactory_Callers#0" expanded="false" />
+                <element signature="method#fetchCallerRegistersFromServer#0;class#ServicesFactory_Callers#0" expanded="false" />
+                <element signature="docComment;class#FetchProcessorRegistersFromCaller#0;class#ServicesFactory_Callers#0" expanded="false" />
+                <element signature="class#FetchProcessorRegistersFromCaller#0;class#ServicesFactory_Callers#0" expanded="false" />
+                <element signature="method#FetchProcessorRegistersFromCaller#0;class#FetchProcessorRegistersFromCaller#0;class#ServicesFactory_Callers#0" expanded="false" />
+                <element signature="docComment;class#FetchCallerRegistersFromServer#0;class#ServicesFactory_Callers#0" expanded="false" />
+                <element signature="class#FetchCallerRegistersFromServer#0;class#ServicesFactory_Callers#0" expanded="false" />
+                <element signature="method#FetchCallerRegistersFromServer#0;class#FetchCallerRegistersFromServer#0;class#ServicesFactory_Callers#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -188,15 +231,20 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#executeProcessor#0;class#ServicesBaseExecutor#0" expanded="true" />
-                <element signature="docComment;method#executeCalling#0;class#ServicesBaseExecutor#0" expanded="true" />
-                <element signature="method#executeCalling#0;class#ServicesBaseExecutor#0" expanded="true" />
-                <element signature="e#4632#4637#0" expanded="true" />
-                <element signature="docComment;method#executeCalling#1;class#ServicesBaseExecutor#0" expanded="true" />
-                <element signature="method#executeCalling#1;class#ServicesBaseExecutor#0" expanded="true" />
-                <element signature="method#executeCalling#2;class#ServicesBaseExecutor#0" expanded="true" />
-                <element signature="method#callXXXProcess#0;class#ServicesBaseExecutor#0" expanded="true" />
+                <element signature="n#!!doc" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="docComment;class#ServicesBaseExecutor#0" expanded="false" />
+                <element signature="docComment;method#executeProcessor#0;class#ServicesBaseExecutor#0" expanded="false" />
+                <element signature="method#executeProcessor#0;class#ServicesBaseExecutor#0" expanded="false" />
+                <element signature="docComment;method#executeCalling#0;class#ServicesBaseExecutor#0" expanded="false" />
+                <element signature="method#executeCalling#0;class#ServicesBaseExecutor#0" expanded="false" />
+                <element signature="docComment;method#executeCalling#1;class#ServicesBaseExecutor#0" expanded="false" />
+                <element signature="method#executeCalling#1;class#ServicesBaseExecutor#0" expanded="false" />
+                <element signature="docComment;method#executeCalling#2;class#ServicesBaseExecutor#0" expanded="false" />
+                <element signature="method#executeCalling#2;class#ServicesBaseExecutor#0" expanded="false" />
+                <element signature="method#callXXXProcess#0;class#ServicesBaseExecutor#0" expanded="false" />
+                <element signature="method#getClassArray#0;class#ServicesBaseExecutor#0" expanded="false" />
+                <element signature="method#getArrayParam#0;class#ServicesBaseExecutor#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -271,10 +319,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/impl/processor/ServicesFactory_Proccesors.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/ServicesFactory_Callers.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/ServicesBaseExecutor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/callable/CallerOfProcess.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/MyMovilityRPCComm.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/server/MyMovilityRPCServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/client/MyMovilityRPCClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/callable/CallerOfProcess.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
@@ -347,10 +395,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="1942" />
-    <option name="height" value="1046" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -379,7 +427,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -390,21 +438,7 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MobilityRPC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
@@ -882,7 +916,14 @@
       <workItem from="1455657403710" duration="1132000" />
       <workItem from="1455727140588" duration="732000" />
       <workItem from="1455730343186" duration="12796000" />
-      <workItem from="1455860715241" duration="4021000" />
+      <workItem from="1455860715241" duration="4437000" />
+      <workItem from="1455865528266" duration="1271000" />
+      <workItem from="1455896623346" duration="38000" />
+      <workItem from="1455898626218" duration="758000" />
+      <workItem from="1455919233252" duration="40000" />
+      <workItem from="1457679563705" duration="22000" />
+      <workItem from="1457920033360" duration="22000" />
+      <workItem from="1458065219385" duration="2086000" />
     </task>
     <task id="LOCAL-00001" summary="Mi proyecto base para crear el cliente">
       <created>1452821480992</created>
@@ -1010,11 +1051,23 @@
       <option name="project" value="LOCAL" />
       <updated>1455752144612</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Cambios a la documentacion, falta probar:&#10;* Probar la llamada asincrona. &#10;Se modifico :&#10;El CallerOfProcess para poder invocar desde cualquier sistema los servicios bases (Los definidos en ServicesFactory_Proccesors y ServicesFactory_Callers).&#10;En el POM ahora la dependencia del all.jar viene desde el repositorio central (lo installe en mi repositorio local traves de linea de comando). Agregue anotaciones de null y not null un roolo lo de la dependencia&#10;&#10;&#10;">
+      <created>1455864785443</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1455864785443</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Cambios a la documentacion, falta probar:&#10;* Probar la llamada asincrona. &#10;Se modifico :&#10;El CallerOfProcess para poder invocar desde cualquier sistema los servicios bases (Los definidos en ServicesFactory_Proccesors y ServicesFactory_Callers).&#10;En el POM ahora la dependencia del all.jar viene desde el repositorio central (lo installe en mi repositorio local traves de linea de comando). Agregue anotaciones de null y not null un roolo lo de la dependencia&#10;&#10;&#10;">
+      <created>1455864809299</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1455864809299</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="390413000" />
+    <option name="totallyTimeSpent" value="395066000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1026,30 +1079,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1046" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="true" internal_type="SLIDING" type="FLOATING" visible="false" weight="0.32975295" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" x="67" y="46" width="760" height="558" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32665095" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4334471" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24659607" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24583964" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4764151" sideWeight="0.4969743" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3208191" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4893868" sideWeight="0.49409238" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.48634812" sideWeight="0.49409238" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900944" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.367884" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37367624" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30451128" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.8136792" sideWeight="0.49394855" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.57337886" sideWeight="0.49394855" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="true" internal_type="SLIDING" type="FLOATING" visible="false" weight="0.32975295" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" x="67" y="46" width="760" height="558" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4334471" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5825472" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1057,18 +1110,18 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3993174" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="92" y="92" width="1182" height="544" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270869" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7063679" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33282906" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1117,7 +1170,8 @@
     <MESSAGE value="Archivos del Idea" />
     <MESSAGE value="Cambios a la documentacion, falta:&#10;* Probar la llamada asincrona. &#10;&#10;" />
     <MESSAGE value="Cambios a la documentacion, falta probar:&#10;* Probar la llamada asincrona. &#10;Se modifico :&#10;El CallerOfProcess para poder invocar desde cualquier sistema los servicios bases (Los definidos en ServicesFactory_Proccesors y ServicesFactory_Callers).&#10;En el POM ahora la dependencia del all.jar viene desde el repositorio central (lo installe en mi repositorio local traves de linea de comando)&#10;&#10;&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cambios a la documentacion, falta probar:&#10;* Probar la llamada asincrona. &#10;Se modifico :&#10;El CallerOfProcess para poder invocar desde cualquier sistema los servicios bases (Los definidos en ServicesFactory_Proccesors y ServicesFactory_Callers).&#10;En el POM ahora la dependencia del all.jar viene desde el repositorio central (lo installe en mi repositorio local traves de linea de comando)&#10;&#10;&#10;" />
+    <MESSAGE value="Cambios a la documentacion, falta probar:&#10;* Probar la llamada asincrona. &#10;Se modifico :&#10;El CallerOfProcess para poder invocar desde cualquier sistema los servicios bases (Los definidos en ServicesFactory_Proccesors y ServicesFactory_Callers).&#10;En el POM ahora la dependencia del all.jar viene desde el repositorio central (lo installe en mi repositorio local traves de linea de comando). Agregue anotaciones de null y not null un roolo lo de la dependencia&#10;&#10;&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambios a la documentacion, falta probar:&#10;* Probar la llamada asincrona. &#10;Se modifico :&#10;El CallerOfProcess para poder invocar desde cualquier sistema los servicios bases (Los definidos en ServicesFactory_Proccesors y ServicesFactory_Callers).&#10;En el POM ahora la dependencia del all.jar viene desde el repositorio central (lo installe en mi repositorio local traves de linea de comando). Agregue anotaciones de null y not null un roolo lo de la dependencia&#10;&#10;&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2186,7 +2240,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2224,9 +2277,9 @@
         <state vertical-scroll-proportion="0.6370107">
           <caret line="46" column="44" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
           <folding>
-            <element signature="method#setUp#0;class#MyMovilityRPCCommTest#0" expanded="true" />
-            <element signature="method#testMain#0;class#MyMovilityRPCCommTest#0" expanded="true" />
-            <element signature="method#getMapClients#0;class#MyMovilityRPCCommTest#0" expanded="true" />
+            <element signature="method#setUp#0;class#MyMovilityRPCCommTest#0" expanded="false" />
+            <element signature="method#testMain#0;class#MyMovilityRPCCommTest#0" expanded="false" />
+            <element signature="method#getMapClients#0;class#MyMovilityRPCCommTest#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2236,9 +2289,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="101" column="22" selection-start-line="101" selection-start-column="22" selection-end-line="101" selection-end-column="22" />
           <folding>
-            <element signature="method#setCodUniqOfService#0;class#CallerRegister#0" expanded="true" />
-            <element signature="e#6155#6156#0" expanded="true" />
-            <element signature="e#6190#6191#0" expanded="true" />
+            <element signature="method#setCodUniqOfService#0;class#CallerRegister#0" expanded="false" />
+            <element signature="e#6155#6156#0" expanded="false" />
+            <element signature="e#6190#6191#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2248,10 +2301,10 @@
         <state vertical-scroll-proportion="4.7785234">
           <caret line="78" column="5" selection-start-line="73" selection-start-column="4" selection-end-line="78" selection-end-column="5" />
           <folding>
-            <element signature="method#setUp#0;class#MyMovilityRPCClientTest#0" expanded="true" />
-            <element signature="method#tearDown#0;class#MyMovilityRPCClientTest#0" expanded="true" />
-            <element signature="method#testMain#0;class#MyMovilityRPCClientTest#0" expanded="true" />
-            <element signature="method#test_ServicesFactoryProccesor#0;class#MyMovilityRPCClientTest#0" expanded="true" />
+            <element signature="method#setUp#0;class#MyMovilityRPCClientTest#0" expanded="false" />
+            <element signature="method#tearDown#0;class#MyMovilityRPCClientTest#0" expanded="false" />
+            <element signature="method#testMain#0;class#MyMovilityRPCClientTest#0" expanded="false" />
+            <element signature="method#test_ServicesFactoryProccesor#0;class#MyMovilityRPCClientTest#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2260,12 +2313,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;method#getSystemId#0;class#SystemName#0" expanded="true" />
-            <element signature="docComment;method#getSystemName#0;class#SystemName#0" expanded="true" />
-            <element signature="docComment;method#getByName#0;class#SystemName#0" expanded="true" />
-            <element signature="docComment;method#getById#0;class#SystemName#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2274,7 +2321,7 @@
         <state vertical-scroll-proportion="0.18058968">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2284,7 +2331,16 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
           <folding>
-            <element signature="docComment;method#startMyMovilityRPCCommRunner#0;class#MyMovilityRPCCommRunner#0" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#MyMovilityRPCCommRunner#0" expanded="false" />
+            <element signature="e#1827#1846#0" expanded="false" />
+            <element signature="e#1906#1922#0" expanded="false" />
+            <element signature="docComment;method#startMyMovilityRPCCommRunner#0;class#MyMovilityRPCCommRunner#0" expanded="false" />
+            <element signature="method#startMyMovilityRPCCommRunner#0;class#MyMovilityRPCCommRunner#0" expanded="false" />
+            <element signature="method#startMyMovilityRPCCommRunner#1;class#MyMovilityRPCCommRunner#0" expanded="false" />
+            <element signature="method#MyMovilityRPCCommRunner#0;class#MyMovilityRPCCommRunner#0" expanded="false" />
+            <element signature="method#run#0;class#MyMovilityRPCCommRunner#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2294,15 +2350,20 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#executeProcessor#0;class#ServicesBaseExecutor#0" expanded="true" />
-            <element signature="docComment;method#executeCalling#0;class#ServicesBaseExecutor#0" expanded="true" />
-            <element signature="method#executeCalling#0;class#ServicesBaseExecutor#0" expanded="true" />
-            <element signature="e#4632#4637#0" expanded="true" />
-            <element signature="docComment;method#executeCalling#1;class#ServicesBaseExecutor#0" expanded="true" />
-            <element signature="method#executeCalling#1;class#ServicesBaseExecutor#0" expanded="true" />
-            <element signature="method#executeCalling#2;class#ServicesBaseExecutor#0" expanded="true" />
-            <element signature="method#callXXXProcess#0;class#ServicesBaseExecutor#0" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#ServicesBaseExecutor#0" expanded="false" />
+            <element signature="docComment;method#executeProcessor#0;class#ServicesBaseExecutor#0" expanded="false" />
+            <element signature="method#executeProcessor#0;class#ServicesBaseExecutor#0" expanded="false" />
+            <element signature="docComment;method#executeCalling#0;class#ServicesBaseExecutor#0" expanded="false" />
+            <element signature="method#executeCalling#0;class#ServicesBaseExecutor#0" expanded="false" />
+            <element signature="docComment;method#executeCalling#1;class#ServicesBaseExecutor#0" expanded="false" />
+            <element signature="method#executeCalling#1;class#ServicesBaseExecutor#0" expanded="false" />
+            <element signature="docComment;method#executeCalling#2;class#ServicesBaseExecutor#0" expanded="false" />
+            <element signature="method#executeCalling#2;class#ServicesBaseExecutor#0" expanded="false" />
+            <element signature="method#callXXXProcess#0;class#ServicesBaseExecutor#0" expanded="false" />
+            <element signature="method#getClassArray#0;class#ServicesBaseExecutor#0" expanded="false" />
+            <element signature="method#getArrayParam#0;class#ServicesBaseExecutor#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2312,16 +2373,19 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#ServicesFactory_Callers#0" expanded="true" />
-            <element signature="docComment;method#fetchProcessorRegistersFromServer#0;class#ServicesFactory_Callers#0" expanded="true" />
-            <element signature="method#fetchProcessorRegistersFromServer#0;class#ServicesFactory_Callers#0" expanded="true" />
-            <element signature="e#1968#1972#0" expanded="true" />
-            <element signature="docComment;method#fetchCallerRegistersFromServer#0;class#ServicesFactory_Callers#0" expanded="true" />
-            <element signature="method#fetchCallerRegistersFromServer#0;class#ServicesFactory_Callers#0" expanded="true" />
-            <element signature="e#2373#2377#0" expanded="true" />
-            <element signature="class#FetchProcessorRegistersFromCaller#0;class#ServicesFactory_Callers#0" expanded="true" />
-            <element signature="method#FetchProcessorRegistersFromCaller#0;class#FetchProcessorRegistersFromCaller#0;class#ServicesFactory_Callers#0" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#ServicesFactory_Callers#0" expanded="false" />
+            <element signature="docComment;method#fetchProcessorRegistersFromServer#0;class#ServicesFactory_Callers#0" expanded="false" />
+            <element signature="method#fetchProcessorRegistersFromServer#0;class#ServicesFactory_Callers#0" expanded="false" />
+            <element signature="docComment;method#fetchCallerRegistersFromServer#0;class#ServicesFactory_Callers#0" expanded="false" />
+            <element signature="method#fetchCallerRegistersFromServer#0;class#ServicesFactory_Callers#0" expanded="false" />
+            <element signature="docComment;class#FetchProcessorRegistersFromCaller#0;class#ServicesFactory_Callers#0" expanded="false" />
+            <element signature="class#FetchProcessorRegistersFromCaller#0;class#ServicesFactory_Callers#0" expanded="false" />
+            <element signature="method#FetchProcessorRegistersFromCaller#0;class#FetchProcessorRegistersFromCaller#0;class#ServicesFactory_Callers#0" expanded="false" />
+            <element signature="docComment;class#FetchCallerRegistersFromServer#0;class#ServicesFactory_Callers#0" expanded="false" />
+            <element signature="class#FetchCallerRegistersFromServer#0;class#ServicesFactory_Callers#0" expanded="false" />
+            <element signature="method#FetchCallerRegistersFromServer#0;class#FetchCallerRegistersFromServer#0;class#ServicesFactory_Callers#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2331,43 +2395,27 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="108" column="43" selection-start-line="108" selection-start-column="43" selection-end-line="108" selection-end-column="43" />
           <folding>
-            <element signature="method#init#0;class#MyMovilityRPCServer#0" expanded="true" />
-            <element signature="method#getBindAddressesByHost#0;class#MyMovilityRPCServer#0" expanded="true" />
-            <element signature="method#createController#0;class#MyMovilityRPCServer#0" expanded="true" />
-            <element signature="e#5590#5938#0" expanded="true" />
-            <element signature="e#5937#5938#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/client/MyMovilityRPCClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="161" column="12" selection-start-line="161" selection-start-column="12" selection-end-line="161" selection-end-column="12" />
-          <folding>
-            <element signature="method#init#0;class#MyMovilityRPCClient#0" expanded="true" />
-            <element signature="method#checkEndpoints#0;class#MyMovilityRPCClient#0" expanded="true" />
-            <element signature="method#checkEndpoint#0;class#MyMovilityRPCClient#0" expanded="true" />
-            <element signature="method#getEndPointByRemoteName#0;class#MyMovilityRPCClient#0" expanded="true" />
-            <element signature="method#getLocalPort#0;class#MyMovilityRPCClient#0" expanded="true" />
-            <element signature="method#destroy#0;class#MyMovilityRPCClient#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/callable/CallerOfProcess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#CallerOfProcess#0;class#CallerOfProcess#0" expanded="true" />
-            <element signature="method#getCodUniqOfService#0;class#CallerOfProcess#0" expanded="true" />
-            <element signature="method#setRemote#0;class#CallerOfProcess#0" expanded="true" />
-            <element signature="method#call#0;class#CallerOfProcess#0" expanded="true" />
-            <element signature="method#getInstance#0;class#CallerOfProcess#0" expanded="true" />
-            <element signature="method#executeCalling#0;class#CallerOfProcess#0" expanded="true" />
-            <element signature="method#executeCalling#1;class#CallerOfProcess#0" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#MyMovilityRPCServer#0" expanded="false" />
+            <element signature="e#2018#2026#0" expanded="false" />
+            <element signature="docComment;method#init#0;class#MyMovilityRPCServer#0" expanded="false" />
+            <element signature="method#init#0;class#MyMovilityRPCServer#0" expanded="false" />
+            <element signature="method#getBindAddressesByHost#0;class#MyMovilityRPCServer#0" expanded="false" />
+            <element signature="e#3802#3810#0" expanded="false" />
+            <element signature="method#createController#0;class#MyMovilityRPCServer#0" expanded="false" />
+            <element signature="e#5590#5938#0" expanded="false" />
+            <element signature="e#5937#5938#0" expanded="false" />
+            <element signature="docComment;method#getController#0;class#MyMovilityRPCServer#0" expanded="false" />
+            <element signature="e#6212#6213#0" expanded="false" />
+            <element signature="e#6245#6246#0" expanded="false" />
+            <element signature="docComment;method#getBindAddresses#0;class#MyMovilityRPCServer#0" expanded="false" />
+            <element signature="e#6451#6452#0" expanded="false" />
+            <element signature="e#6487#6488#0" expanded="false" />
+            <element signature="docComment;method#destroy#0;class#MyMovilityRPCServer#0" expanded="false" />
+            <element signature="method#destroy#0;class#MyMovilityRPCServer#0" expanded="false" />
+            <element signature="docComment;method#isRunning#0;class#MyMovilityRPCServer#0" expanded="false" />
+            <element signature="method#isRunning#0;class#MyMovilityRPCServer#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2376,7 +2424,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28118813">
           <caret line="7" column="26" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2384,7 +2431,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.37100214">
           <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2393,43 +2439,94 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
           <folding>
-            <element signature="e#2303#2322#0" expanded="true" />
-            <element signature="initializer##0;class#MyMovilityRPCComm#0" expanded="true" />
-            <element signature="method#init#0;class#MyMovilityRPCComm#0" expanded="true" />
-            <element signature="method#init#1;class#MyMovilityRPCComm#0" expanded="true" />
-            <element signature="method#getConnListener#0;class#MyMovilityRPCComm#0" expanded="true" />
-            <element signature="docComment;method#checkEndpoint#0;class#MyMovilityRPCComm#0" expanded="true" />
-            <element signature="method#checkEndpoint#0;class#MyMovilityRPCComm#0" expanded="true" />
-            <element signature="method#getClients#0;class#MyMovilityRPCComm#0" expanded="true" />
-            <element signature="method#getProccesors#0;class#MyMovilityRPCComm#0" expanded="true" />
-            <element signature="method#destroy#0;class#MyMovilityRPCComm#0" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="docComment;class#MyMovilityRPCComm#0" expanded="false" />
+            <element signature="initializer##0;class#MyMovilityRPCComm#0" expanded="false" />
+            <element signature="docComment;method#init#0;class#MyMovilityRPCComm#0" expanded="false" />
+            <element signature="method#init#0;class#MyMovilityRPCComm#0" expanded="false" />
+            <element signature="docComment;method#init#1;class#MyMovilityRPCComm#0" expanded="false" />
+            <element signature="method#init#1;class#MyMovilityRPCComm#0" expanded="false" />
+            <element signature="docComment;method#isServerRunning#0;class#MyMovilityRPCComm#0" expanded="false" />
+            <element signature="e#5786#5787#0" expanded="false" />
+            <element signature="e#5870#5871#0" expanded="false" />
+            <element signature="docComment;method#getConnListener#0;class#MyMovilityRPCComm#0" expanded="false" />
+            <element signature="method#getConnListener#0;class#MyMovilityRPCComm#0" expanded="false" />
+            <element signature="docComment;method#sleep#0;class#MyMovilityRPCComm#0" expanded="false" />
+            <element signature="method#sleep#0;class#MyMovilityRPCComm#0" expanded="false" />
+            <element signature="docComment;method#checkEndpoint#0;class#MyMovilityRPCComm#0" expanded="false" />
+            <element signature="method#checkEndpoint#0;class#MyMovilityRPCComm#0" expanded="false" />
+            <element signature="docComment;method#getServerSystemName#0;class#MyMovilityRPCComm#0" expanded="false" />
+            <element signature="e#8198#8199#0" expanded="false" />
+            <element signature="e#8257#8258#0" expanded="false" />
+            <element signature="docComment;method#getClients#0;class#MyMovilityRPCComm#0" expanded="false" />
+            <element signature="method#getClients#0;class#MyMovilityRPCComm#0" expanded="false" />
+            <element signature="docComment;method#getProccesors#0;class#MyMovilityRPCComm#0" expanded="false" />
+            <element signature="method#getProccesors#0;class#MyMovilityRPCComm#0" expanded="false" />
+            <element signature="docComment;method#getCallers#0;class#MyMovilityRPCComm#0" expanded="false" />
+            <element signature="method#getCallers#0;class#MyMovilityRPCComm#0" expanded="false" />
+            <element signature="docComment;method#destroy#0;class#MyMovilityRPCComm#0" expanded="false" />
+            <element signature="method#destroy#0;class#MyMovilityRPCComm#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/client/MyMovilityRPCClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="92" column="29" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#MyMovilityRPCClient#0" expanded="false" />
+            <element signature="docComment;field#controller#0;class#MyMovilityRPCClient#0" expanded="false" />
+            <element signature="docComment;field#remoteMap#0;class#MyMovilityRPCClient#0" expanded="false" />
+            <element signature="docComment;field#session#0;class#MyMovilityRPCClient#0" expanded="false" />
+            <element signature="docComment;method#init#0;class#MyMovilityRPCClient#0" expanded="false" />
+            <element signature="method#init#0;class#MyMovilityRPCClient#0" expanded="false" />
+            <element signature="docComment;method#checkEndpoints#0;class#MyMovilityRPCClient#0" expanded="false" />
+            <element signature="method#checkEndpoints#0;class#MyMovilityRPCClient#0" expanded="false" />
+            <element signature="docComment;method#checkEndpoint#0;class#MyMovilityRPCClient#0" expanded="false" />
+            <element signature="method#checkEndpoint#0;class#MyMovilityRPCClient#0" expanded="false" />
+            <element signature="docComment;method#getEndPointByRemoteName#0;class#MyMovilityRPCClient#0" expanded="false" />
+            <element signature="method#getEndPointByRemoteName#0;class#MyMovilityRPCClient#0" expanded="false" />
+            <element signature="docComment;method#getSession#0;class#MyMovilityRPCClient#0" expanded="false" />
+            <element signature="e#6572#6573#0" expanded="false" />
+            <element signature="e#6602#6603#0" expanded="false" />
+            <element signature="docComment;method#getLocalPort#0;class#MyMovilityRPCClient#0" expanded="false" />
+            <element signature="method#getLocalPort#0;class#MyMovilityRPCClient#0" expanded="false" />
+            <element signature="docComment;method#destroy#0;class#MyMovilityRPCClient#0" expanded="false" />
+            <element signature="method#destroy#0;class#MyMovilityRPCClient#0" expanded="false" />
+            <element signature="docComment;class#SessionReleasingRunnable#0;class#MyMovilityRPCClient#0" expanded="false" />
+            <element signature="class#SessionReleasingRunnable#0;class#MyMovilityRPCClient#0" expanded="false" />
+            <element signature="method#SessionReleasingRunnable#0;class#SessionReleasingRunnable#0;class#MyMovilityRPCClient#0" expanded="false" />
+            <element signature="method#run#0;class#SessionReleasingRunnable#0;class#MyMovilityRPCClient#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/callable/CallerOfProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="136" column="20" selection-start-line="136" selection-start-column="20" selection-end-line="136" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#CallerOfProcess#0;class#CallerOfProcess#0" expanded="true" />
+            <element signature="method#getCodUniqOfService#0;class#CallerOfProcess#0" expanded="true" />
+            <element signature="method#setRemote#0;class#CallerOfProcess#0" expanded="true" />
+            <element signature="method#call#0;class#CallerOfProcess#0" expanded="true" />
+            <element signature="method#getInstance#0;class#CallerOfProcess#0" expanded="true" />
+            <element signature="method#executeCalling#0;class#CallerOfProcess#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16368286">
-          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+        <state vertical-scroll-proportion="2.3517787">
+          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
           <folding>
-            <element signature="n#properties#0;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#repositories#0;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#repository#0;n#repositories#0;n#project#0;n#!!top" expanded="true" />
             <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#build#0;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#plugin#0;n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#configuration#0;n#plugin#0;n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#plugin#1;n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#executions#0;n#plugin#1;n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#execution#0;n#executions#0;n#plugin#1;n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#goals#0;n#execution#0;n#executions#0;n#plugin#1;n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#plugin#2;n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#executions#0;n#plugin#2;n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#execution#0;n#executions#0;n#plugin#2;n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="true" />
-            <element signature="n#goals#0;n#execution#0;n#executions#0;n#plugin#2;n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="true" />
+            <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
