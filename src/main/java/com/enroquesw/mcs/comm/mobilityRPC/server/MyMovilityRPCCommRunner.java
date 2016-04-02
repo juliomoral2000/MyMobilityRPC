@@ -17,12 +17,14 @@ package com.enroquesw.mcs.comm.mobilityRPC.server;
 
 import com.enroquesw.mcs.comm.mobilityRPC.MyMovilityRPCComm;
 import com.enroquesw.mcs.comm.mobilityRPC.enums.SystemName;
+import com.enroquesw.mcs.comm.mobilityRPC.exceptions.MovilityRPCException;
 import com.enroquesw.mcs.comm.mobilityRPC.services.factory.CallerRegister;
 import com.enroquesw.mcs.comm.mobilityRPC.services.factory.ProcessorRegister;
 import com.googlecode.mobilityrpc.lib.com.esotericsoftware.minlog.Log;
 import com.googlecode.mobilityrpc.network.ConnectionId;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
@@ -42,6 +44,12 @@ public class MyMovilityRPCCommRunner extends Thread {
     String serverIp;
     private List<ProcessorRegister> proccesors = new ArrayList<ProcessorRegister>();
     private List<CallerRegister> callers = new ArrayList<CallerRegister>();
+    public static boolean isInit = false;           // Se inicio el proceso de Arranque del Servidor
+    public static boolean isFail = false;           // Fallo el Arranque del Servidor
+    public static boolean isFailClients = false;    // Fallo la comunicacion con alguno de las maquinas remotas
+    public static boolean isRun = false;            // Inicio correctamente el servidor
+    public static Map<String, String> errors = new HashMap<String, String>(); // Mapa que contiene los errores capturados en el proceso de Arranque del Servidor
+    public static Map<String, String> warnings = new HashMap<String, String>(); // Mapa que contiene las advertencias capturados en el proceso de Arranque del Servidor y comunicacion con las maquinas remotas
 
     /**
      *
@@ -75,6 +83,9 @@ public class MyMovilityRPCCommRunner extends Thread {
             running.start();
             return running;
         } catch (Exception e) {
+            isFail = true;
+            String code = "MMRCR-999"; String msg = "Error running MyMovilityRPCComm: "+e.getMessage();
+            errors.put(code, msg);
             throw new Exception("Cant start de MovilityRPCServer ", e);
         }
     }
@@ -92,6 +103,7 @@ public class MyMovilityRPCCommRunner extends Thread {
             Thread t = Thread.currentThread();
             t.setName("MyMovilityRPCCommThread");
             Log.info("[MyMovilityRPCCommRunner] Inicio la ejecucion del MyMovilityRPCCommRunner, hilo ".concat(t.getName()));
+            isInit = true;
             MyMovilityRPCComm.init(serverIp, serverPort, clientsToCall, serverSystemName, proccesors, callers, t);
             synchronized (t) {
                 try {
@@ -99,14 +111,29 @@ public class MyMovilityRPCCommRunner extends Thread {
                         Thread.sleep(Long.MAX_VALUE);
                     }
                 } catch (InterruptedException e) {
+                    clean();
                     Log.info("Someone invoked destroy.....");
                 }
             }
             Log.info("[MyMovilityRPCCommRunner] Aqui termino la ejecucion del MyMovilityRPCCommRunner ".concat(t.getName()));
         } catch (Exception e) {
-            Log.error("Error running MyMovilityRPCComm: ", e);
+            isFail = true;
+            String code = "MMRCR-999";
+            String msg = "Error running MyMovilityRPCComm: "+e.getMessage();
+            if(e instanceof MovilityRPCException){
+                code = ((MovilityRPCException)e).getKeyCode(); msg = ((MovilityRPCException)e).getMessage();
+            }
+            errors.put(code, msg);
+            Log.error("Error running MyMovilityRPCComm: "+code+" - "+msg, e);
         }
     }
 
 
+    public static void clean() {
+        isInit = false;
+        isFail = false;
+        isRun = false;
+        errors = new HashMap<String, String>();
+        warnings = new HashMap<String, String>();
+    }
 }

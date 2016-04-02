@@ -17,6 +17,7 @@ package com.enroquesw.mcs.comm.mobilityRPC.server;
 
 import com.enroquesw.mcs.comm.mobilityRPC.MyMovilityRPCComm;
 import com.enroquesw.mcs.comm.mobilityRPC.enums.SystemName;
+import com.enroquesw.mcs.comm.mobilityRPC.exceptions.MovilityRPCServerException;
 import com.enroquesw.mcs.comm.mobilityRPC.services.factory.ServicesFactory;
 import com.googlecode.mobilityrpc.MobilityRPC;
 import com.googlecode.mobilityrpc.controller.MobilityController;
@@ -68,6 +69,7 @@ public class MyMovilityRPCServer {
             createController(host, port);
             return controller;
         } else {
+            MyMovilityRPCCommRunner.warnings.put("WMMRCR-004","Server is already running");
             throw new IllegalStateException("Server is already running");
         }
     }
@@ -76,7 +78,7 @@ public class MyMovilityRPCServer {
         List<String> list = NetworkUtil.getAllNetworkInterfaceAddresses();
         if (hostIp == null || hostIp.length() == 0) return list;
         if (!list.contains(hostIp))
-            throw new Exception("Don't exist in List of Network Interface Addresses , " + hostIp);
+            throw new MovilityRPCServerException("MMRCR-001", "Don't exist in List of Network Interface Addresses , " + hostIp);
         ArrayList<String> returno = new ArrayList<String>();
         returno.add(hostIp);
         return returno;
@@ -95,11 +97,13 @@ public class MyMovilityRPCServer {
         createShutdownHook(controller);
         Log.info("Mobility-RPC Server started, listening on port " + innerport + " on the following addresses:");
         for (String networkAddress : bindAddresses) Log.info(networkAddress);
+        MyMovilityRPCCommRunner.isRun = true;
         try {
             ServicesFactory.registerProcessorsAndCallersBase(); // Igual registro los servicios aunque el cliente no pueda contactar a todos los servidores
             ServicesFactory.registerProcessorsAndCallersfromList(MyMovilityRPCComm.getProccesors(), MyMovilityRPCComm.getCallers()); //registro los definidos por el usuario/sistema externo
         } catch (Exception e) {
             Log.error("Error registrando los servicios Base !!!!", e);
+            MyMovilityRPCCommRunner.warnings.put("WMMRCR-001","Error registrando los servicios Base: "+e.getMessage());
         }
         isInit = true;
         return controller;
@@ -146,6 +150,7 @@ public class MyMovilityRPCServer {
             mobilityController.destroy();
             controller = null;
             bindAddresses = new ArrayList<String>();
+            MyMovilityRPCCommRunner.clean();
             Log.info("\nMobility-RPC Server stopped ");
         }
     }

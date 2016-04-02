@@ -17,6 +17,7 @@ package com.enroquesw.mcs.comm.mobilityRPC.services.factory;
 
 import com.enroquesw.mcs.comm.mobilityRPC.MyMovilityRPCComm;
 import com.enroquesw.mcs.comm.mobilityRPC.enums.SystemName;
+import com.enroquesw.mcs.comm.mobilityRPC.server.MyMovilityRPCCommRunner;
 import com.enroquesw.mcs.comm.mobilityRPC.services.callable.CallerOfProcess;
 import com.enroquesw.mcs.comm.mobilityRPC.services.impl.caller.ServicesFactory_Callers;
 import com.enroquesw.mcs.comm.mobilityRPC.services.impl.result.ErrorResponseImpl;
@@ -182,10 +183,10 @@ public class ServicesFactory {
 
     public static void registerProcessorsAndCallersfromList(List<ProcessorRegister> processors,List<CallerRegister> callers) throws Exception {
         for (ProcessorRegister register : processors) {
-            try { registerProcessor(register); } catch (Exception e) { Log.debug("Fallo el registro !!!!"); }
+            try { registerProcessor(register); } catch (Exception e) { MyMovilityRPCCommRunner.warnings.put("WMMRCR-002","Error registrando ProcessorRegister: "+register.getMethodName()+", "+e.getMessage()); Log.debug("Fallo el registro !!!!"); }
         }
         for (CallerRegister register : callers) {
-            try { registerCaller(register); } catch (Exception e) { Log.debug("Fallo el registro !!!!"); }
+            try { registerCaller(register); } catch (Exception e) { MyMovilityRPCCommRunner.warnings.put("WMMRCR-003","Error registrando CallerRegister: "+register.getMethodName()+", "+e.getMessage()); Log.debug("Fallo el registro !!!!"); }
         }
     }
 

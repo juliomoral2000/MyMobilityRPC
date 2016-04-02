@@ -15,6 +15,7 @@
  */
 package com.enroquesw.mcs.comm.mobilityRPC.client;
 
+import com.enroquesw.mcs.comm.mobilityRPC.server.MyMovilityRPCCommRunner;
 import com.enroquesw.mcs.comm.mobilityRPC.server.MyMovilityRPCServer;
 import com.googlecode.mobilityrpc.controller.MobilityController;
 import com.googlecode.mobilityrpc.lib.com.esotericsoftware.minlog.Log;
@@ -62,7 +63,12 @@ public class MyMovilityRPCClient {
         controller = controllerServer;
         remoteMap = endPointsToCall;
         checkEndpoints(remoteMap);
-        session = controller.newSession();
+        try {
+            session = controller.newSession();
+        } catch (Exception e) {
+            MyMovilityRPCCommRunner.isFailClients = true;
+            MyMovilityRPCCommRunner.warnings.put("WMMRCR-006", "Faild Init Session Client, cause: "+e.getMessage());
+        }
     }
 
     /**
@@ -78,7 +84,10 @@ public class MyMovilityRPCClient {
                 Log.info("Ok! testing conecction to ".concat(entry.getKey()).concat(" connectionId: ").concat(entry.getValue().toString()).concat(" localPort :").concat(String.valueOf(localPort)));
                 if(outConn != null) ((TCPConnection) outConn).destroy();
             } else {
-                Log.info("FAILED! testing conecction to ".concat(entry.getKey()).concat(" connectionId: ").concat(entry.getValue().toString()).concat(", cause: ").concat(msg.toString()));
+                String concat = "FAILED testing conecction to ".concat(entry.getKey()).concat(" connectionId: ").concat(entry.getValue().toString()).concat(", cause: ").concat(msg.toString());
+                MyMovilityRPCCommRunner.isFailClients = true;
+                MyMovilityRPCCommRunner.warnings.put("WMMRCR-005",concat);
+                Log.info(concat);
             }
         }
     }
@@ -97,7 +106,8 @@ public class MyMovilityRPCClient {
             Log.info("OK! checking endPoint ".concat(" connectionId: ").concat(endPoint.toString()).concat(" localPort :").concat(String.valueOf(getLocalPort(outConn))));
             return outConn;
         } catch (Exception e) { //if(e.getCause().getClass().equals(java.net.ConnectException.class)){
-            Log.info("FAILED! checking endPoint ".concat(" connectionId: ").concat(endPoint.toString()).concat(", cause: ").concat(e.getMessage()));
+            String concat = "FAILED checking endPoint ".concat(" connectionId: ").concat(endPoint.toString()).concat(", cause: ").concat(e.getMessage());
+            Log.info(concat);
             msg.append(e.getCause().getMessage());
         }
         return null;
