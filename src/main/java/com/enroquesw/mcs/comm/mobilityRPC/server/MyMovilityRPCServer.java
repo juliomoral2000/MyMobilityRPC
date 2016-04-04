@@ -97,7 +97,7 @@ public class MyMovilityRPCServer {
         createShutdownHook(controller);
         Log.info("Mobility-RPC Server started, listening on port " + innerport + " on the following addresses:");
         for (String networkAddress : bindAddresses) Log.info(networkAddress);
-        MyMovilityRPCCommRunner.isRun = true;
+        //MyMovilityRPCCommRunner.isRun = true;
         try {
             ServicesFactory.registerProcessorsAndCallersBase(); // Igual registro los servicios aunque el cliente no pueda contactar a todos los servidores
             ServicesFactory.registerProcessorsAndCallersfromList(MyMovilityRPCComm.getProccesors(), MyMovilityRPCComm.getCallers()); //registro los definidos por el usuario/sistema externo

@@ -17,6 +17,7 @@ package com.enroquesw.mcs.comm.mobilityRPC;
 
 import com.enroquesw.mcs.comm.mobilityRPC.client.MyMovilityRPCClient;
 import com.enroquesw.mcs.comm.mobilityRPC.enums.SystemName;
+import com.enroquesw.mcs.comm.mobilityRPC.server.MyMovilityRPCCommRunner;
 import com.enroquesw.mcs.comm.mobilityRPC.server.MyMovilityRPCServer;
 import com.enroquesw.mcs.comm.mobilityRPC.services.factory.CallerRegister;
 import com.enroquesw.mcs.comm.mobilityRPC.services.factory.ProcessorRegister;
@@ -83,6 +84,7 @@ public class MyMovilityRPCComm {
             MyMovilityRPCServer.init(hostIp, port, serverSystemName);
             MyMovilityRPCClient.init(MyMovilityRPCServer.getController(), clientsToCall);
             myStartThread = myStartThreadIn;
+            MyMovilityRPCCommRunner.isRun = true;
         } catch (Exception e){
             Log.error("Error!!!!! ", e);
             throw e;
@@ -155,8 +157,7 @@ public class MyMovilityRPCComm {
      */
     public static boolean checkEndpoint(@NotNull ConnectionId remoteEndpointId) {
         Connection outConn = MyMovilityRPCClient.checkEndpoint(remoteEndpointId, new StringBuilder());
-        boolean isOk = outConn != null;
-        return isOk;
+        return outConn != null;
     }
 
     /**
