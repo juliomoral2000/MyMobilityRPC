@@ -33,7 +33,7 @@ import java.util.List;
  *
  * @author Julio Morales
  */
-public class ServicesFactory_Proccesors implements CallProcessor/*<ServicesFactory_Proccesors, ProcessParameter, Object>*/ {
+public class ServicesFactory_Proccesors extends CallProcessor/*<ServicesFactory_Proccesors, ProcessParameter, Object>*/ {
     public static List<ProcessorRegister> fetchProcessorRegistersFromServer(SystemName systemName){
         return ServicesFactory.fetchProcessorRegistersFromServer(systemName);
     }

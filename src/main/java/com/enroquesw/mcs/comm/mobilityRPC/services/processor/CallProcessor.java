@@ -15,8 +15,14 @@
  */
 package com.enroquesw.mcs.comm.mobilityRPC.services.processor;
 
+import com.enroquesw.mcs.comm.mobilityRPC.enums.SystemName;
+import com.enroquesw.mcs.comm.mobilityRPC.services.exception.ServiceBaseException;
+import com.enroquesw.mcs.comm.mobilityRPC.services.factory.ProcessorRegister;
+import com.enroquesw.mcs.comm.mobilityRPC.services.factory.ServicesFactory;
 import com.enroquesw.mcs.comm.mobilityRPC.services.parameter.ProcessParameter;
 import com.enroquesw.mcs.comm.mobilityRPC.services.result.ProcessResponse;
+
+import java.util.List;
 
 /**
  * La Interface <code>CallProcessor</code> define el procesador de llamadas :
@@ -31,6 +37,12 @@ import com.enroquesw.mcs.comm.mobilityRPC.services.result.ProcessResponse;
  * @see <a href="com.googlecode.mobilityrpc.examples.BoomerangPattern">ejemplo BoomerangPattern</a>
  * @author Julio Morales
  */
-public interface CallProcessor<W extends CallProcessor, Y extends ProcessParameter, T /*FIXME_JULIO: extends ProcessResponse*/> {
+public abstract class CallProcessor<W extends CallProcessor, Y extends ProcessParameter, T , Z extends ExternalCallProcessor> {
+
+    public static <W extends CallProcessor, Y extends ProcessParameter, T> T invokeExternalProcessor(SystemName remote, Class<W> callProcessorClass, String methodName, Y parameter) throws ServiceBaseException {
+        List<ProcessorRegister> list = ServicesFactory.getProcessorRegister(remote, callProcessorClass, methodName);
+        if(!list.isEmpty()) return (T) list.get(0).getExternalCallProcessor().processCall(parameter);
+        return (T) null;
+    }
 
 }
