@@ -35,7 +35,7 @@ public class MyMovilityRPCCommTest {
         /****************************************************/
     }
 
-    // @Test
+    @Test
     public void testMain() throws Exception {
         Thread t = Thread.currentThread();
         MyMovilityRPCCommRunner thread = MyMovilityRPCCommRunner.startMyMovilityRPCCommRunner(hostIp, hostPort, mapClients, isDebugEnabled, serverSystemName);
