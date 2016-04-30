@@ -43,7 +43,7 @@ public class ProcessorRegister<W extends CallProcessor, Y extends ProcessParamet
     Class<T> resultClass;           // Clase [que implementa a ProcessResponse] y es la respuesta a la llamada (es el parametro de salida del metodo [verbo/operacion] del CallProcessor) - implementacion en [Ambos]
     Method method;                  // Objeto Metodo cacheado para ser invocado una vez llegue una llamada
     /********************************************************************************************************/
-    Z externalCallProcessor;        // Objeto Implementado por el usuario que sera invocado externamente desde el Processor definido en la libreria
+    transient Z externalCallProcessor;        // Objeto Implementado por el usuario que sera invocado externamente desde el Processor definido en la libreria
 
     public ProcessorRegister(SystemName remoteCaller, SystemName localLister, String methodName, Class<W> processorClass, Class<Y> parameterClass, Class<T> resultClass) throws Exception {
         this.remoteCaller = remoteCaller;
