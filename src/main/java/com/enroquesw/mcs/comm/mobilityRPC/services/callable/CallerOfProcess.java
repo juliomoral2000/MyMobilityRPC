@@ -69,7 +69,11 @@ public abstract class CallerOfProcess<V extends CallerOfProcess, Y extends Proce
 
     public String getCodUniqOfService(SystemName remote) throws Exception {
         CallerRegister callerRegister = remote == null? getCallerRegister(this.getClass()) : getCallerRegister(remote, this.getClass()) ;
-        if(callerRegister == null) throw new Exception("El Caller "+this.getClass().getName()+" no esta Registrado ");
+        if(callerRegister == null) {
+            StringBuilder msg = new StringBuilder();
+            if(MyMovilityRPCClient.checkEndpoint(MyMovilityRPCClient.getEndPointByRemoteName(remote.getSystemName()), msg) != null) throw new Exception("El Caller "+this.getClass().getName()+" no esta Registrado ");
+            throw new Exception("El Caller "+this.getClass().getName()+" no pudo ser invocado, msg : "+msg.toString());
+        }
         return callerRegister.getCodUniqOfService();
     };
 
@@ -100,7 +104,7 @@ public abstract class CallerOfProcess<V extends CallerOfProcess, Y extends Proce
             V o = (V) ctor.newInstance(param);
             return o;
         } catch (Exception e) {
-            msg.append(e.getMessage());
+            msg.append(e.getMessage()==null? e.getCause().getMessage():e.getMessage());
             e.printStackTrace();
         }
         return null;
