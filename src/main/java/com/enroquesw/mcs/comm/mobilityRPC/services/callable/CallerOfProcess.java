@@ -18,6 +18,7 @@ package com.enroquesw.mcs.comm.mobilityRPC.services.callable;
 import com.enroquesw.mcs.comm.mobilityRPC.client.MyMovilityRPCClient;
 import com.enroquesw.mcs.comm.mobilityRPC.enums.CallType;
 import com.enroquesw.mcs.comm.mobilityRPC.enums.SystemName;
+import com.enroquesw.mcs.comm.mobilityRPC.server.MyMovilityRPCServer;
 import com.enroquesw.mcs.comm.mobilityRPC.services.exception.ServiceBaseException;
 import com.enroquesw.mcs.comm.mobilityRPC.services.factory.CallerRegister;
 import com.enroquesw.mcs.comm.mobilityRPC.services.parameter.ProcessParameter;
@@ -89,7 +90,7 @@ public abstract class CallerOfProcess<V extends CallerOfProcess, Y extends Proce
         return (V) this;
     }
 
-    private static <V extends CallerOfProcess, Y extends ProcessParameter> V getInstance(Class<V> callerClass, Y parameter){
+    private static <V extends CallerOfProcess, Y extends ProcessParameter> V getInstance(Class<V> callerClass, Y parameter, StringBuffer msg){
         try {
             Constructor<?>[] declaredConstructors = callerClass.getDeclaredConstructors();
             if(declaredConstructors.length < 1 || declaredConstructors.length > 1) return null;
@@ -98,11 +99,8 @@ public abstract class CallerOfProcess<V extends CallerOfProcess, Y extends Proce
             Object[] param = {parameter};
             V o = (V) ctor.newInstance(param);
             return o;
-        } catch (InstantiationException e) {
-            e.printStackTrace();
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        } catch (InvocationTargetException e) {
+        } catch (Exception e) {
+            msg.append(e.getMessage());
             e.printStackTrace();
         }
         return null;
@@ -114,9 +112,11 @@ public abstract class CallerOfProcess<V extends CallerOfProcess, Y extends Proce
 
     public static <V extends CallerOfProcess, Y extends ProcessParameter, T extends Object> T executeCalling(Class<V> callerClass, Y parameter, @Nullable SystemName remoteSystemName, CallType callType, boolean isBase) throws ServiceBaseException {
         if(remoteSystemName == null) throw new ServiceBaseException("RPC-500", "El Sistema Remoto no puede ser nulo para invocar a ".concat(callerClass.getSimpleName()));
-        V callerInstance = (V) getInstance(callerClass, parameter);
+        StringBuffer msg = new StringBuffer();
+        V callerInstance = (V) getInstance(callerClass, parameter, msg);
         ConnectionId connectionId = null;
         try {
+            if(callerInstance == null) throw new Exception(msg.toString());
             if (!isBase && !SystemName.ALL.equals(remoteSystemName)){
                 callerInstance.setRemote(remoteSystemName);
             }else if(isBase){
