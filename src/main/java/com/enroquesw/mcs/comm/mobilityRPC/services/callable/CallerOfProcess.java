@@ -123,7 +123,7 @@ public abstract class CallerOfProcess<V extends CallerOfProcess, Y extends Proce
                 callerInstance.setRemote(SystemName.ALL);
             }
         }catch (Exception e){
-            throw new ServiceBaseException("RPC-501", "Error al obtener el registro del Sistema Remoto : ".concat(e.getMessage()));
+            throw new ServiceBaseException("RPC-501", "Error al obtener el registro del Sistema Remoto : "+e.getMessage()!= null ?e.getMessage():e.getCause().toString());
         }
         try {
             connectionId = MyMovilityRPCClient.getEndPointByRemoteName(remoteSystemName.getSystemName());
