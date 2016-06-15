@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list id="691eea3a-eace-45b6-b9ed-d3d3c8907164" name="Default" comment="" />
-    <list default="true" id="695dc323-f770-42cf-abce-47959d52a506" name="Inicial MobilityRPC_Test" comment="Fix en la captura de errores , &#10;Falta Modificar:&#10;* Documentacion, &#10;* Probar la llamada asincrona. &#10;&#10;&#10;">
+    <list default="true" id="695dc323-f770-42cf-abce-47959d52a506" name="Inicial MobilityRPC_Test" comment="Fix en la captura de errores ahora se toma el timeOut (antes daba un NullPointer), &#10;Se agregaron Implementacion Personalizadas de MobilityRPC [MyMobilityRPC], MobilityControllerImpl [MobilityControllerRPCImpl], MobilitySessionImpl [MobilitySessionRPCImpl] para poder manejar el timeOut de la Libreria. &#10;Falta Modificar:&#10;* Documentacion, &#10;* Probar la llamada asincrona. &#10;&#10;&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/googlecode/mobilityrpc/controller/impl/MobilityControllerRPCImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/googlecode/mobilityrpc/session/impl/MobilitySessionRPCImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/googlecode/mobilityrpc/MyMobilityRPC.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/callable/CallerOfProcess.java" afterPath="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/callable/CallerOfProcess.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/server/MyMovilityRPCServer.java" afterPath="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/server/MyMovilityRPCServer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="out/" />
@@ -39,15 +44,258 @@
     <favorites_list name="MobilityRPC" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="CallerOfProcess.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/callable/CallerOfProcess.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.32934132">
+              <caret line="131" column="108" selection-start-line="131" selection-start-column="108" selection-end-line="131" selection-end-column="108" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#CallerOfProcess#0;class#CallerOfProcess#0" expanded="true" />
+                <element signature="e#3397#3398#0" expanded="true" />
+                <element signature="e#3439#3440#0" expanded="true" />
+                <element signature="e#3466#3467#0" expanded="true" />
+                <element signature="e#3500#3501#0" expanded="true" />
+                <element signature="method#getCodUniqOfService#0;class#CallerOfProcess#0" expanded="true" />
+                <element signature="method#setRemote#0;class#CallerOfProcess#0" expanded="true" />
+                <element signature="e#4411#4412#0" expanded="true" />
+                <element signature="e#4439#4440#0" expanded="true" />
+                <element signature="e#4446#4478#0" expanded="true" />
+                <element signature="e#4446#4478#0" expanded="true" />
+                <element signature="method#call#0;class#CallerOfProcess#0" expanded="true" />
+                <element signature="e#4749#4781#0" expanded="true" />
+                <element signature="method#getInstance#0;class#CallerOfProcess#0" expanded="true" />
+                <element signature="e#5505#5537#0" expanded="true" />
+                <element signature="method#executeCalling#0;class#CallerOfProcess#0" expanded="true" />
+                <element signature="e#5847#5851#0" expanded="true" />
+                <element signature="e#5873#5905#0" expanded="true" />
+                <element signature="e#6226#6235#0" expanded="true" />
+                <element signature="e#6890#6899#0" expanded="true" />
+                <element signature="e#8216#8225#0" expanded="true" />
+                <element signature="e#8640#8649#0" expanded="true" />
+                <element signature="e#8750#8759#0" expanded="true" />
+                <element signature="e#8882#8891#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MobilitySessionImpl.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.1.0/mobility-rpc-1.1.0-sources.jar!/com/googlecode/mobilityrpc/session/impl/MobilitySessionImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="34" column="56" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="67" />
+              <folding>
+                <element signature="e#2048#2092#0" expanded="true" />
+                <element signature="method#MobilitySessionImpl#0;class#MobilitySessionImpl#0" expanded="true" />
+                <element signature="method#execute#3;class#MobilitySessionImpl#0" expanded="true" />
+                <element signature="method#execute#4;class#MobilitySessionImpl#0" expanded="true" />
+                <element signature="method#execute#5;class#MobilitySessionImpl#0" expanded="true" />
+                <element signature="method#serialize#0;class#MobilitySessionImpl#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProcessParameter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/parameter/ProcessParameter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyMobilityRPC.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/googlecode/mobilityrpc/MyMobilityRPC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="86" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="86" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;method#newController#0;class#MyMobilityRPC#0" expanded="true" />
+                <element signature="method#newController#0;class#MyMobilityRPC#0" expanded="true" />
+                <element signature="docComment;method#MyMobilityRPC#0;class#MyMobilityRPC#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyMovilityRPCServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/server/MyMovilityRPCServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.7931035">
+              <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+              <folding>
+                <element signature="method#init#0;class#MyMovilityRPCServer#0" expanded="true" />
+                <element signature="method#createController#0;class#MyMovilityRPCServer#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyMovilityRPCClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/client/MyMovilityRPCClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="122" column="61" selection-start-line="122" selection-start-column="61" selection-end-line="122" selection-end-column="61" />
+              <folding>
+                <element signature="method#getEndPointByRemoteName#0;class#MyMovilityRPCClient#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Nullable.class" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files (x86)/Java/jdk1.6.0_20/jre/lib/rt.jar!/com/sun/istack/internal/Nullable.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.4074074">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+              <folding>
+                <element signature="e#153#185#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MobilityController.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.1.0/mobility-rpc-1.1.0-sources.jar!/com/googlecode/mobilityrpc/controller/MobilityController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MobilityControllerImpl.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.1.0/mobility-rpc-1.1.0-sources.jar!/com/googlecode/mobilityrpc/controller/impl/MobilityControllerImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="43" column="47" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
+              <folding>
+                <element signature="method#sendOutgoingMessage#0;class#MobilityControllerImpl#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MobilityControllerInternal.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.1.0/mobility-rpc-1.1.0-sources.jar!/com/googlecode/mobilityrpc/controller/impl/MobilityControllerInternal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="30" column="61" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MobilityRPC.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.1.0/mobility-rpc-1.1.0-sources.jar!/com/googlecode/mobilityrpc/MobilityRPC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+              <folding>
+                <element signature="n#!!doc" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="docComment;method#newController#0;class#MobilityRPC#0" expanded="false" />
+                <element signature="method#newController#0;class#MobilityRPC#0" expanded="false" />
+                <element signature="docComment;method#MobilityRPC#0;class#MobilityRPC#0" expanded="false" />
+                <element signature="method#MobilityRPC#0;class#MobilityRPC#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MobilityControllerRPCImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/googlecode/mobilityrpc/controller/impl/MobilityControllerRPCImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;class#MobilityControllerRPCImpl#0" expanded="true" />
+                <element signature="e#2309#2340#0" expanded="true" />
+                <element signature="method#MobilityControllerRPCImpl#0;class#MobilityControllerRPCImpl#0" expanded="true" />
+                <element signature="method#receiveIncomingMessage#0;class#MobilityControllerRPCImpl#0" expanded="true" />
+                <element signature="method#sendOutgoingMessage#0;class#MobilityControllerRPCImpl#0" expanded="true" />
+                <element signature="e#3288#3289#0" expanded="true" />
+                <element signature="e#3328#3329#0" expanded="true" />
+                <element signature="docComment;method#destroy#0;class#MobilityControllerRPCImpl#0" expanded="true" />
+                <element signature="method#destroy#0;class#MobilityControllerRPCImpl#0" expanded="true" />
+                <element signature="e#3781#3782#0" expanded="true" />
+                <element signature="e#3840#3841#0" expanded="true" />
+                <element signature="e#3897#3898#0" expanded="true" />
+                <element signature="e#3949#3950#0" expanded="true" />
+                <element signature="method#releaseSession#0;class#MobilityControllerRPCImpl#0" expanded="true" />
+                <element signature="method#getMessageHandlingSession#0;class#MobilityControllerRPCImpl#0" expanded="true" />
+                <element signature="e#4558#4601#0" expanded="true" />
+                <element signature="e#4847#4914#0" expanded="true" />
+                <element signature="e#5389#5473#0" expanded="true" />
+                <element signature="e#5580#5730#0" expanded="true" />
+                <element signature="class#MessageProcessorTask#0;class#MobilityControllerRPCImpl#0" expanded="true" />
+                <element signature="method#MessageProcessorTask#0;class#MessageProcessorTask#0;class#MobilityControllerRPCImpl#0" expanded="true" />
+                <element signature="e#6169#6170#0" expanded="true" />
+                <element signature="e#6234#6235#0" expanded="true" />
+                <element signature="method#processMessage#0;class#MessageProcessorTask#0;class#MobilityControllerRPCImpl#0" expanded="true" />
+                <element signature="e#6688#6720#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MobilitySessionRPCImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/googlecode/mobilityrpc/session/impl/MobilitySessionRPCImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="167" column="42" selection-start-line="167" selection-start-column="42" selection-end-line="167" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;class#MobilitySessionRPCImpl#0" expanded="true" />
+                <element signature="method#MobilitySessionRPCImpl#0;class#MobilitySessionRPCImpl#0" expanded="true" />
+                <element signature="method#execute#0;class#MobilitySessionRPCImpl#0" expanded="true" />
+                <element signature="e#1839#1843#0" expanded="true" />
+                <element signature="method#execute#1;class#MobilitySessionRPCImpl#0" expanded="true" />
+                <element signature="e#2247#2251#0" expanded="true" />
+                <element signature="e#3383#3486#0" expanded="true" />
+                <element signature="e#4782#4872#0" expanded="true" />
+                <element signature="e#6264#6324#1" expanded="true" />
+                <element signature="method#deserialize#0;class#MobilitySessionRPCImpl#0" expanded="true" />
+                <element signature="method#serialize#0;class#MobilitySessionRPCImpl#0" expanded="true" />
+                <element signature="method#getDefaultSerializerFromSuper#0;class#MobilitySessionRPCImpl#0" expanded="true" />
+                <element signature="e#8734#8766#0" expanded="true" />
+                <element signature="method#getFutureExecutionResponsesFromSuper#0;class#MobilitySessionRPCImpl#0" expanded="true" />
+                <element signature="e#9562#9594#0" expanded="true" />
+                <element signature="e#10100#10101#0" expanded="true" />
+                <element signature="e#10147#10148#0" expanded="true" />
+                <element signature="e#10194#10195#0" expanded="true" />
+                <element signature="e#10243#10244#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MobilitySessionInternal.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.1.0/mobility-rpc-1.1.0-sources.jar!/com/googlecode/mobilityrpc/session/impl/MobilitySessionInternal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="28" column="64" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -62,10 +310,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/jcmsoftware/mcs/comm/mobilityRPC/services/result/ProcessResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jcmsoftware/mcs/comm/mobilityRPC/services/factory/ProcessorRegister.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jcmsoftware/mcs/comm/mobilityRPC/services/factory/CallerRegister.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jcmsoftware/mcs/comm/mobilityRPC/server/MyMovilityRPCCommRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jcmsoftware/mcs/comm/mobilityRPC/server/MyMovilityRPCServer.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/jcmsoftware/mcs/comm/mobilityRPC/services/ServerServicesLogic.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/jcmsoftware/mcs/comm/mobilityRPC/services/callable/BenchmarkTask.java" />
@@ -104,7 +348,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/factory/ServicesFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/client/MyMovilityRPCClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/server/MyMovilityRPCCommRunner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/server/MyMovilityRPCServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/MyMovilityRPCComm.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/processor/ExternalCallProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/impl/processor/ServicesFactory_Proccesors.java" />
@@ -112,6 +355,11 @@
         <option value="$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/MyMovilityRPCCommTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/factory/ProcessorRegister.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/com/googlecode/mobilityrpc/MyMobilityRPC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/server/MyMovilityRPCServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/googlecode/mobilityrpc/MyMobilityRPC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/googlecode/mobilityrpc/controller/impl/MobilityControllerRPCImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/googlecode/mobilityrpc/session/impl/MobilitySessionRPCImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/callable/CallerOfProcess.java" />
       </list>
     </option>
@@ -156,20 +404,6 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="Plugins" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="MobilityRPC" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
           <option name="myItemId" value="Lifecycle" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
         </PATH_ELEMENT>
@@ -182,8 +416,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="784" />
+    <option name="width" value="1378" />
+    <option name="height" value="780" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -240,7 +474,7 @@
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/com/consisint/acsele/util/mobilityRPC" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/googlecode/mobilityrpc" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="132" />
@@ -261,13 +495,13 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.consisint.acsele.util.mobilityRPC.server" />
       <recent name="com.consisint.acsele.util.mobilityRPC" />
       <recent name="com.consisint.acsele.util.mobilityRPC.client" />
-      <recent name="" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
@@ -728,6 +962,8 @@
       <workItem from="1463401355829" duration="2209000" />
       <workItem from="1463406302877" duration="695000" />
       <workItem from="1463978936268" duration="156000" />
+      <workItem from="1465949667247" duration="6969000" />
+      <workItem from="1465958013645" duration="4536000" />
     </task>
     <task id="LOCAL-00001" summary="Mi proyecto base para crear el cliente">
       <created>1452821480992</created>
@@ -925,7 +1161,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="422817000" />
+    <option name="totallyTimeSpent" value="434322000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -937,9 +1173,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1378" height="780" extended-state="0" />
+    <editor active="true" />
     <layout>
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="true" internal_type="SLIDING" type="FLOATING" visible="false" weight="0.32975295" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" x="67" y="46" width="760" height="558" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -950,22 +1187,21 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4764151" sideWeight="0.4969743" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3208191" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4784689" sideWeight="0.49409238" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47749197" sideWeight="0.49409238" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.58038586" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900944" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40090773" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4074355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30408472" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.57097286" sideWeight="0.49394855" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="true" internal_type="SLIDING" type="FLOATING" visible="false" weight="0.32975295" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" x="67" y="46" width="760" height="558" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30349013" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.57073957" sideWeight="0.49394855" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4317406" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5809199" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43086818" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3993174" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Documentation" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="92" y="92" width="1182" height="544" />
@@ -1034,7 +1270,8 @@
     <MESSAGE value="Cambios se agrego una interfaz ExternalCallProcessor para que pueda ser fijado por una plicacion externa y este sea invocado desde el CallProcessor registrado. El CallProcessor paso a ser una clase abstracta . Falta Modificar:&#10;* Documentacion, &#10;* Probar la llamada asincrona. &#10;&#10;&#10;" />
     <MESSAGE value="Se cambio el pom , para saltar las pruebas unitarias &#10;Falta Modificar:&#10;* Documentacion, &#10;* Probar la llamada asincrona. &#10;&#10;&#10;" />
     <MESSAGE value="Fix en la captura de errores , &#10;Falta Modificar:&#10;* Documentacion, &#10;* Probar la llamada asincrona. &#10;&#10;&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix en la captura de errores , &#10;Falta Modificar:&#10;* Documentacion, &#10;* Probar la llamada asincrona. &#10;&#10;&#10;" />
+    <MESSAGE value="Fix en la captura de errores ahora se toma el timeOut (antes daba un NullPointer), &#10;Se agregaron Implementacion Personalizadas de MobilityRPC [MyMobilityRPC], MobilityControllerImpl [MobilityControllerRPCImpl], MobilitySessionImpl [MobilitySessionRPCImpl] para poder manejar el timeOut de la Libreria. &#10;Falta Modificar:&#10;* Documentacion, &#10;* Probar la llamada asincrona. &#10;&#10;&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix en la captura de errores ahora se toma el timeOut (antes daba un NullPointer), &#10;Se agregaron Implementacion Personalizadas de MobilityRPC [MyMobilityRPC], MobilityControllerImpl [MobilityControllerRPCImpl], MobilitySessionImpl [MobilitySessionRPCImpl] para poder manejar el timeOut de la Libreria. &#10;Falta Modificar:&#10;* Documentacion, &#10;* Probar la llamada asincrona. &#10;&#10;&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1484,7 +1721,7 @@
         </line-breakpoint>
         <line-breakpoint suspend="NONE" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/server/MyMovilityRPCServer.java</url>
-          <line>67</line>
+          <line>68</line>
           <properties />
           <option name="timeStamp" value="129" />
         </line-breakpoint>
@@ -1713,13 +1950,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/server/MyMovilityRPCServer.java</url>
-          <line>104</line>
+          <line>106</line>
           <properties />
           <option name="timeStamp" value="206" />
         </line-breakpoint>
         <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/callable/CallerOfProcess.java</url>
-          <line>98</line>
+          <line>99</line>
           <properties />
           <option name="timeStamp" value="211" />
         </line-breakpoint>
@@ -1771,6 +2008,12 @@
           <properties />
           <option name="timeStamp" value="229" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/googlecode/mobilityrpc/session/impl/MobilitySessionRPCImpl.java</url>
+          <line>120</line>
+          <properties />
+          <option name="timeStamp" value="231" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog>
@@ -1779,7 +2022,7 @@
           </selected-grouping-rules>
         </breakpoints-dialog>
       </breakpoints-dialog>
-      <option name="time" value="230" />
+      <option name="time" value="232" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1788,208 +2031,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lib/mobility-rpc-1.1.0-all.jar!/com/googlecode/mobilityrpc/session/MobilitySession.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.333333">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.6.0_20/src.zip!/java/lang/Exception.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="10" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.6.0_20/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09115282">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.6.0_20/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1928" column="58" selection-start-line="1928" selection-start-column="58" selection-end-line="1928" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/mobility-rpc-1.1.0-all.jar!/com/googlecode/mobilityrpc/network/ConnectionId.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.148148">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/mobility-rpc-1.1.0-all.jar!/com/googlecode/mobilityrpc/session/impl/MobilitySessionImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.0277777">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.6.0_20/src.zip!/java/lang/NoSuchMethodException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.6.0_20/src.zip!/java/lang/reflect/InvocationTargetException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.6.0_20/src.zip!/java/lang/IllegalAccessException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/minlog/1.2/minlog-1.2-sources.jar!/com/esotericsoftware/minlog/Log.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../JavaFrameWorksSources/RMI-RPC/mobility-rpc 1.1.0/mobility-rpc-1.1.0-sources.jar!/com/googlecode/mobilityrpc/session/impl/MobilitySessionImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="73" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="docComment;class#MobilitySessionImpl#0" expanded="false" />
-            <element signature="docComment;field#EXECUTION_RESPONSE_TIMEOUT_MILLIS#0;class#MobilitySessionImpl#0" expanded="false" />
-            <element signature="e#2048#2092#0" expanded="false" />
-            <element signature="method#MobilitySessionImpl#0;class#MobilitySessionImpl#0" expanded="false" />
-            <element signature="e#2756#2757#0" expanded="false" />
-            <element signature="e#2788#2789#0" expanded="false" />
-            <element signature="method#execute#0;class#MobilitySessionImpl#0" expanded="false" />
-            <element signature="method#execute#1;class#MobilitySessionImpl#0" expanded="false" />
-            <element signature="e#3882#3923#0" expanded="false" />
-            <element signature="e#4740#4843#0" expanded="false" />
-            <element signature="e#5889#5966#0" expanded="false" />
-            <element signature="e#6155#6245#0" expanded="false" />
-            <element signature="e#6675#6728#0" expanded="false" />
-            <element signature="e#8068#8122#0" expanded="false" />
-            <element signature="method#execute#3;class#MobilitySessionImpl#0" expanded="false" />
-            <element signature="method#execute#4;class#MobilitySessionImpl#0" expanded="false" />
-            <element signature="e#9540#9581#0" expanded="false" />
-            <element signature="e#10404#10507#0" expanded="false" />
-            <element signature="e#11553#11630#0" expanded="false" />
-            <element signature="e#11819#11909#0" expanded="false" />
-            <element signature="e#12344#12397#0" expanded="false" />
-            <element signature="e#13269#13353#0" expanded="false" />
-            <element signature="e#13947#14001#0" expanded="false" />
-            <element signature="method#receiveIncomingExecutionRequest#0;class#MobilitySessionImpl#0" expanded="false" />
-            <element signature="e#14422#14522#0" expanded="false" />
-            <element signature="e#14703#14753#0" expanded="false" />
-            <element signature="e#14919#14968#0" expanded="false" />
-            <element signature="e#15082#15148#0" expanded="false" />
-            <element signature="e#20412#20508#0" expanded="false" />
-            <element signature="e#21494#21580#0" expanded="false" />
-            <element signature="method#receiveExecutionResponse#0;class#MobilitySessionImpl#0" expanded="false" />
-            <element signature="docComment;class#FutureExecutionResponse#0;class#MobilitySessionImpl#0" expanded="false" />
-            <element signature="class#FutureExecutionResponse#0;class#MobilitySessionImpl#0" expanded="false" />
-            <element signature="e#24178#24197#0" expanded="false" />
-            <element signature="e#24272#24273#0" expanded="false" />
-            <element signature="e#24338#24339#0" expanded="false" />
-            <element signature="method#getResponse#0;class#FutureExecutionResponse#0;class#MobilitySessionImpl#0" expanded="false" />
-            <element signature="e#25272#25273#0" expanded="false" />
-            <element signature="e#25339#25340#0" expanded="false" />
-            <element signature="e#25416#25417#0" expanded="false" />
-            <element signature="e#25457#25458#0" expanded="false" />
-            <element signature="e#25528#25529#0" expanded="false" />
-            <element signature="e#25574#25575#0" expanded="false" />
-            <element signature="method#release#0;class#MobilitySessionImpl#0" expanded="false" />
-            <element signature="e#25690#25768#0" expanded="false" />
-            <element signature="e#26073#26136#0" expanded="false" />
-            <element signature="e#26446#26498#0" expanded="false" />
-            <element signature="e#26681#26682#0" expanded="false" />
-            <element signature="e#26746#26747#0" expanded="false" />
-            <element signature="method#deserialize#0;class#MobilitySessionImpl#0" expanded="false" />
-            <element signature="e#26952#27006#0" expanded="false" />
-            <element signature="method#serialize#0;class#MobilitySessionImpl#0" expanded="false" />
-            <element signature="method#toString#0;class#MobilitySessionImpl#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/client/staticClass/BenchmarkMultithreaded.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/client/staticClass/MobilityBenchmark.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3226382">
-          <caret line="46" column="9" selection-start-line="7" selection-start-column="8" selection-end-line="46" selection-end-column="9" />
-          <folding>
-            <element signature="docComment;class#MobilityBenchmark#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/util/TimerHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.6.0_20/src.zip!/java/security/MessageDigest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6412777">
-          <caret line="125" column="32" selection-start-line="125" selection-start-column="32" selection-end-line="125" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/factory/util/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4987715">
-          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/mobility-rpc-1.1.0-all.jar!/com/googlecode/mobilityrpc/network/impl/ConnectionManagerImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/impl/result/ErrorResponseImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/result/ErrorResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="105" selection-start-line="3" selection-start-column="105" selection-end-line="3" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/client/staticClass/TestExecuteRunnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="83" column="120" selection-start-line="83" selection-start-column="120" selection-end-line="83" selection-end-column="120" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/client/staticClass/Util.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2139,35 +2180,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/server/MyMovilityRPCServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
-          <folding>
-            <element signature="method#init#0;class#MyMovilityRPCServer#0" expanded="false" />
-            <element signature="method#getBindAddressesByHost#0;class#MyMovilityRPCServer#0" expanded="false" />
-            <element signature="method#createShutdownHook#0;class#MyMovilityRPCServer#0" expanded="false" />
-            <element signature="docComment;method#getController#0;class#MyMovilityRPCServer#0" expanded="false" />
-            <element signature="method#destroy#0;class#MyMovilityRPCServer#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/MyMovilityRPCComm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="159" column="0" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="initializer##0;class#MyMovilityRPCComm#0" expanded="false" />
-            <element signature="docComment;method#init#0;class#MyMovilityRPCComm#0" expanded="false" />
-            <element signature="method#init#0;class#MyMovilityRPCComm#0" expanded="false" />
-            <element signature="method#init#1;class#MyMovilityRPCComm#0" expanded="false" />
-            <element signature="method#getConnListener#0;class#MyMovilityRPCComm#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/enroquesw/mcs/comm/mobilityRPC/MyMovilityRPCCommTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.45714286">
@@ -2213,8 +2225,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="116" column="29" selection-start-line="116" selection-start-column="29" selection-end-line="116" selection-end-column="29" />
           <folding>
-            <element signature="e#6155#6156#0" expanded="true" />
-            <element signature="e#6190#6191#0" expanded="true" />
+            <element signature="e#6155#6156#0" expanded="false" />
+            <element signature="e#6190#6191#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2224,10 +2236,10 @@
         <state vertical-scroll-proportion="0.5151515">
           <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#ServicesFactory_Proccesors#0" expanded="true" />
-            <element signature="method#fetchCallerRegistersFromServer#0;class#ServicesFactory_Proccesors#0" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#ServicesFactory_Proccesors#0" expanded="false" />
+            <element signature="method#fetchCallerRegistersFromServer#0;class#ServicesFactory_Proccesors#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2237,23 +2249,315 @@
         <state vertical-scroll-proportion="0.28239202">
           <caret line="89" column="61" selection-start-line="89" selection-start-column="61" selection-end-line="89" selection-end-column="61" />
           <folding>
-            <element signature="method#getCallerRegister#1;class#ServicesFactory#0" expanded="true" />
-            <element signature="method#getCallerRegisterList#0;class#ServicesFactory#0" expanded="true" />
-            <element signature="method#getCallerRegister#2;class#ServicesFactory#0" expanded="true" />
-            <element signature="method#getProcessorRegister#3;class#ServicesFactory#0" expanded="true" />
-            <element signature="method#fetchProcessorRegistersFromServer#0;class#ServicesFactory#0" expanded="true" />
-            <element signature="method#fetchCallerRegistersFromServer#0;class#ServicesFactory#0" expanded="true" />
+            <element signature="method#getCallerRegister#1;class#ServicesFactory#0" expanded="false" />
+            <element signature="method#getCallerRegisterList#0;class#ServicesFactory#0" expanded="false" />
+            <element signature="method#getCallerRegister#2;class#ServicesFactory#0" expanded="false" />
+            <element signature="method#getProcessorRegister#3;class#ServicesFactory#0" expanded="false" />
+            <element signature="method#fetchProcessorRegistersFromServer#0;class#ServicesFactory#0" expanded="false" />
+            <element signature="method#fetchCallerRegistersFromServer#0;class#ServicesFactory#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.1.0/mobility-rpc-1.1.0-sources.jar!/com/googlecode/mobilityrpc/session/impl/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#771#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.1.0/mobility-rpc-1.1.0-sources.jar!/com/googlecode/mobilityrpc/serialization/impl/KryoSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="65" column="11" selection-start-line="65" selection-start-column="11" selection-end-line="65" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.1.0/mobility-rpc-1.1.0-sources.jar!/com/googlecode/mobilityrpc/protocol/pojo/ExecutionRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+          <folding>
+            <element signature="method#ExecutionRequest#0;class#ExecutionRequest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.6.0_20/src.zip!/java/util/concurrent/LinkedBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15133531">
+          <caret line="44" column="24" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
+          <folding>
+            <element signature="e#6770#6771#0" expanded="false" />
+            <element signature="e#6809#6810#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.1.0/mobility-rpc-1.1.0-sources.jar!/com/googlecode/mobilityrpc/network/impl/tcp/TCPConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32789317">
+          <caret line="36" column="72" selection-start-line="36" selection-start-column="72" selection-end-line="36" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.1.0/mobility-rpc-1.1.0-sources.jar!/com/googlecode/mobilityrpc/session/impl/SessionClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="71" column="16" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
+          <folding>
+            <element signature="e#3000#3001#0" expanded="false" />
+            <element signature="e#3058#3059#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/MyMovilityRPCComm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="78" column="204" selection-start-line="78" selection-start-column="204" selection-end-line="78" selection-end-column="204" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#MyMovilityRPCComm#0" expanded="false" />
+            <element signature="e#2377#2396#0" expanded="false" />
+            <element signature="e#2455#2471#0" expanded="false" />
+            <element signature="initializer##0;class#MyMovilityRPCComm#0" expanded="false" />
+            <element signature="docComment;method#init#0;class#MyMovilityRPCComm#0" expanded="false" />
+            <element signature="docComment;method#init#1;class#MyMovilityRPCComm#0" expanded="false" />
+            <element signature="method#init#1;class#MyMovilityRPCComm#0" expanded="false" />
+            <element signature="docComment;method#isServerRunning#0;class#MyMovilityRPCComm#0" expanded="false" />
+            <element signature="e#5910#5911#0" expanded="false" />
+            <element signature="e#5994#5995#0" expanded="false" />
+            <element signature="docComment;method#getConnListener#0;class#MyMovilityRPCComm#0" expanded="false" />
+            <element signature="method#getConnListener#0;class#MyMovilityRPCComm#0" expanded="false" />
+            <element signature="docComment;method#sleep#0;class#MyMovilityRPCComm#0" expanded="false" />
+            <element signature="method#sleep#0;class#MyMovilityRPCComm#0" expanded="false" />
+            <element signature="docComment;method#checkEndpoint#0;class#MyMovilityRPCComm#0" expanded="false" />
+            <element signature="docComment;method#getServerSystemName#0;class#MyMovilityRPCComm#0" expanded="false" />
+            <element signature="e#8293#8294#0" expanded="false" />
+            <element signature="e#8352#8353#0" expanded="false" />
+            <element signature="docComment;method#getClients#0;class#MyMovilityRPCComm#0" expanded="false" />
+            <element signature="method#getClients#0;class#MyMovilityRPCComm#0" expanded="false" />
+            <element signature="docComment;method#getProccesors#0;class#MyMovilityRPCComm#0" expanded="false" />
+            <element signature="method#getProccesors#0;class#MyMovilityRPCComm#0" expanded="false" />
+            <element signature="docComment;method#getCallers#0;class#MyMovilityRPCComm#0" expanded="false" />
+            <element signature="method#getCallers#0;class#MyMovilityRPCComm#0" expanded="false" />
+            <element signature="docComment;method#destroy#0;class#MyMovilityRPCComm#0" expanded="false" />
+            <element signature="method#destroy#0;class#MyMovilityRPCComm#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.1.0/mobility-rpc-1.1.0-sources.jar!/com/googlecode/mobilityrpc/network/impl/ConnectionManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="179" column="16" selection-start-line="179" selection-start-column="16" selection-end-line="179" selection-end-column="16" />
+          <folding>
+            <element signature="method#ConnectionManagerImpl#0;class#ConnectionManagerImpl#0" expanded="true" />
+            <element signature="method#init#0;class#ConnectionManagerImpl#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.1.0/mobility-rpc-1.1.0-sources.jar!/com/googlecode/mobilityrpc/protocol/pojo/SerializationFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="docComment;class#SerializationFormat#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.1.0/mobility-rpc-1.1.0-sources.jar!/com/googlecode/mobilityrpc/serialization/Serializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/parameter/ProcessParameter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/server/MyMovilityRPCServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.7931035">
+          <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+          <folding>
+            <element signature="method#init#0;class#MyMovilityRPCServer#0" expanded="true" />
+            <element signature="method#createController#0;class#MyMovilityRPCServer#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.1.0/mobility-rpc-1.1.0-sources.jar!/com/googlecode/mobilityrpc/MobilityRPC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;method#newController#0;class#MobilityRPC#0" expanded="false" />
+            <element signature="method#newController#0;class#MobilityRPC#0" expanded="false" />
+            <element signature="docComment;method#MobilityRPC#0;class#MobilityRPC#0" expanded="false" />
+            <element signature="method#MobilityRPC#0;class#MobilityRPC#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/googlecode/mobilityrpc/MyMobilityRPC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="86" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#newController#0;class#MyMobilityRPC#0" expanded="true" />
+            <element signature="method#newController#0;class#MyMobilityRPC#0" expanded="true" />
+            <element signature="docComment;method#MyMobilityRPC#0;class#MyMobilityRPC#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.1.0/mobility-rpc-1.1.0-sources.jar!/com/googlecode/mobilityrpc/session/impl/MobilitySessionInternal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="64" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.1.0/mobility-rpc-1.1.0-sources.jar!/com/googlecode/mobilityrpc/session/impl/MobilitySessionImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="56" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="67" />
+          <folding>
+            <element signature="e#2048#2092#0" expanded="true" />
+            <element signature="method#MobilitySessionImpl#0;class#MobilitySessionImpl#0" expanded="true" />
+            <element signature="method#execute#3;class#MobilitySessionImpl#0" expanded="true" />
+            <element signature="method#execute#4;class#MobilitySessionImpl#0" expanded="true" />
+            <element signature="method#execute#5;class#MobilitySessionImpl#0" expanded="true" />
+            <element signature="method#serialize#0;class#MobilitySessionImpl#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.1.0/mobility-rpc-1.1.0-sources.jar!/com/googlecode/mobilityrpc/controller/impl/MobilityControllerInternal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="61" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.1.0/mobility-rpc-1.1.0-sources.jar!/com/googlecode/mobilityrpc/controller/impl/MobilityControllerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="47" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
+          <folding>
+            <element signature="method#sendOutgoingMessage#0;class#MobilityControllerImpl#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/mobilityrpc/mobility-rpc/1.1.0/mobility-rpc-1.1.0-sources.jar!/com/googlecode/mobilityrpc/controller/MobilityController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/googlecode/mobilityrpc/session/impl/MobilitySessionRPCImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="167" column="42" selection-start-line="167" selection-start-column="42" selection-end-line="167" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#MobilitySessionRPCImpl#0" expanded="true" />
+            <element signature="method#MobilitySessionRPCImpl#0;class#MobilitySessionRPCImpl#0" expanded="true" />
+            <element signature="method#execute#0;class#MobilitySessionRPCImpl#0" expanded="true" />
+            <element signature="e#1839#1843#0" expanded="true" />
+            <element signature="method#execute#1;class#MobilitySessionRPCImpl#0" expanded="true" />
+            <element signature="e#2247#2251#0" expanded="true" />
+            <element signature="e#3383#3486#0" expanded="true" />
+            <element signature="e#4782#4872#0" expanded="true" />
+            <element signature="e#6264#6324#1" expanded="true" />
+            <element signature="method#deserialize#0;class#MobilitySessionRPCImpl#0" expanded="true" />
+            <element signature="method#serialize#0;class#MobilitySessionRPCImpl#0" expanded="true" />
+            <element signature="method#getDefaultSerializerFromSuper#0;class#MobilitySessionRPCImpl#0" expanded="true" />
+            <element signature="e#8734#8766#0" expanded="true" />
+            <element signature="method#getFutureExecutionResponsesFromSuper#0;class#MobilitySessionRPCImpl#0" expanded="true" />
+            <element signature="e#9562#9594#0" expanded="true" />
+            <element signature="e#10100#10101#0" expanded="true" />
+            <element signature="e#10147#10148#0" expanded="true" />
+            <element signature="e#10194#10195#0" expanded="true" />
+            <element signature="e#10243#10244#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/googlecode/mobilityrpc/controller/impl/MobilityControllerRPCImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#MobilityControllerRPCImpl#0" expanded="true" />
+            <element signature="e#2309#2340#0" expanded="true" />
+            <element signature="method#MobilityControllerRPCImpl#0;class#MobilityControllerRPCImpl#0" expanded="true" />
+            <element signature="method#receiveIncomingMessage#0;class#MobilityControllerRPCImpl#0" expanded="true" />
+            <element signature="method#sendOutgoingMessage#0;class#MobilityControllerRPCImpl#0" expanded="true" />
+            <element signature="e#3288#3289#0" expanded="true" />
+            <element signature="e#3328#3329#0" expanded="true" />
+            <element signature="docComment;method#destroy#0;class#MobilityControllerRPCImpl#0" expanded="true" />
+            <element signature="method#destroy#0;class#MobilityControllerRPCImpl#0" expanded="true" />
+            <element signature="e#3781#3782#0" expanded="true" />
+            <element signature="e#3840#3841#0" expanded="true" />
+            <element signature="e#3897#3898#0" expanded="true" />
+            <element signature="e#3949#3950#0" expanded="true" />
+            <element signature="method#releaseSession#0;class#MobilityControllerRPCImpl#0" expanded="true" />
+            <element signature="method#getMessageHandlingSession#0;class#MobilityControllerRPCImpl#0" expanded="true" />
+            <element signature="e#4558#4601#0" expanded="true" />
+            <element signature="e#4847#4914#0" expanded="true" />
+            <element signature="e#5389#5473#0" expanded="true" />
+            <element signature="e#5580#5730#0" expanded="true" />
+            <element signature="class#MessageProcessorTask#0;class#MobilityControllerRPCImpl#0" expanded="true" />
+            <element signature="method#MessageProcessorTask#0;class#MessageProcessorTask#0;class#MobilityControllerRPCImpl#0" expanded="true" />
+            <element signature="e#6169#6170#0" expanded="true" />
+            <element signature="e#6234#6235#0" expanded="true" />
+            <element signature="method#processMessage#0;class#MessageProcessorTask#0;class#MobilityControllerRPCImpl#0" expanded="true" />
+            <element signature="e#6688#6720#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.6.0_20/jre/lib/rt.jar!/com/sun/istack/internal/Nullable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.4074074">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="e#153#185#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/client/MyMovilityRPCClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.056478404">
-          <caret line="101" column="97" selection-start-line="101" selection-start-column="84" selection-end-line="101" selection-end-column="97" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="122" column="61" selection-start-line="122" selection-start-column="61" selection-end-line="122" selection-end-column="61" />
           <folding>
-            <element signature="method#init#0;class#MyMovilityRPCClient#0" expanded="true" />
-            <element signature="method#checkEndpoint#0;class#MyMovilityRPCClient#0" expanded="true" />
             <element signature="method#getEndPointByRemoteName#0;class#MyMovilityRPCClient#0" expanded="true" />
           </folding>
         </state>
@@ -2261,12 +2565,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/callable/CallerOfProcess.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.028239202">
-          <caret line="72" column="42" selection-start-line="72" selection-start-column="42" selection-end-line="72" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.32934132">
+          <caret line="131" column="108" selection-start-line="131" selection-start-column="108" selection-end-line="131" selection-end-column="108" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#CallerOfProcess#0;class#CallerOfProcess#0" expanded="true" />
+            <element signature="e#3397#3398#0" expanded="true" />
+            <element signature="e#3439#3440#0" expanded="true" />
+            <element signature="e#3466#3467#0" expanded="true" />
+            <element signature="e#3500#3501#0" expanded="true" />
+            <element signature="method#getCodUniqOfService#0;class#CallerOfProcess#0" expanded="true" />
+            <element signature="method#setRemote#0;class#CallerOfProcess#0" expanded="true" />
+            <element signature="e#4411#4412#0" expanded="true" />
+            <element signature="e#4439#4440#0" expanded="true" />
+            <element signature="e#4446#4478#0" expanded="true" />
+            <element signature="e#4446#4478#0" expanded="true" />
+            <element signature="method#call#0;class#CallerOfProcess#0" expanded="true" />
+            <element signature="e#4749#4781#0" expanded="true" />
             <element signature="method#getInstance#0;class#CallerOfProcess#0" expanded="true" />
-            <element signature="method#executeCalling#1;class#CallerOfProcess#0" expanded="true" />
+            <element signature="e#5505#5537#0" expanded="true" />
+            <element signature="method#executeCalling#0;class#CallerOfProcess#0" expanded="true" />
+            <element signature="e#5847#5851#0" expanded="true" />
+            <element signature="e#5873#5905#0" expanded="true" />
+            <element signature="e#6226#6235#0" expanded="true" />
+            <element signature="e#6890#6899#0" expanded="true" />
+            <element signature="e#8216#8225#0" expanded="true" />
+            <element signature="e#8640#8649#0" expanded="true" />
+            <element signature="e#8750#8759#0" expanded="true" />
+            <element signature="e#8882#8891#0" expanded="true" />
           </folding>
         </state>
       </provider>

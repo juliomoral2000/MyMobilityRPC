@@ -18,7 +18,6 @@ package com.enroquesw.mcs.comm.mobilityRPC.services.callable;
 import com.enroquesw.mcs.comm.mobilityRPC.client.MyMovilityRPCClient;
 import com.enroquesw.mcs.comm.mobilityRPC.enums.CallType;
 import com.enroquesw.mcs.comm.mobilityRPC.enums.SystemName;
-import com.enroquesw.mcs.comm.mobilityRPC.server.MyMovilityRPCServer;
 import com.enroquesw.mcs.comm.mobilityRPC.services.exception.ServiceBaseException;
 import com.enroquesw.mcs.comm.mobilityRPC.services.factory.CallerRegister;
 import com.enroquesw.mcs.comm.mobilityRPC.services.parameter.ProcessParameter;
@@ -29,8 +28,8 @@ import com.googlecode.mobilityrpc.protocol.pojo.ExecutionMode;
 import com.sun.istack.internal.Nullable;
 
 import java.lang.reflect.Constructor;
-import java.lang.reflect.InvocationTargetException;
 import java.util.concurrent.Callable;
+import java.util.concurrent.TimeoutException;
 
 import static com.enroquesw.mcs.comm.mobilityRPC.services.ServicesBaseExecutor.executeProcessor;
 import static com.enroquesw.mcs.comm.mobilityRPC.services.factory.ServicesFactory.getCallerRegister;
@@ -47,7 +46,7 @@ import static com.enroquesw.mcs.comm.mobilityRPC.services.factory.ServicesFactor
  *
  * @author Julio Morales
  */
-public abstract class CallerOfProcess<V extends CallerOfProcess, Y extends ProcessParameter, T extends Object/*FIXME_JULIO: extends ProcessResponse*/> implements Callable<V /*FIXME_JULIO: Aqui podria ser T asi no tendria que guardarlo como un campo y quitaria getResult()*/> {
+public abstract class CallerOfProcess<V extends CallerOfProcess, Y extends ProcessParameter, T /*extends Object FIXME_JULIO: extends ProcessResponse*/> implements Callable<V /*FIXME_JULIO: Aqui podria ser T asi no tendria que guardarlo como un campo y quitaria getResult()*/> {
     private Y parameter;
     private T result;
     private ErrorResponse error;
@@ -75,7 +74,7 @@ public abstract class CallerOfProcess<V extends CallerOfProcess, Y extends Proce
             throw new Exception("El Caller "+this.getClass().getName()+" no pudo ser invocado, msg : "+msg.toString());
         }
         return callerRegister.getCodUniqOfService();
-    };
+    }
 
     public void setRemote(SystemName remote) throws Exception {
         this.remote = remote;
@@ -86,6 +85,7 @@ public abstract class CallerOfProcess<V extends CallerOfProcess, Y extends Proce
         return error;
     }
 
+    @SuppressWarnings({"unchecked"})
     @Override
     public V call() throws Exception {
         Object o = executeProcessor(this.codUniqOfService, this.parameter);
@@ -94,6 +94,7 @@ public abstract class CallerOfProcess<V extends CallerOfProcess, Y extends Proce
         return (V) this;
     }
 
+    @SuppressWarnings({"unchecked"})
     private static <V extends CallerOfProcess, Y extends ProcessParameter> V getInstance(Class<V> callerClass, Y parameter, StringBuffer msg){
         try {
             Constructor<?>[] declaredConstructors = callerClass.getDeclaredConstructors();
@@ -101,8 +102,7 @@ public abstract class CallerOfProcess<V extends CallerOfProcess, Y extends Proce
             Constructor ctor = declaredConstructors[0];
             ctor.setAccessible(true);
             Object[] param = {parameter};
-            V o = (V) ctor.newInstance(param);
-            return o;
+            return (V) ctor.newInstance(param);
         } catch (Exception e) {
             msg.append(e.getMessage()==null? e.getCause().getMessage():e.getMessage());
             e.printStackTrace();
@@ -110,14 +110,16 @@ public abstract class CallerOfProcess<V extends CallerOfProcess, Y extends Proce
         return null;
     }
 
-    public static <V extends CallerOfProcess, Y extends ProcessParameter, T extends Object> T executeCalling(Class<V> callerClass, Y parameter, @Nullable SystemName remoteSystemName, boolean isBase) throws ServiceBaseException {
+    @SuppressWarnings({"unchecked"})
+    public static <V extends CallerOfProcess, Y extends ProcessParameter, T /*extends Object*/> T executeCalling(Class<V> callerClass, Y parameter, @Nullable SystemName remoteSystemName, boolean isBase) throws ServiceBaseException {
         return (T) executeCalling(callerClass, parameter, remoteSystemName, null, isBase);
     }
 
-    public static <V extends CallerOfProcess, Y extends ProcessParameter, T extends Object> T executeCalling(Class<V> callerClass, Y parameter, @Nullable SystemName remoteSystemName, CallType callType, boolean isBase) throws ServiceBaseException {
+    @SuppressWarnings({"unchecked"})
+    public static <V extends CallerOfProcess, Y extends ProcessParameter, T /*extends Object*/> T executeCalling(Class<V> callerClass, Y parameter, @Nullable SystemName remoteSystemName, CallType callType, boolean isBase) throws ServiceBaseException {
         if(remoteSystemName == null) throw new ServiceBaseException("RPC-500", "El Sistema Remoto no puede ser nulo para invocar a ".concat(callerClass.getSimpleName()));
         StringBuffer msg = new StringBuffer();
-        V callerInstance = (V) getInstance(callerClass, parameter, msg);
+        V callerInstance = /*(V)*/ getInstance(callerClass, parameter, msg);
         ConnectionId connectionId = null;
         try {
             if(callerInstance == null) throw new Exception(msg.toString());
@@ -127,12 +129,12 @@ public abstract class CallerOfProcess<V extends CallerOfProcess, Y extends Proce
                 callerInstance.setRemote(SystemName.ALL);
             }
         }catch (Exception e){
-            throw new ServiceBaseException("RPC-501", "Error al obtener el registro del Sistema Remoto : "+e.getMessage()!= null ?e.getMessage():e.getCause().toString());
+            throw new ServiceBaseException("RPC-501", "Error al obtener el registro del Sistema Remoto : "+ e.getMessage()!= null ? e.getMessage(): e.getCause().toString());
         }
         try {
             connectionId = MyMovilityRPCClient.getEndPointByRemoteName(remoteSystemName.getSystemName());
             ExecutionMode rr = callType != null? callType.getCallType() : ExecutionMode.RETURN_RESPONSE;
-            V execute = (V) MyMovilityRPCClient.getSession().execute(connectionId, rr, callerInstance);
+            V execute = (V) MyMovilityRPCClient.getSession().execute(connectionId, rr, callerInstance); // FIXME_JULIO: Implementar patra el time out pero primero verificar que funcione normal con ((MobilitySessionRPCImpl)MyMovilityRPCClient.getSession()).execute(connectionId, rr, callerInstance, xTimeOutMili);
             if(rr.equals(ExecutionMode.FIRE_AND_FORGET)) return null;
             ErrorResponse error = execute.getError();
             if(error != null) throw new ServiceBaseException(error.getCodError(), error.getMessage());
@@ -140,8 +142,10 @@ public abstract class CallerOfProcess<V extends CallerOfProcess, Y extends Proce
         } catch (ServiceBaseException e) {
             throw e;
         } catch (IllegalStateException e) {
-            if(e.getCause() != null &&e.getCause().getCause() != null && e.getCause().getCause().getMessage().equals("Connection refused: connect")){
-                throw new ServiceBaseException("RPC-502", "Conexión rechazada a ".concat(connectionId.toString()));
+            final String connStr = connectionId != null? connectionId.toString() : "connectionId is Null!!!";
+            if(e.getCause() != null && e.getCause().getCause() != null && e.getCause().getCause() instanceof TimeoutException) throw new ServiceBaseException("RPC-504", "Se agoto el tiempo de espera para recibir la respuesta de la ejecución dentro del tiempo de espera de 60.000 milisegundos a traves de la conexion ".concat(connStr));
+            if(e.getCause() != null && e.getCause().getCause() != null && e.getCause().getCause().getMessage() != null && e.getCause().getCause().getMessage().equals("Connection refused: connect")){
+                throw new ServiceBaseException("RPC-502", "Conexión rechazada a ".concat(connStr));
             }
             throw new ServiceBaseException("RPC-503","Error desconocido :".concat(e.getMessage()));
         } catch (Exception ex){

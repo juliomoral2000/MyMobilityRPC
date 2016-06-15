@@ -20,6 +20,7 @@ import com.enroquesw.mcs.comm.mobilityRPC.enums.SystemName;
 import com.enroquesw.mcs.comm.mobilityRPC.exceptions.MovilityRPCServerException;
 import com.enroquesw.mcs.comm.mobilityRPC.services.factory.ServicesFactory;
 import com.googlecode.mobilityrpc.MobilityRPC;
+import com.googlecode.mobilityrpc.MyMobilityRPC;
 import com.googlecode.mobilityrpc.controller.MobilityController;
 import com.googlecode.mobilityrpc.lib.com.esotericsoftware.minlog.Log;
 import com.googlecode.mobilityrpc.network.ConnectionId;
@@ -86,7 +87,8 @@ public class MyMovilityRPCServer {
 
     private static MobilityController createController(@Nullable String hostIp, @Nullable Integer port) throws Exception {
         if (controller != null) throw new IllegalStateException("Server is already running");
-        MobilityController mobilityController = MobilityRPC.newController(); // Create a new MobilityController...
+        //MobilityController mobilityController = MobilityRPC.newController(); // Create a new MobilityController... FIXME_JULIO: CAMBIOS DE IMPLEMENTACION PARA EL TIME_OUT
+        MobilityController mobilityController = MyMobilityRPC.newController(); // Creamos mi implementacion ...
         int innerport = port == null || port == 0 ? EmbeddedMobilityServer.DEFAULT_PORT : port;
         bindAddresses = getBindAddressesByHost(hostIp);
         // bind to network interfaces...
