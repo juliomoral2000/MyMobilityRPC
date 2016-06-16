@@ -2,6 +2,8 @@ package com.enroquesw.mcs.comm.mobilityRPC.exceptions;
 
 /**
  * La Clase Generica <code>MovilityRPCException</code> de emision de Excepciones a usar a Nivel de MyMovilityRPC [Servidor y Cliente]
+ *
+ * @author Julio Morales
  */
 public class MovilityRPCException extends java.lang.RuntimeException{
     private String keyCode;

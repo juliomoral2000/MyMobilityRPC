@@ -25,6 +25,7 @@ import com.googlecode.mobilityrpc.network.ConnectionManager;
 import com.googlecode.mobilityrpc.network.impl.tcp.TCPConnection;
 import com.googlecode.mobilityrpc.session.MobilityContext;
 import com.googlecode.mobilityrpc.session.MobilitySession;
+import com.googlecode.mobilityrpc.session.impl.MobilitySessionRPCImpl;
 import com.sun.istack.internal.NotNull;
 import com.sun.istack.internal.Nullable;
 
@@ -82,7 +83,7 @@ public class MyMovilityRPCClient {
             if (outConn != null) {
                 int localPort = getLocalPort(outConn);
                 Log.info("Ok! testing conecction to ".concat(entry.getKey()).concat(" connectionId: ").concat(entry.getValue().toString()).concat(" localPort :").concat(String.valueOf(localPort)));
-                if(outConn != null) ((TCPConnection) outConn).destroy();
+                /*if(outConn != null) */((TCPConnection) outConn).destroy();
             } else {
                 String concat = "FAILED testing conecction to ".concat(entry.getKey()).concat(" connectionId: ").concat(entry.getValue().toString()).concat(", cause: ").concat(msg.toString());
                 MyMovilityRPCCommRunner.isFailClients = true;
@@ -171,5 +172,9 @@ public class MyMovilityRPCClient {
         private final Runnable wrapped;
         SessionReleasingRunnable(Runnable wrapped) { this.wrapped = wrapped; }
         @Override public void run() { try { wrapped.run(); } finally { MobilityContext.getCurrentSession().release();} }
+    }
+
+    public long getDefaultExecutionResponseTimeout(){
+        return session != null? ((MobilitySessionRPCImpl)session).getDefaultExecutionResponseTimeout() : -1 ;
     }
 }

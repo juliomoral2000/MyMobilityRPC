@@ -7,6 +7,7 @@ import static java.security.MessageDigest.*;
 
 /**
  * La clase <code>Util</code>, contiene metodos utilitarios utilizados por las clases de este paquete
+ * @author Julio Morales
  */
 public class Util {
     static MessageDigest digest;
@@ -23,14 +24,14 @@ public class Util {
         try{
             if(digest != null){
                 byte[] hash = digest.digest(base.getBytes("UTF-8"));
-                StringBuffer hexString = new StringBuffer();
-
-                for (int i = 0; i < hash.length; i++) {
-                    String hex = Integer.toHexString(0xff & hash[i]);
-                    if(hex.length() == 1) hexString.append('0');
+                StringBuilder hexString = new StringBuilder();
+                for (byte aHash : hash) {
+                    String hex = Integer.toHexString(0xff & aHash);
+                    if (hex.length() == 1) hexString.append('0');
                     hexString.append(hex);
                 }
                 return hexString.toString();
+                /*for (int i = 0; i < hash.length; i++) { String hex = Integer.toHexString(0xff & hash[i]); if(hex.length() == 1) hexString.append('0'); hexString.append(hex); }*/
             } else {
                 return base;
             }

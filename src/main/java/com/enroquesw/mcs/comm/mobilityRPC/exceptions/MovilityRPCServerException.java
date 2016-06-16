@@ -2,6 +2,8 @@ package com.enroquesw.mcs.comm.mobilityRPC.exceptions;
 
 /**
  * La Clase <code>MovilityRPCServerException</code> de Excepciones a Nivel de MyMovilityRPC Servidor
+ *
+ * @author Julio Morales
  */
 public class MovilityRPCServerException extends MovilityRPCException {
 

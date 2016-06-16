@@ -16,7 +16,7 @@
 package com.enroquesw.mcs.comm.mobilityRPC.services.result;
 
 /**
- * Interfaz que representa la respuesta de un Processor
+ * <code>ProcessResponse</code> Interfaz que representa la respuesta de un Processor
  *
  * @author Julio Morales
  */

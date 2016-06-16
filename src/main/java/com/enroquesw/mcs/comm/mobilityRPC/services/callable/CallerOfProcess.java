@@ -25,6 +25,7 @@ import com.enroquesw.mcs.comm.mobilityRPC.services.result.ErrorResponse;
 import com.enroquesw.mcs.comm.mobilityRPC.services.result.ProcessResponse;
 import com.googlecode.mobilityrpc.network.ConnectionId;
 import com.googlecode.mobilityrpc.protocol.pojo.ExecutionMode;
+import com.googlecode.mobilityrpc.session.impl.MobilitySessionRPCImpl;
 import com.sun.istack.internal.Nullable;
 
 import java.lang.reflect.Constructor;
@@ -66,11 +67,12 @@ public abstract class CallerOfProcess<V extends CallerOfProcess, Y extends Proce
         return this.result;
     }
 
+    @SuppressWarnings({"unchecked"})
     public String getCodUniqOfService(SystemName remote) throws Exception {
         CallerRegister callerRegister = remote == null? getCallerRegister(this.getClass()) : getCallerRegister(remote, this.getClass()) ;
         if(callerRegister == null) {
             StringBuilder msg = new StringBuilder();
-            if(MyMovilityRPCClient.checkEndpoint(MyMovilityRPCClient.getEndPointByRemoteName(remote.getSystemName()), msg) != null) throw new Exception("El Caller "+this.getClass().getName()+" no esta Registrado ");
+            if(MyMovilityRPCClient.checkEndpoint(MyMovilityRPCClient.getEndPointByRemoteName(remote.getSystemName()), msg) != null) throw new Exception(" El Caller "+this.getClass().getName()+" no esta Registrado ");
             throw new Exception("El Caller "+this.getClass().getName()+" no pudo ser invocado, msg : "+msg.toString());
         }
         return callerRegister.getCodUniqOfService();
@@ -134,7 +136,7 @@ public abstract class CallerOfProcess<V extends CallerOfProcess, Y extends Proce
         try {
             connectionId = MyMovilityRPCClient.getEndPointByRemoteName(remoteSystemName.getSystemName());
             ExecutionMode rr = callType != null? callType.getCallType() : ExecutionMode.RETURN_RESPONSE;
-            V execute = (V) MyMovilityRPCClient.getSession().execute(connectionId, rr, callerInstance); // FIXME_JULIO: Implementar patra el time out pero primero verificar que funcione normal con ((MobilitySessionRPCImpl)MyMovilityRPCClient.getSession()).execute(connectionId, rr, callerInstance, xTimeOutMili);
+            V execute = executeRequest(connectionId, rr, callerInstance);
             if(rr.equals(ExecutionMode.FIRE_AND_FORGET)) return null;
             ErrorResponse error = execute.getError();
             if(error != null) throw new ServiceBaseException(error.getCodError(), error.getMessage());
@@ -143,7 +145,7 @@ public abstract class CallerOfProcess<V extends CallerOfProcess, Y extends Proce
             throw e;
         } catch (IllegalStateException e) {
             final String connStr = connectionId != null? connectionId.toString() : "connectionId is Null!!!";
-            if(e.getCause() != null && e.getCause().getCause() != null && e.getCause().getCause() instanceof TimeoutException) throw new ServiceBaseException("RPC-504", "Se agoto el tiempo de espera para recibir la respuesta de la ejecución dentro del tiempo de espera de 60.000 milisegundos a traves de la conexion ".concat(connStr));
+            if(e.getCause() != null && e.getCause().getCause() != null && e.getCause().getCause() instanceof TimeoutException) throw new ServiceBaseException("RPC-504", "Se agoto el tiempo de espera para recibir la respuesta a traves de la conexion ".concat(connStr));
             if(e.getCause() != null && e.getCause().getCause() != null && e.getCause().getCause().getMessage() != null && e.getCause().getCause().getMessage().equals("Connection refused: connect")){
                 throw new ServiceBaseException("RPC-502", "Conexión rechazada a ".concat(connStr));
             }
@@ -151,5 +153,11 @@ public abstract class CallerOfProcess<V extends CallerOfProcess, Y extends Proce
         } catch (Exception ex){
             throw new ServiceBaseException("RPC-503","Error desconocido :".concat(ex.getMessage()));
         }
+    }
+
+    @SuppressWarnings({"unchecked"})
+    private static <V extends CallerOfProcess> V executeRequest(ConnectionId connectionId, ExecutionMode rr, V callerInstance) {
+        final Long timeOutMax = callerInstance.parameter.getTimeOutMax();
+        return (timeOutMax != null && timeOutMax > 0)? (V) ((MobilitySessionRPCImpl) MyMovilityRPCClient.getSession()).execute(connectionId, rr, callerInstance, timeOutMax) : (V) MyMovilityRPCClient.getSession().execute(connectionId, rr, callerInstance);
     }
 }

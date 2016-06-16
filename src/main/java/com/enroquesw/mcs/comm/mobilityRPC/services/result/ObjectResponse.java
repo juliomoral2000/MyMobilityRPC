@@ -16,7 +16,8 @@
 package com.enroquesw.mcs.comm.mobilityRPC.services.result;
 
 /**
- * Created by Julio on 20/01/2016.
+ * <code>ObjectResponse</code>
+ * @author Julio Morales
  */
 public interface ObjectResponse extends ProcessResponse {
 }

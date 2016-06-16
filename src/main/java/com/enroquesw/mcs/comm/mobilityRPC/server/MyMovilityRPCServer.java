@@ -19,7 +19,6 @@ import com.enroquesw.mcs.comm.mobilityRPC.MyMovilityRPCComm;
 import com.enroquesw.mcs.comm.mobilityRPC.enums.SystemName;
 import com.enroquesw.mcs.comm.mobilityRPC.exceptions.MovilityRPCServerException;
 import com.enroquesw.mcs.comm.mobilityRPC.services.factory.ServicesFactory;
-import com.googlecode.mobilityrpc.MobilityRPC;
 import com.googlecode.mobilityrpc.MyMobilityRPC;
 import com.googlecode.mobilityrpc.controller.MobilityController;
 import com.googlecode.mobilityrpc.lib.com.esotericsoftware.minlog.Log;

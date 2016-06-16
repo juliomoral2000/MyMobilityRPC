@@ -4,6 +4,7 @@ import com.enroquesw.mcs.comm.mobilityRPC.services.result.ErrorResponse;
 
 /**
  * la clase <code>ErrorResponseImpl</code> implementa la interfaz ErrorResponse
+ * @author Julio Morales
  */
 public class ErrorResponseImpl implements ErrorResponse{
 

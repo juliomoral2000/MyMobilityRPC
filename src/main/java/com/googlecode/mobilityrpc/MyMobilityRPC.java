@@ -5,6 +5,7 @@ import com.googlecode.mobilityrpc.controller.impl.MobilityControllerRPCImpl;
 
 /**
  * <code>MyMobilityRPC</code> es la implementacion Personaliza de {@link MobilityRPC}.
+ * @author Julio Morales
  */
 public class MyMobilityRPC {
     /**

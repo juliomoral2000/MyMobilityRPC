@@ -54,9 +54,12 @@ public enum SystemName implements ProcessParameter {
         return systemName;
     }
 
+    @Override
+    public Long getTimeOutMax() { return null; }
+
     /**
      * Retorna el SystemName dado el nombre
-     * @param name
+     * @param name Nombre del Sistema
      * @return SystemName
      */
     public static SystemName getByName(String name){
@@ -68,7 +71,7 @@ public enum SystemName implements ProcessParameter {
 
     /**
      * Retorna el SystemName dado el id
-     * @param systemId
+     * @param systemId Id del Sistema
      * @return SystemName
      */
     public static SystemName getById(int systemId){

@@ -16,7 +16,10 @@
 package com.enroquesw.mcs.comm.mobilityRPC.services.parameter;
 
 /**
- * Interface que define que esta implementacion es un parametro usado por algun CallProcessor como entrada
+ * <code>ProcessParameter</code> es la Interface que define que esta implementacion es un parametro usado
+ * por algun CallProcessor como parametro de entrada e recibido por los Processor en el Remoto
+ * @author Julio Morales
  */
 public interface ProcessParameter {
+    Long getTimeOutMax();
 }

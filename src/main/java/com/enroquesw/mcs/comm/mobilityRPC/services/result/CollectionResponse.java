@@ -18,7 +18,8 @@ package com.enroquesw.mcs.comm.mobilityRPC.services.result;
 import java.util.Collection;
 
 /**
- * Created by Julio on 20/01/2016.
+ * <code>CollectionResponse</code>
+ * @author Julio Morales
  */
 public interface CollectionResponse<E> extends ProcessResponse, Collection<E> {
 }

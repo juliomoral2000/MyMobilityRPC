@@ -1,7 +1,9 @@
 package com.enroquesw.mcs.comm.mobilityRPC.exceptions;
 
 /**
- * La Clase <code>MovilityRPCClientException</code> de Excepciones a Nivel de MyMovilityRPC Cliente
+ * La Clase <code>MovilityRPCClientException</code> de Excepciones a Nivel de MyMovilityRPC Cliente.
+ *
+ * @author Julio Morales
  */
 public class MovilityRPCClientException extends MovilityRPCException {
     public MovilityRPCClientException(String keyCode, String message) {

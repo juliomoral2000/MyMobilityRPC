@@ -25,6 +25,7 @@ import java.util.logging.Logger;
 
 /**
  * <code>MobilityControllerRPCImpl</code> es la implementacion Personaliza de {@link com.googlecode.mobilityrpc.controller.MobilityController}.
+ * @author Julio Morales
  */
 public class MobilityControllerRPCImpl extends MobilityControllerImpl {
     private final Logger logger = Logger.getLogger(getClass().getName());

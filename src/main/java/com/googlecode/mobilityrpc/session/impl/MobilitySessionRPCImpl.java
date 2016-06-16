@@ -167,4 +167,8 @@ public class MobilitySessionRPCImpl extends MobilitySessionImpl {
     public Serializer getDefaultSerializer(){
          return this.defaultSerializerSon;
     }
+
+    public long getDefaultExecutionResponseTimeout(){
+        return EXECUTION_RESPONSE_TIMEOUT_MILLIS_RPC;
+    }
 }
