@@ -32,6 +32,7 @@ public enum SystemName implements ProcessParameter {
     ACSELE(1, "Acsel-e"), COTIZADOR(15, "Cotizador"), SAPN(14, "SAPN"), CRM(3, "CRM Vida Individual"), OTHER(-1, "Other"), ALL(0, "All");
     int systemId;
     String systemName;
+    private Long timeOutMax;
 
     SystemName(int systemId, String systemName) {
         this.systemId = systemId;
@@ -54,8 +55,10 @@ public enum SystemName implements ProcessParameter {
         return systemName;
     }
 
+    public void setTimeOutMax(Long timeOutMax) { this.timeOutMax = timeOutMax; }
+
     @Override
-    public Long getTimeOutMax() { return null; }
+    public Long getTimeOutMax() { return timeOutMax; }
 
     /**
      * Retorna el SystemName dado el nombre

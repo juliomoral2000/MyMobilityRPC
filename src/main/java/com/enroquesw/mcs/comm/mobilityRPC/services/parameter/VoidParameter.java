@@ -20,6 +20,10 @@ package com.enroquesw.mcs.comm.mobilityRPC.services.parameter;
  * @author Julio Morales
  */
 public class VoidParameter implements ProcessParameter {
+    private Long timeOutMax;
+
+    public void setTimeOutMax(Long timeOutMax) { this.timeOutMax = timeOutMax; }
+
     @Override
-    public Long getTimeOutMax() { return null; }
+    public Long getTimeOutMax() { return timeOutMax; }
 }
