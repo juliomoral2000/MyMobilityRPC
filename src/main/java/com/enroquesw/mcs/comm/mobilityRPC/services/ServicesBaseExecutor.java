@@ -73,6 +73,8 @@ public class ServicesBaseExecutor<V extends CallerOfProcess, Y extends ProcessPa
             if(e instanceof InvocationTargetException && ((InvocationTargetException) e).getTargetException() instanceof ServiceBaseException){
                 ServiceBaseException te = ((ServiceBaseException)((InvocationTargetException) e).getTargetException());
                 outExcp = (T) new ErrorResponseImpl(te.getKeyCode(), te.getMessage());
+            }else if(e instanceof InvocationTargetException){
+                outExcp = (T) new ErrorResponseImpl("RPC-999", ((InvocationTargetException) e).getTargetException().getMessage());
             }else{
                 outExcp = (T) new ErrorResponseImpl("RPC-999", "Excepcion en la ejecucion del metodo ["+register.getMethodName()+"], en la clase ["+ aClass.getName()+"], mensaje "+e.getMessage());
             }
