@@ -25,10 +25,12 @@ import com.enroquesw.mcs.comm.mobilityRPC.services.result.ErrorResponse;
 import com.enroquesw.mcs.comm.mobilityRPC.services.result.ProcessResponse;
 import com.googlecode.mobilityrpc.network.ConnectionId;
 import com.googlecode.mobilityrpc.protocol.pojo.ExecutionMode;
+import com.googlecode.mobilityrpc.session.MobilitySession;
 import com.googlecode.mobilityrpc.session.impl.MobilitySessionRPCImpl;
 import com.sun.istack.internal.Nullable;
 
 import java.lang.reflect.Constructor;
+import java.util.UUID;
 import java.util.concurrent.Callable;
 import java.util.concurrent.TimeoutException;
 
@@ -53,10 +55,12 @@ public abstract class CallerOfProcess<V extends CallerOfProcess, Y extends Proce
     private ErrorResponse error;
     private String codUniqOfService;
     private SystemName remote; // Esto para los casos que se tenga mas de un remoto manejado por el mismo caller/processor x ejemplos los comunes a todos los sistemas
+    private String requestId;
 
     public CallerOfProcess(Y parameter) throws Exception {
         this.parameter = parameter;
         codUniqOfService = getCodUniqOfService(null);
+        this.requestId = UUID.randomUUID().toString();
     }
 
     public void setParameter(Y parameter){
@@ -87,10 +91,12 @@ public abstract class CallerOfProcess<V extends CallerOfProcess, Y extends Proce
         return error;
     }
 
+    public String getRequestId() { return requestId; }
+
     @SuppressWarnings({"unchecked"})
     @Override
     public V call() throws Exception {
-        Object o = executeProcessor(this.codUniqOfService, this.parameter);
+        Object o = executeProcessor(this.codUniqOfService, this.parameter, this.requestId); // Esto se ejecuta del lado del Servidor
         if(o instanceof ErrorResponse) this.error = (ErrorResponse) o;
         else this.result = (T) o;
         return (V) this;
@@ -113,15 +119,16 @@ public abstract class CallerOfProcess<V extends CallerOfProcess, Y extends Proce
     }
 
     @SuppressWarnings({"unchecked"})
-    public static <V extends CallerOfProcess, Y extends ProcessParameter, T /*extends Object*/> T executeCalling(Class<V> callerClass, Y parameter, @Nullable SystemName remoteSystemName, boolean isBase) throws ServiceBaseException {
-        return (T) executeCalling(callerClass, parameter, remoteSystemName, null, isBase);
+    public static <V extends CallerOfProcess, Y extends ProcessParameter, T /*extends Object*/> T executeCalling(Class<V> callerClass, Y parameter, @Nullable SystemName remoteSystemName, boolean isBase, StringBuffer requestIdOut) throws ServiceBaseException {
+        return (T) executeCalling(callerClass, parameter, remoteSystemName, null, isBase, requestIdOut);
     }
 
     @SuppressWarnings({"unchecked"})
-    public static <V extends CallerOfProcess, Y extends ProcessParameter, T /*extends Object*/> T executeCalling(Class<V> callerClass, Y parameter, @Nullable SystemName remoteSystemName, CallType callType, boolean isBase) throws ServiceBaseException {
+    public static <V extends CallerOfProcess, Y extends ProcessParameter, T /*extends Object*/> T executeCalling(Class<V> callerClass, Y parameter, @Nullable SystemName remoteSystemName, CallType callType, boolean isBase, StringBuffer requestIdOut) throws ServiceBaseException {
         if(remoteSystemName == null) throw new ServiceBaseException("RPC-500", "El Sistema Remoto no puede ser nulo para invocar a ".concat(callerClass.getSimpleName()));
         StringBuffer msg = new StringBuffer();
         V callerInstance = /*(V)*/ getInstance(callerClass, parameter, msg);
+        requestIdOut.append(callerInstance == null ? "callerInstance_NULL" : callerInstance.getRequestId());
         ConnectionId connectionId = null;
         try {
             if(callerInstance == null) throw new Exception(msg.toString());
