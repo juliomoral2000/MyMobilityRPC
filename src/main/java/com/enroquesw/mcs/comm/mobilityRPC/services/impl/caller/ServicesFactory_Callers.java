@@ -42,7 +42,7 @@ public class ServicesFactory_Callers <P extends ProcessParameter>{
      * @throws Exception
      */
     public static List<ProcessorRegister> fetchProcessorRegistersFromServer(@Nullable SystemName remoteSystemName) throws Exception {
-        return ServicesBaseExecutor.executeCalling(FetchProcessorRegistersFromCaller.class, MyMovilityRPCComm.getServerSystemName(), remoteSystemName, true);
+        return ServicesBaseExecutor.executeCalling(FetchProcessorRegistersFromCaller.class, MyMovilityRPCComm.getServerSystemName(), remoteSystemName, true, new StringBuffer());
     }
 
     /**
@@ -52,7 +52,7 @@ public class ServicesFactory_Callers <P extends ProcessParameter>{
      * @throws Exception
      */
     public static List<CallerRegister> fetchCallerRegistersFromServer(@Nullable SystemName remoteSystemName) throws Exception {
-        return ServicesBaseExecutor.executeCalling(FetchCallerRegistersFromServer.class, MyMovilityRPCComm.getServerSystemName(), remoteSystemName, true);
+        return ServicesBaseExecutor.executeCalling(FetchCallerRegistersFromServer.class, MyMovilityRPCComm.getServerSystemName(), remoteSystemName, true, new StringBuffer());
     }
 
     /**

@@ -84,5 +84,7 @@ public enum SystemName implements ProcessParameter {
         return OTHER;
     }
 
+    public String getRequestId() { return null; }
 
+    public void setRequestId(String requestId) { return; }
 }

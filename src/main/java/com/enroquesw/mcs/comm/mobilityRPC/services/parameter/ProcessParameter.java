@@ -16,10 +16,12 @@
 package com.enroquesw.mcs.comm.mobilityRPC.services.parameter;
 
 /**
- * <code>ProcessParameter</code> es la Interface que define que esta implementacion es un parametro usado
+ * <code>ProcessParameter</code> es la Clase Abstracta (Interface antes) que define que esta implementacion es un parametro usado
  * por algun CallProcessor como parametro de entrada e recibido por los Processor en el Remoto
  * @author Julio Morales
  */
-public interface ProcessParameter {
+public interface ProcessParameter /* extends Cloneable */{
     Long getTimeOutMax();
+    String getRequestId();
+    void setRequestId(String requestId);
 }

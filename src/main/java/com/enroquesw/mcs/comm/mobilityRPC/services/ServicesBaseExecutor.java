@@ -54,11 +54,12 @@ public class ServicesBaseExecutor<V extends CallerOfProcess, Y extends ProcessPa
      * @return la respuesta del caller o una instancia de {@link ErrorResponseImpl} al existir algun error
      * @throws Exception a alguna excepcion no capturada
      */
-    public static <Y extends ProcessParameter, T extends Object> T executeProcessor(String codUniqOfService, Y parameter) throws Exception {
-        ProcessorRegister register = ServicesFactory.getProcessorRegister(codUniqOfService);
+    public static <Y extends ProcessParameter, T extends Object> T executeProcessor(String codUniqOfService, Y parameter, String requestId) throws Exception {
+        ProcessorRegister register = ServicesFactory.getProcessorRegister(codUniqOfService);        // Esto se ejecuta del lado del Servidor
         if (register == null) return (T) new ErrorResponseImpl("RPC-001", "El ProcessorRegister , no existe en el Servidor Remoto ".concat(MyMovilityRPCComm.getServerSystemName().getSystemName()));
         Class aClass = register.getProcessorClass();
         try {
+            parameter.setRequestId(requestId);  // Esto es para el Servidor saber el requestId compartido
             Method m = register.getMethod();
             int numParam = m.getParameterTypes().length;
             Object[] arrayParam = getArrayParam(register, m, numParam, parameter);
@@ -92,8 +93,8 @@ public class ServicesBaseExecutor<V extends CallerOfProcess, Y extends ProcessPa
      * @return  la respuesta del Servidor que es la clase que implementa a Object
      * @throws Exception a alguna excepcion no capturada
      */
-    public static <V extends CallerOfProcess, Y extends ProcessParameter, T extends Object> T executeCalling(Class<V> callerClass, Y parameter, SystemName remote) throws ServiceBaseException {
-        return (T) executeCalling(callerClass, parameter, remote, false);
+    public static <V extends CallerOfProcess, Y extends ProcessParameter, T extends Object> T executeCalling(Class<V> callerClass, Y parameter, SystemName remote,StringBuffer requestIdOut) throws ServiceBaseException {
+        return (T) executeCalling(callerClass, parameter, remote, false, requestIdOut);
     }
     /**
      * Este metodo crea y invoca al CallerOfProcess indicado
@@ -107,8 +108,8 @@ public class ServicesBaseExecutor<V extends CallerOfProcess, Y extends ProcessPa
      * @return  la respuesta del Servidor que es la clase que implementa a Object
      * @throws Exception a alguna excepcion no capturada
      */
-    public static <V extends CallerOfProcess, Y extends ProcessParameter, T extends Object> T executeCalling(Class<V> callerClass, Y parameter, @Nullable SystemName remote, boolean isBase) throws ServiceBaseException {
-        return (T) CallerOfProcess.executeCalling(callerClass, parameter, remote, isBase);
+    public static <V extends CallerOfProcess, Y extends ProcessParameter, T extends Object> T executeCalling(Class<V> callerClass, Y parameter, @Nullable SystemName remote, boolean isBase, StringBuffer requestIdOut) throws ServiceBaseException {
+        return (T) CallerOfProcess.executeCalling(callerClass, parameter, remote, isBase, requestIdOut);
     }
 
     /**
@@ -123,8 +124,8 @@ public class ServicesBaseExecutor<V extends CallerOfProcess, Y extends ProcessPa
      * @return la respuesta del Servidor que es la clase que implementa a Object
      * @throws ServiceBaseException
      */
-    public static <V extends CallerOfProcess, Y extends ProcessParameter, T> T executeCalling(Class<V> callerClass, Y parameter, SystemName remote, CallType callType) throws ServiceBaseException {
-        return (T) CallerOfProcess.executeCalling(callerClass, parameter, remote, callType, false);
+    public static <V extends CallerOfProcess, Y extends ProcessParameter, T> T executeCalling(Class<V> callerClass, Y parameter, SystemName remote, CallType callType, StringBuffer requestIdOut) throws ServiceBaseException {
+        return (T) CallerOfProcess.executeCalling(callerClass, parameter, remote, callType, false, requestIdOut);
     }
 
     private static void callXXXProcess(Class processorClass, /*Object[] arrayParam,*/ String methodName) {

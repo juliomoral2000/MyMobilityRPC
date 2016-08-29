@@ -19,7 +19,7 @@ package com.enroquesw.mcs.comm.mobilityRPC.services.parameter;
  * <code>VoidParameter</code> bean de Parametro para los servicios de Mobility que no requieren parametros.
  * @author Julio Morales
  */
-public class VoidParameter implements ProcessParameter {
+public class VoidParameter extends ProcessParameterBase {
     private Long timeOutMax;
 
     public void setTimeOutMax(Long timeOutMax) { this.timeOutMax = timeOutMax; }
