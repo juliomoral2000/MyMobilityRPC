@@ -7,17 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list id="691eea3a-eace-45b6-b9ed-d3d3c8907164" name="Default" comment="" />
-    <list id="695dc323-f770-42cf-abce-47959d52a506" name="Inicial MobilityRPC_Test" comment="Fix Se retorna timeOutMax desde el Session, en la invocacion remota se podra colocar el timeOut a traves del Parameter que se le pasa al Caller.&#10;Se agregaron Implementacion Personalizadas de MobilityRPC [MyMobilityRPC], MobilityControllerImpl [MobilityControllerRPCImpl], MobilitySessionImpl [MobilitySessionRPCImpl] para poder manejar el timeOut de la Libreria. &#10;Modificado:&#10;* Documentacion,&#10; Falta Crear y probar:&#10;* Probar la llamada asincrona. &#10;&#10;&#10;" />
-    <list default="true" id="636c644a-8c44-4914-9cef-6137a3988074" name="Para Poder Setear y Obtener un Identificador del Request generado por el Caller " comment="Cambio de la libreria la version 1.1 . &#10;Mejoras:  &#10;* Poder Setear y Obtener un Identificador Unico del Request generado por el Caller y sea compartido facilmente por ambos lados , el caller y el procesor [No es el mismo que maneja el Core de Mobility - pero por las pruebas es Thread-Safe]. &#10;* El caller para obtener el id debe pasar un parametro requestid al Invocar al ServiceBaseExecutor.&#10; *El Processor lo obtiene de un nuevo campo que tienen los ProcessParameter (ahora las implementaciones extenderan de ProcessParameterBase).">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/parameter/ProcessParameterBase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/parameter/ProcessParameter.java" afterPath="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/parameter/ProcessParameter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/ServicesBaseExecutor.java" afterPath="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/ServicesBaseExecutor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/ServicesFactory_Callers.java" afterPath="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/impl/caller/ServicesFactory_Callers.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/enums/SystemName.java" afterPath="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/enums/SystemName.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/parameter/VoidParameter.java" afterPath="$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/parameter/VoidParameter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+    <list id="695dc323-f770-42cf-abce-47959d52a506" name="Inicial MobilityRPC_Test" comment="Fix Se retorna timeOutMax desde el Session, en la invocacion remota se podra colocar el timeOut a traves del Parameter que se le pasa al Caller.&#10;Se agregaron Implementacion Personalizadas de MobilityRPC [MyMobilityRPC], MobilityControllerImpl [MobilityControllerRPCImpl], MobilitySessionImpl [MobilitySessionRPCImpl] para poder manejar el timeOut de la Libreria. &#10;Modificado:&#10;* Documentacion,&#10; Falta Crear y probar:&#10;* Probar la llamada asincrona. &#10;&#10;&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
+    <list default="true" id="636c644a-8c44-4914-9cef-6137a3988074" name="Para Poder Setear y Obtener un Identificador del Request generado por el Caller " comment="Cambio de la libreria la version 1.1 . &#10;Mejoras:  &#10;* Poder Setear y Obtener un Identificador Unico del Request generado por el Caller y sea compartido facilmente por ambos lados , el caller y el procesor [No es el mismo que maneja el Core de Mobility - pero por las pruebas es Thread-Safe]. &#10;* El caller para obtener el id debe pasar un parametro requestid al Invocar al ServiceBaseExecutor.&#10; *El Processor lo obtiene de un nuevo campo que tienen los ProcessParameter (ahora las implementaciones extenderan de ProcessParameterBase)." />
     <ignored path="out/" />
     <ignored path="target/" />
     <ignored path="../.gitignore" />
@@ -27,6 +20,7 @@
     <ignored path="../MobilityRPC_Users/.idea/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +47,7 @@
       <file leaf-file-name="CallerOfProcess.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/callable/CallerOfProcess.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16666667">
+            <state vertical-scroll-proportion="0.20888889">
               <caret line="137" column="33" selection-start-line="137" selection-start-column="33" selection-end-line="137" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -219,7 +213,9 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="FORCE_PUSH_ALLOWED" value="true" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -308,6 +304,24 @@
           <option name="myItemId" value="" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="MobilityRPC" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="MobilityRPC" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
       </PATH>
     </treeState>
   </component>
@@ -347,7 +361,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -358,12 +372,50 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MobilityRPC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MobilityRPC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MobilityRPC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MobilityRPC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MobilityRPC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="FullScreen" value="false" />
     <property name="project.structure.last.edited" value="Project" />
@@ -616,7 +668,7 @@
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="JAR_PATH" value="$PROJECT_DIR$/lib/mobility-rpc-1.1.0-all.jar" />
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/MyMobilityRPC-1.1.jar" />
       <envs />
       <method />
     </configuration>
@@ -883,7 +935,7 @@
       <workItem from="1472362610560" duration="7277000" />
       <workItem from="1472374344623" duration="413000" />
       <workItem from="1472376840239" duration="8065000" />
-      <workItem from="1472455719462" duration="850000" />
+      <workItem from="1472455719462" duration="1073000" />
     </task>
     <task id="LOCAL-00001" summary="Mi proyecto base para crear el cliente">
       <created>1452821480992</created>
@@ -1095,11 +1147,17 @@
       <option name="project" value="LOCAL" />
       <updated>1472456541218</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Cambio de la libreria la version 1.1 . &#10;Mejoras:  &#10;* Poder Setear y Obtener un Identificador Unico del Request generado por el Caller y sea compartido facilmente por ambos lados , el caller y el procesor [No es el mismo que maneja el Core de Mobility - pero por las pruebas es Thread-Safe]. &#10;* El caller para obtener el id debe pasar un parametro requestid al Invocar al ServiceBaseExecutor.&#10; *El Processor lo obtiene de un nuevo campo que tienen los ProcessParameter (ahora las implementaciones extenderan de ProcessParameterBase).">
+      <created>1472456588187</created>
+      <option name="number" value="00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1472456588187</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="468666000" />
+    <option name="totallyTimeSpent" value="468889000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1112,7 +1170,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1124,14 +1182,14 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4764151" sideWeight="0.4969743" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3208191" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47284344" sideWeight="0.49409238" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47284344" sideWeight="0.49409238" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.57894737" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900944" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4054463" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30257186" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5645933" sideWeight="0.49394855" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5638978" sideWeight="0.49394855" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="true" internal_type="SLIDING" type="FLOATING" visible="false" weight="0.32975295" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" x="67" y="46" width="760" height="558" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2519,7 +2577,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/enroquesw/mcs/comm/mobilityRPC/services/callable/CallerOfProcess.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16666667">
+        <state vertical-scroll-proportion="0.20888889">
           <caret line="137" column="33" selection-start-line="137" selection-start-column="33" selection-end-line="137" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
